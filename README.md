@@ -1,2 +1,2 @@
 # scripting
-Random scripts in perl and shell
+Random scripts in perl and stuff
