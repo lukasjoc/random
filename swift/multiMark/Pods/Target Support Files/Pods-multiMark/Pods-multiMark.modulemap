@@ -1,0 +1,6 @@
+framework module Pods_multiMark {
+  umbrella header "Pods-multiMark-umbrella.h"
+
+  export *
+  module * { export * }
+}
