@@ -12,7 +12,7 @@ import (
 
 type Dog struct {
 	Name   string
-	Age    int
+	Age    int64
 	Race   string
 	Weight string
 }
@@ -20,8 +20,8 @@ type Dog struct {
 // AllDogs keeps all Dogs
 type AllDogs []*Dog
 
-// NewDog is a factory for new Dogs, returning a pointer to the Dog type
-func NewDog(name string, age int, race string, weight string) *Dog {
+// NewDog is a factory for new Dogs, returning a point64er to the Dog type
+func NewDog(name string, age int64, race string, weight string) *Dog {
 	return &Dog{
 		Name:   name,
 		Age:    age,
@@ -33,7 +33,7 @@ func NewDog(name string, age int, race string, weight string) *Dog {
 // Conceptualize is the concept for factory patterns in golang
 func Conceptualize(data string) {
 
-	// Track of pointer to Dog slice
+	// Track of point64er to Dog slice
 	var doggies AllDogs
 
 	csvFile, err := os.Open(data)
@@ -52,7 +52,7 @@ func Conceptualize(data string) {
 		age, _ := strconv.Atoi(line[1])
 		doggies = append(doggies, NewDog(
 			line[0],
-			age,
+			int64(age),
 			line[2],
 			line[3]),
 		)
