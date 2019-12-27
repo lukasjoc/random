@@ -1,4 +1,4 @@
-package factory
+package main
 
 import (
 	"bufio"
@@ -8,11 +8,12 @@ import (
 	"log"
 	"os"
 	"strconv"
+	"time"
 )
 
 type Dog struct {
 	Name   string
-	Age    int64
+	Age    int
 	Race   string
 	Weight string
 }
@@ -21,7 +22,7 @@ type Dog struct {
 type AllDogs []*Dog
 
 // NewDog is a factory for new Dogs, returning a point64er to the Dog type
-func NewDog(name string, age int64, race string, weight string) *Dog {
+func NewDog(name string, age int, race string, weight string) *Dog {
 	return &Dog{
 		Name:   name,
 		Age:    age,
@@ -31,7 +32,7 @@ func NewDog(name string, age int64, race string, weight string) *Dog {
 }
 
 // Conceptualize is the concept for factory patterns in golang
-func Conceptualize(data string) {
+func factorize(data string) AllDogs {
 
 	// Track of point64er to Dog slice
 	var doggies AllDogs
@@ -44,21 +45,34 @@ func Conceptualize(data string) {
 
 	for {
 		line, err := reader.Read()
+
 		if err == io.EOF {
 			break
 		} else if err != nil {
 			log.Fatalf("could not read line: %v \n", err)
 		}
+
 		age, _ := strconv.Atoi(line[1])
 		doggies = append(doggies, NewDog(
 			line[0],
-			int64(age),
+			age,
 			line[2],
 			line[3]),
 		)
 	}
+	return doggies
+}
 
-	for i, dog := range doggies {
-		fmt.Println(i, dog)
+func main() {
+	start := time.Now()
+	defer trackExec(start, "factorize")
+	dogs := factorize("./dogs.csv")
+	for i, dog := range dogs {
+		fmt.Printf("Dog %d => %v \n", i, dog)
 	}
+}
+
+func trackExec(start time.Time, name string) {
+	elapsed := time.Since(start)
+	log.Printf("INFO: exec time: %s took %s", name, elapsed)
 }
