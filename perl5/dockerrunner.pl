@@ -3,8 +3,7 @@ use strict;
 use warnings;
 use utf8;
 
-#TODO: 
-# https://stackoverflow.com/questions/54389215/run-multiple-jobs-within-perl-script-at-the-same-time
+// Given Paths as arguments execute docker-compose pull and docker-compose up --build -d
 foreach my $arg (@ARGV) {
   print 'Composing $arg...\n';
   system('docker-compose pull');

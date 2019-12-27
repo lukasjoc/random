@@ -25,7 +25,7 @@ Google::ProtocolBuffers->parse("
 ",
     {create_accessors => 1 }
 );
- 
+
 ##
 ## Serialize Perl structure and print it to file
 ##
@@ -36,11 +36,11 @@ print $fh Person->encode({
     id      => 123,
     phone   => [ 
         { number => 1234567890 }, 
-        { number => 987654321, type=>Person::PhoneType::WORK() }, 
+        { number => 987654321, type=>Person::PhoneType::WORK() },
     ],
 });
 close $fh;
- 
+
 ##
 ## Decode data from serialized form
 ##

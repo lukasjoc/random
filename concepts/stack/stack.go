@@ -2,6 +2,7 @@ package main
 
 import (
 	"fmt"
+	"log"
 	"time"
 )
 
@@ -56,6 +57,9 @@ func NewStack() *Stack {
 }
 
 func main() {
+	start := time.Now()
+	defer trackExec(start, "stack")
+
 	mystack := NewStack()
 
 	// Adding 100 nodes to the stack count should be 100
@@ -71,4 +75,9 @@ func main() {
 	}
 	fmt.Printf("First *[]Node: %v \n", mystack.peek())
 	fmt.Printf("Stack Size: %v \n", mystack.len())
+}
+
+func trackExec(start time.Time, name string) {
+	elapsed := time.Since(start)
+	log.Printf("INFO: exec time: %s took %s", name, elapsed)
 }

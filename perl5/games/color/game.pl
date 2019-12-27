@@ -8,17 +8,25 @@ while(){
 my @hex_system = ('0'..'9', 'A'..'F');
 my $color = join '' => map $hex_system [rand @hex_system], 1 .. 8;
 
-my $COLORME= "result.html";
-system "$COLORME";   
-open(my $fhd, '>', $COLORME) or die "Could not open or create your file";
+my $file= "result.html";
 
-say $fhd "
+system "$file";   
+
+open( my $fh, '>', $file ) or
+  die "could not open $file";
+
+say $fh "
 <!DOCTYPE html>
 <html>
    <head>
    <title> The Color is: #$color</title>
-   <style>
-   html,body{ margin:0; padding:0; font-family:sans-serif; background:#$color; }
+  <style>
+   html, body{
+    margin:0;
+    padding:0;
+    font-family:sans-serif;
+    background:#$color;
+   }
 
    h1{
        color:#fff;
@@ -36,7 +44,7 @@ say $fhd "
     <h1>Das ist die Farbe: #$color</h1>
    </body>
    </html>";
-close $fhd;
+close $fh;
 say "Changed the color of Site succesfully to #", $color;
 last;
 }

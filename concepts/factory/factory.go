@@ -18,9 +18,6 @@ type Dog struct {
 	Weight string
 }
 
-// AllDogs keeps all Dogs
-type AllDogs []*Dog
-
 // NewDog is a factory for new Dogs, returning a point64er to the Dog type
 func NewDog(name string, age int, race string, weight string) *Dog {
 	return &Dog{
@@ -31,11 +28,10 @@ func NewDog(name string, age int, race string, weight string) *Dog {
 	}
 }
 
-// Conceptualize is the concept for factory patterns in golang
-func factorize(data string) AllDogs {
+// factorize implements the nicer factory pattern
+func factorize(data string) []*Dog {
 
-	// Track of point64er to Dog slice
-	var doggies AllDogs
+	var doggies []*Dog
 
 	csvFile, err := os.Open(data)
 	if nil != err {
