@@ -21,7 +21,7 @@ func IsIsogram(input string) bool {
 	return true
 }
 
-// find finds first case independent duplicate "l" of type rune in a given rune slice this is also
+// find finds first case independent duplicate "l" of type rune in a given rune slice
 func find(vals []rune, val rune) bool {
 	for _, v := range vals {
 		if v == val {
