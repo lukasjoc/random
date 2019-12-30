@@ -2,13 +2,12 @@ package main
 
 import "fmt"
 
-func main() {
-	var m map[int64]string
-	m = map[int64]string{
-		1: "TEST",
-	}
+var m = map[int64]rune{
+	0: 'r',
+}
 
+func main() {
 	for k, v := range m {
-		fmt.Printf("Key: %v => Value: %v \n", k, v)
+		fmt.Printf("Key: %v => Value: %v \n", k, string(v))
 	}
 }
