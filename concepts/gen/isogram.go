@@ -3,7 +3,10 @@
 // not so the word n o o b because of the o occuring twice
 package main
 
-import "fmt"
+import (
+	"fmt"
+	"strings"
+)
 
 // runes keeps track of the letters currently in test for an isogram
 var runes []rune
@@ -11,11 +14,13 @@ var runes []rune
 // IsIsogram determines if a given string "input" is an isogram or not returning
 // boolish with the result true for: is isogram , false for: is not isogram
 func IsIsogram(input string) bool {
+	runes = nil
+	input = strings.ToUpper(input)
+	input = strings.Replace(input, " ", "", -1)
 	for _, l := range input {
 		if find(runes, l) {
 			return false
 		}
-		runes = nil
 		runes = append(runes, l)
 	}
 	return true
@@ -24,8 +29,10 @@ func IsIsogram(input string) bool {
 // find finds first case independent duplicate "l" of type rune in a given rune slice
 func find(vals []rune, val rune) bool {
 	for _, v := range vals {
-		if v == val {
-			return true
+		if v != '-' {
+			if v == val {
+				return true
+			}
 		}
 	}
 	return false
@@ -38,6 +45,7 @@ func main() {
 	noob := IsIsogram("noob")                 // expected: false
 	wow := IsIsogram("qa-g frx ywc")          // expected: true despite the spaces
 	longest := IsIsogram("subdermatoglyphic") // expected: true
+	eleven := IsIsogram("eleven")             // expected: false
 
 	// PRINT RESULTS----------------------------------------------------
 	fmt.Printf("string: isogram, expected: true, got: %v \n", isogram)
@@ -46,5 +54,6 @@ func main() {
 	fmt.Printf("string: noob, expected: false, got: %v \n", noob)
 	fmt.Printf("string: qa-g frx ywc, expected: true, got: %v \n", wow)
 	fmt.Printf("string: subdermatoglyphic, expected: true, got: %v \n", longest)
+	fmt.Printf("string: eleven, expected: false, got: %v \n", eleven)
 	// -----------------------------------------------------------------
 }
