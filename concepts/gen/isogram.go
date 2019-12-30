@@ -11,16 +11,17 @@ var runes []rune
 // IsIsogram determines if a given string "input" is an isogram or not returning
 // boolish with the result true for: is isogram , false for: is not isogram
 func IsIsogram(input string) bool {
-	for _ , l := range input {
+	for _, l := range input {
 		if find(runes, l) {
 			return false
 		}
+		runes = nil
 		runes = append(runes, l)
 	}
 	return true
 }
 
-// find finds first case independent duplicate "l" of type rune in a given rune slice this is also 
+// find finds first case independent duplicate "l" of type rune in a given rune slice this is also
 func find(vals []rune, val rune) bool {
 	for _, v := range vals {
 		if v == val {
@@ -31,16 +32,19 @@ func find(vals []rune, val rune) bool {
 }
 
 func main() {
-	isogram := IsIsogram("isogram") // expected: true
-	emty := IsIsogram("") // expected: true
-	iisogram := IsIsogram("iisogram")  // expected: false
-	noob := IsIsogram("noob")  // expected: false
-	
-	// PRINT RESULTS----------------------------------------------------
-	fmt.Printf("word: isogram, expected: true, got: %v \n", isogram)
-	fmt.Printf("word: iisogram, expected: false, got: %v \n", iisogram)
-	fmt.Printf("word: '', expected: true, got: %v \n", emty)
-	fmt.Printf("word: noob, expected: false, got: %v \n", noob)
-	// -----------------------------------------------------------------	
-}
+	isogram := IsIsogram("isogram")           // expected: true
+	iisogram := IsIsogram("iisogram")         // expected: false
+	emty := IsIsogram("")                     // expected: true
+	noob := IsIsogram("noob")                 // expected: false
+	wow := IsIsogram("qa-g frx ywc")          // expected: true despite the spaces
+	longest := IsIsogram("subdermatoglyphic") // expected: true
 
+	// PRINT RESULTS----------------------------------------------------
+	fmt.Printf("string: isogram, expected: true, got: %v \n", isogram)
+	fmt.Printf("string: iisogram, expected: false, got: %v \n", iisogram)
+	fmt.Printf("string: '', expected: true, got: %v \n", emty)
+	fmt.Printf("string: noob, expected: false, got: %v \n", noob)
+	fmt.Printf("string: qa-g frx ywc, expected: true, got: %v \n", wow)
+	fmt.Printf("string: subdermatoglyphic, expected: true, got: %v \n", longest)
+	// -----------------------------------------------------------------
+}
