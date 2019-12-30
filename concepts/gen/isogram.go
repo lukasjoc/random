@@ -15,9 +15,7 @@ var runes []rune
 // boolish with the result true for: is isogram , false for: is not isogram
 func IsIsogram(input string) bool {
 	runes = nil
-	input = strings.ToUpper(input)
-	input = strings.Replace(input, " ", "", -1)
-	for _, l := range input {
+	for _, l := range strings.Replace(strings.ToUpper(input), " ", "", -1) {
 		if find(runes, l) {
 			return false
 		}
@@ -29,10 +27,8 @@ func IsIsogram(input string) bool {
 // find finds first case independent duplicate "l" of type rune in a given rune slice
 func find(vals []rune, val rune) bool {
 	for _, v := range vals {
-		if v != '-' {
-			if v == val {
-				return true
-			}
+		if v != '-' && v == val {
+			return true
 		}
 	}
 	return false
