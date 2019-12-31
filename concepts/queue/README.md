@@ -1,6 +1,8 @@
-## json-queue
+## queue
 
-> Multi worker JSON queue in go
+> Multi worker json queue in go
+
+![queue_image_src_wikipedia](https://upload.wikimedia.org/wikipedia/commons/5/52/Data_Queue.svg)
 
 ### What is a queue
 - abstract data type

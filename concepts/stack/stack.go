@@ -1,3 +1,4 @@
+// package main implements a basic int based stack in golang with push, pop, peek and len
 package main
 
 import (
@@ -5,8 +6,6 @@ import (
 	"log"
 	"time"
 )
-
-// Basics 2020: Writing a very very simple int based non peristent stack
 
 // Node is a basic element of the stack
 type Node struct {
@@ -17,7 +16,7 @@ type Node struct {
 // Stack is a basic collection of *[]Node elements that keeps track with a counter
 type Stack struct {
 	nodes []*Node
-	count int
+	count int64
 }
 
 // push adds an *[]Node element to the the top of the stack
@@ -35,7 +34,7 @@ func (s *Stack) pop() *Node {
 	return nil
 }
 
-// peek returns the first *[]Node element
+// peek returns the first *Node element
 func (s *Stack) peek() *Node {
 	if s.count != 0 {
 		last := s.count - 1
@@ -45,7 +44,7 @@ func (s *Stack) peek() *Node {
 }
 
 // len returns the "length" of the stack.
-func (s *Stack) len() int {
+func (s *Stack) len() int64 {
 	if s.count != 0 {
 		return s.count
 	}
@@ -67,14 +66,14 @@ func main() {
 	for i := 0; i < 100; i++ {
 		mystack.push(&Node{Value: i, TimeStamp: time.Now()})
 	}
-	fmt.Printf("First *[]Node: %v \n", mystack.peek())
+	fmt.Printf("First *Node: %v \n", mystack.peek())
 	fmt.Printf("Stack Size: %v \n", mystack.len())
 
 	// Removing 60 nodes from the stack count should be 40
 	for i := 0; i < 60; i++ {
 		mystack.pop()
 	}
-	fmt.Printf("First *[]Node: %v \n", mystack.peek())
+	fmt.Printf("First *Node: %v \n", mystack.peek())
 	fmt.Printf("Stack Size: %v \n", mystack.len())
 }
 

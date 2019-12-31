@@ -2,6 +2,8 @@
 
 > Simple int but not concurrent stack implementation using slices in go
 
+![stack_image_src_wikipedia](https://upload.wikimedia.org/wikipedia/commons/b/b4/Lifo_stack.png)
+
 ### What is a stack
 - abstract data type
 - muteable
