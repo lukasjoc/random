@@ -1,12 +1,18 @@
 ## stack
 
-> A stack is a abstract data type in computer programming
+> Simple int but not concurrent stack implementation using slices in go
 
-#### Principles:
-- FIFO: First in First Out
-- Pop() removes an element from the top of the stack
-- Push() adds an element to the top of the stack
-- Peek() return the first element of the stack
-- Len() returns the length of the stack
+### What is a stack
+- abstract data type
+- muteable
+- collection of elements
+- can be concurrent/ this is not tho
+- LIFO(Last in First Out) datatype
 
+### Basic functions to imlement
+- pop -> removes an element from the top
+- push -> adds an element to the top
+- peek -> returns the first element
+- len -> returns the length
 
+[lukasjoc](https://lukasjoc.com), 2019 

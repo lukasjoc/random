@@ -3,5 +3,5 @@ package main
 import "fmt"
 
 func main() {
-	fmt.Println("Queueing in Go with custom Queue")
+	fmt.Println("Multi Worker Queue in go")
 }
