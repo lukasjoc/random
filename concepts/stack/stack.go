@@ -65,6 +65,7 @@ func main() {
 	// Adding 100 nodes to the stack count should be 100
 	for i := 0; i < 100; i++ {
 		mystack.push(&Node{Value: i, TimeStamp: time.Now()})
+		fmt.Println(mystack)
 	}
 	fmt.Printf("First *[]Node: %v \n", mystack.peek())
 	fmt.Printf("Stack Size: %v \n", mystack.len())
@@ -72,6 +73,7 @@ func main() {
 	// Removing 60 nodes from the stack count should be 40
 	for i := 0; i < 60; i++ {
 		mystack.pop()
+		fmt.Println(mystack)
 	}
 	fmt.Printf("First *[]Node: %v \n", mystack.peek())
 	fmt.Printf("Stack Size: %v \n", mystack.len())
