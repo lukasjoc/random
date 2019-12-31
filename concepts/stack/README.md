@@ -15,4 +15,12 @@
 - peek -> returns the first element
 - len -> returns the length
 
+### Example:
+```
+pop --> |1|2|3| => |1|2|
+push --> |1|2| => |1|2|3|
+peek --> |3|
+len --> 3
+```
+
 [lukasjoc](https://lukasjoc.com), 2019 

@@ -2,7 +2,7 @@
 
 > Multi worker JSON queue in go
 
-### What is a stack
+### What is a queue
 - abstract data type
 - muteable
 - collection of elements
@@ -10,8 +10,18 @@
 - FIFO(First in First Out) Data Type
 
 ### Basic functions to imlement
-- dequeue -> adds one element to the top
-- enqueue
-- peek
-- len
-[lukasjoc](https://lukasjoc.com), 2019 
+- dequeue -> adds one element to the end
+- enqueue -> removes the top element
+- peek -> get current top element
+- len -> get length of queue
+
+### Example:
+```
+deq --> [1] [2] [3] => [2] [3]
+enq --> [2] [3] => [2] [3] [4]
+peek --> [2]
+len --> 3
+```
+
+[lukasjoc](https://lukasjoc.com), 2019
+
