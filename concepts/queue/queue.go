@@ -13,20 +13,17 @@ type entity struct {
 
 type queue struct {
 	collection []*entity
-	count      int64
 }
 
 // add to rear of slice
 func (q *queue) enqueue(e *entity) {
-	q.collection = append(q.collection[:q.count], e)
-	q.count++
+	q.collection = append(q.collection[:len(q.collection)], e)
 }
 
 // remove from the front
 func (q *queue) dequeue() []*entity {
-	if q.count != 0 {
+	if len(q.collection) != 0 {
 		q.collection = remove(q.collection, 0)
-		q.count--
 		return q.collection
 	}
 	return nil
@@ -34,15 +31,16 @@ func (q *queue) dequeue() []*entity {
 
 // get next element to dequeue
 func (q *queue) peek() []*entity {
-	if q.count != 0 {
+	if len(q.collection) != 0 {
 		return q.collection[:1]
 	}
 	return nil
 }
 
+// count actual elements from queue
 func (q *queue) qcount() int64 {
-	if q.count != 0 {
-		return q.count
+	if len(q.collection) != 0 {
+		return int64(len(q.collection))
 	}
 	return 0
 }
