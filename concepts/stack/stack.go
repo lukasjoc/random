@@ -36,9 +36,10 @@ func (s *Stack) pop() *Node {
 }
 
 // peek returns the first *[]Node element
-func (s *Stack) peek() []*Node {
+func (s *Stack) peek() *Node {
 	if s.count != 0 {
-		return s.nodes[:1]
+		last := s.count - 1
+		return s.nodes[last]
 	}
 	return nil
 }
@@ -65,7 +66,6 @@ func main() {
 	// Adding 100 nodes to the stack count should be 100
 	for i := 0; i < 100; i++ {
 		mystack.push(&Node{Value: i, TimeStamp: time.Now()})
-		fmt.Println(mystack)
 	}
 	fmt.Printf("First *[]Node: %v \n", mystack.peek())
 	fmt.Printf("Stack Size: %v \n", mystack.len())
@@ -73,7 +73,6 @@ func main() {
 	// Removing 60 nodes from the stack count should be 40
 	for i := 0; i < 60; i++ {
 		mystack.pop()
-		fmt.Println(mystack)
 	}
 	fmt.Printf("First *[]Node: %v \n", mystack.peek())
 	fmt.Printf("Stack Size: %v \n", mystack.len())
