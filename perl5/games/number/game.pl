@@ -25,10 +25,9 @@ else{ say "Invalid Input. Try Again. Keep in Mind of the Selection you made at t
 
 say "Dein Ergebnis ist: ", $r;
 my $file = "result.html";
-system "$file"; 
+system "$file";
 open(my $handler, '>', $file) or die "Could not open or create your requested file";
 say $handler "
-
 <html>
   <head>
     <style>
@@ -40,7 +39,6 @@ say $handler "
     <h1> Das Ergebnis ist: $r </h1>
   </body>
 </html>";
-
 close $handler;
 last;
 }

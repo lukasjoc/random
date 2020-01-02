@@ -1,12 +1,12 @@
 use fb;
 
--- 1) 
-select 
-  S_ID, 
-  Vorname, 
+-- 1)
+select
+  S_ID,
+  Vorname,
   Name,
-  GebDat 
-from spieler 
+  GebDat
+from spieler
 order by GebDat DESC;
 
 -- 2)
