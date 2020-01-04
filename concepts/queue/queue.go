@@ -16,12 +16,12 @@ type queue struct {
 }
 
 // add to rear of slice
-func (q *queue) enqueue(e *entity) {
+func (q *queue) dequeue(e *entity) {
 	q.collection = append(q.collection[:len(q.collection)], e)
 }
 
 // remove from the front
-func (q *queue) dequeue() []*entity {
+func (q *queue) enqueue() []*entity {
 	if len(q.collection) != 0 {
 		q.collection = remove(q.collection, 0)
 		return q.collection
@@ -60,14 +60,14 @@ func main() {
 
 	// adding 100 elements to the queue, queuecount should be 100
 	for i := int64(0); i < int64(1000); i++ {
-		myq.enqueue(&entity{value: int64(i), timestamp: time.Now()})
+		myq.dequeue(&entity{value: int64(i), timestamp: time.Now()})
 	}
 	fmt.Printf("First Entity: %v \n", myq.peek())
 	fmt.Printf("Queue Count: %v \n", myq.qcount())
 
 	// Removing 60 Entitys from the queue, current queue should be 40 elements
 	for i := int64(0); i < int64(60); i++ {
-		myq.dequeue()
+		myq.enqueue()
 	}
 	fmt.Printf("First Entity: %v \n", myq.peek())
 	fmt.Printf("Queue Count: %v \n", myq.qcount())

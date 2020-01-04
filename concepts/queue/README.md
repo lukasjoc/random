@@ -12,8 +12,8 @@
 - FIFO(First in First Out) Data Type
 
 ### Basic functions to imlement
-- dequeue -> adds one element to the end
-- enqueue -> removes the top element
+- enqueue -> adds one element to the end
+- dequeue -> removes the top element
 - peek -> get current top element
 - len -> get length of queue
 
