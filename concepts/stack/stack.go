@@ -3,7 +3,6 @@ package main
 
 import (
 	"fmt"
-	"log"
 	"time"
 )
 
@@ -80,5 +79,5 @@ func main() {
 
 func execTime(start time.Time, name string) {
 	elapsed := time.Since(start)
-	log.Printf("INFO: exec time: %s took %s", name, elapsed)
+	fmt.Printf("INFO: exec time: %s took %s \n", name, elapsed)
 }

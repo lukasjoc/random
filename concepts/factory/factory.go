@@ -5,9 +5,8 @@ import (
 	"encoding/csv"
 	"fmt"
 	"io"
-	"log"
 	"os"
-	"strconv"
+	s "strconv"
 	"time"
 )
 
@@ -19,12 +18,12 @@ type Dog struct {
 }
 
 // NewDog is a factory for new Dogs, returning a point64er to the Dog type
-func NewDog(name string, age int, race string, weight string) *Dog {
+func NewDog(name, race, weight string, age int) *Dog {
 	return &Dog{
 		Name:   name,
-		Age:    age,
 		Race:   race,
 		Weight: weight,
+		Age:    age,
 	}
 }
 
@@ -35,7 +34,7 @@ func factorize(data string) []*Dog {
 
 	csvFile, err := os.Open(data)
 	if nil != err {
-		log.Fatalf("could not open: %v \n", err)
+		fmt.Fprintf(os.Stderr, "could not open: %v \n", err)
 	}
 	reader := csv.NewReader(bufio.NewReader(csvFile))
 
@@ -45,16 +44,16 @@ func factorize(data string) []*Dog {
 		if err == io.EOF {
 			break
 		} else if err != nil {
-			log.Fatalf("could not read line: %v \n", err)
+			fmt.Fprintf(os.Stderr, "could not read line: %v \n", err)
 		}
 
-		age, _ := strconv.Atoi(line[1])
+		age, _ := s.Atoi(line[1])
 		doggies = append(doggies, NewDog(
 			line[0],
-			age,
 			line[2],
-			line[3]),
-		)
+			line[3],
+			age,
+		))
 	}
 	return doggies
 }
@@ -70,5 +69,5 @@ func main() {
 
 func trackExec(start time.Time, name string) {
 	elapsed := time.Since(start)
-	log.Printf("INFO: exec time: %s took %s", name, elapsed)
+	fmt.Printf("INFO: exec time: %s took %s \n", name, elapsed)
 }

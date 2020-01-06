@@ -9,13 +9,13 @@ import (
 // goos: darwin
 // goarch: amd64
 // pkg: github.com/lukasjoc/random/concepts/gen/fibonacci_benchmark
-// BenchmarkFib10-8   	 5547764	       213 ns/op	       0 B/op	       0 allocs/op
-// BenchmarkFib25-8   	    3885	    296314 ns/op	       0 B/op	       0 allocs/op
-// BenchmarkFib35-8   	      32	  36736662 ns/op	       0 B/op	       0 allocs/op
-// BenchmarkFib15-8   	  494173	      2389 ns/op	       0 B/op	       0 allocs/op
-// BenchmarkFib45-8   	       1	4513983557 ns/op	       0 B/op	       0 allocs/op
+// BenchmarkFib10-8   	 4941902	       241 ns/op	       0 B/op	       0 allocs/op
+// BenchmarkFib15-8   	  463603	      2593 ns/op	       0 B/op	       0 allocs/op
+// BenchmarkFib25-8   	    3798	    318674 ns/op	       0 B/op	       0 allocs/op
+// BenchmarkFib35-8   	      31	  39459063 ns/op	       0 B/op	       0 allocs/op
+// BenchmarkFib45-8   	       1	4902709860 ns/op	       0 B/op	       0 allocs/op
 // PASS
-// ok  	github.com/lukasjoc/random/concepts/gen/fibonacci_benchmark	9.525s
+// ok  	github.com/lukasjoc/random/concepts/gen/fibonacci_benchmark	10.082s
 // =================================================================================
 
 // Calculate 45 Fibonacci numbers

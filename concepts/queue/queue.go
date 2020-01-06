@@ -2,7 +2,6 @@ package main
 
 import (
 	"fmt"
-	"log"
 	"time"
 )
 
@@ -76,5 +75,5 @@ func main() {
 // execTime tracks the execution time of a given function
 func execTime(start time.Time, name string) {
 	elapsed := time.Since(start)
-	log.Printf("INFO: exec time: %v took %v", name, elapsed)
+	fmt.Printf("INFO: exec time: %v took %v \n", name, elapsed)
 }
