@@ -5,12 +5,18 @@ import (
 	s "strconv"
 )
 
-//goos: darwin
-//goarch: amd64
-//pkg: github.com/lukasjoc/random/concepts/gen/fibonacci_benchmark
-//BenchmarkFib45-8   	       1	4510567102 ns/op	       0 B/op	       0 allocs/op
-//PASS
-//ok  	github.com/lukasjoc/random/concepts/gen/fibonacci_benchmark	4.517s
+// BENCHMARK========================================================================
+// goos: darwin
+// goarch: amd64
+// pkg: github.com/lukasjoc/random/concepts/gen/fibonacci_benchmark
+// BenchmarkFib10-8   	 5547764	       213 ns/op	       0 B/op	       0 allocs/op
+// BenchmarkFib25-8   	    3885	    296314 ns/op	       0 B/op	       0 allocs/op
+// BenchmarkFib35-8   	      32	  36736662 ns/op	       0 B/op	       0 allocs/op
+// BenchmarkFib15-8   	  494173	      2389 ns/op	       0 B/op	       0 allocs/op
+// BenchmarkFib45-8   	       1	4513983557 ns/op	       0 B/op	       0 allocs/op
+// PASS
+// ok  	github.com/lukasjoc/random/concepts/gen/fibonacci_benchmark	9.525s
+// =================================================================================
 
 // Calculate 45 Fibonacci numbers
 func main() {
