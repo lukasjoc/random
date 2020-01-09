@@ -12,6 +12,7 @@ func main() {
 	if err != nil {
 		fmt.Fprintf(os.Stderr, "could not listen to socket %v \n", err)
 	}
+	defer listen.Close()
 	for {
 		fd, err := listen.Accept()
 		if err != nil {
