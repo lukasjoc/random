@@ -23,12 +23,10 @@ public class JDBCConnection {
       // new connection
       try {
          conn = DriverManager.getConnection(url, username, passwd);
-         if (conn == null) {
-            System.err.println("could not get new connection to database");
-         }
-         System.out.println("connection up and running...");
+         System.out.println("new connection up and running: " + dbMeta.getURL());
       } catch (SQLException e) {
          e.printStackTrace();
+         System.err.println("could not get new connection to database");
       }
       return conn;
    }
