@@ -13,7 +13,7 @@ import java.util.Properties;
 public class Main {
 
   public static void main(final String[] args) 
-      throws ClassNotFoundException, IOException {
+      throws  IOException, ClassNotFoundException {
 
     final FileInputStream fs;
     final Properties p;

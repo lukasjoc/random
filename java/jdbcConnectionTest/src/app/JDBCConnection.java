@@ -4,7 +4,6 @@ import java.sql.Connection;
 import java.sql.DatabaseMetaData;
 import java.sql.DriverManager;
 import java.sql.SQLException;
-import java.io.IOException;
 
 public class JDBCConnection {
    public static Connection conn = null;
@@ -13,7 +12,7 @@ public class JDBCConnection {
    // getConnection that establishes a new jdbc mysql connection based on the
    // connection values, returns a new connection runs as a kind of factory
    public static Connection newConn(final String url, final String username, final String passwd)
-         throws SQLException, ClassNotFoundException, IOException {
+         throws SQLException, ClassNotFoundException {
             
       // reuse old connection
       if (conn != null) {
