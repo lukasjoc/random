@@ -11,30 +11,29 @@ import java.util.Properties;
  * Main
  */
 public class Main {
+  private static Connection conn = PersistenceFactory.jdbcConn;
 
-  public static void main(final String[] args) 
-      throws  IOException, ClassNotFoundException {
+  public static void main(final String[] args) {
 
     final FileInputStream fs;
     final Properties p;
-    final String url, username, passwd, connPropsFile;
+    final String URL, uname, passwd, config;
     try {
-      connPropsFile = "config/c.properties";
-      fs = new FileInputStream(new File(connPropsFile));
+      config = "config/c.properties";
+      fs = new FileInputStream(new File(config));
       p = new Properties();
       p.load(fs);
 
-      url = (String) p.get("URL");
-      username = (String) p.get("USER");
+      URL = (String) p.get("URL");
+      uname = (String) p.get("USER");
       passwd = (String) p.get("PASSWD");
-
-      Connection conn = JDBCConnection.newConn(url, username, passwd);
-      System.out.println(conn.getMetaData());
-      
-
       fs.close();
-    } catch (final SQLException e) {
-      e.printStackTrace();
+
+      conn = PersistenceFactory.newJDBCConnection(URL, uname, passwd);
+      conn.getMetaData();
+
+    } catch (SQLException | ClassNotFoundException | IOException err) {
+      System.err.format("failure in main class: %s", err);
     }
   }
 }
