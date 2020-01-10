@@ -5,7 +5,7 @@ import (
 	"strings"
 )
 
-func wordCount(str string) map[string]int {
+func hist(str string) map[string]int {
 
 	words := strings.Fields(str)
 	counts := make(map[string]int)
@@ -26,7 +26,7 @@ func wordCount(str string) map[string]int {
 func main() {
 	test := "Myknt #$ KL SD #$ we y y y y ui ui asd "
 	fmt.Printf("Histogram: %v \n", test)
-	for index, element := range wordCount(test) {
+	for index, element := range hist(test) {
 		fmt.Printf("%v => %v\n", index, element)
 	}
 }
