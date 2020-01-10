@@ -24,7 +24,7 @@ func wordCount(str string) map[string]int {
 }
 
 func main() {
-	test := "Hello, World!"
+	test := "Myknt #$ KL SD #$ we y y y y ui ui asd "
 	fmt.Printf("Histogram: %v \n", test)
 	for index, element := range wordCount(test) {
 		fmt.Printf("%v => %v\n", index, element)
