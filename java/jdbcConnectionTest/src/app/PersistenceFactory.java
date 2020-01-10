@@ -20,7 +20,7 @@ public class PersistenceFactory {
             jdbcConn = DriverManager.getConnection(URL, uname, passwd);
             System.out.println("Current JDBC Connection: " + jdbcConn);
             System.out.println("JDBC Meta Data: " + jdbcConn.getMetaData());
-         } catch (SQLException err) {
+         } catch (final SQLException err) {
             System.err.println("could not establish new connection to db: " + err);
          }
          return jdbcConn;

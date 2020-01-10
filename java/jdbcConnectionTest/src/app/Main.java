@@ -32,7 +32,7 @@ public class Main {
       conn = PersistenceFactory.newJDBCConnection(URL, uname, passwd);
       conn.getMetaData();
 
-    } catch (SQLException | ClassNotFoundException | IOException err) {
+    } catch (final SQLException | ClassNotFoundException | IOException err) {
       System.err.format("failure in main class: %s", err);
     }
   }
