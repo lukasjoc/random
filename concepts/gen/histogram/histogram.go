@@ -4,10 +4,10 @@
 // --- PASS: TestHistogram (0.00s)
 // goos: darwin
 // goarch: amd64
-// pkg: bitbucket.jsmd-group.com/users/jochamlu/repos/exer/histogram
-// BenchmarkHistogram-8   	  455143	      2371 ns/op	    1728 B/op	      18 allocs/op
+// pkg: github.com/lukasjoc/random/concepts/gen/histogram
+// BenchmarkHistogram-8   	  457970	      2408 ns/op	    1728 B/op	      18 allocs/op
 // PASS
-// ok  	bitbucket.jsmd-group.com/users/jochamlu/repos/exer/histogram	1.113s
+// ok  	github.com/lukasjoc/random/concepts/gen/histogram	1.136s
 //BENCHMARK=============================================================================
 
 package histogram
