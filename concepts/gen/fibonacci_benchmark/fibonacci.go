@@ -20,15 +20,15 @@ import (
 
 // Calculate 45 Fibonacci numbers
 func main() {
-	for i := 0; i <= 45; i++ {
-		fmt.Println(s.Itoa(Fib(i)))
+	for i := 0; i <= 1000; i++ {
+		fmt.Printf("Pos: %v Numbner: %v\n", i, s.Itoa(Fib(i)))
 	}
 }
 
-//Calculate Fibonacci recursively
+//Calculate Fibonacci recursively ( ƒn = ƒn-1 + ƒn-2 for n>=3 )
 func Fib(n int) int {
 	if n <= 2 {
 		return n
 	}
-	return Fib(n-1) + Fib(n-2)
+  return Fib(n-1) + Fib(n-2)
 }
