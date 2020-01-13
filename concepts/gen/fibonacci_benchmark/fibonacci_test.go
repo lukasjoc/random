@@ -6,7 +6,7 @@ import "testing"
 // on creating the fibbonacci sequence
 func BenchmarkFib10(b *testing.B) {
 	for n := 0; n < b.N; n++ {
-		Fib(10)
+		Fibo(10)
 	}
 }
 
@@ -14,7 +14,7 @@ func BenchmarkFib10(b *testing.B) {
 // on creating the fibbonacci sequence
 func BenchmarkFib15(b *testing.B) {
 	for n := 0; n < b.N; n++ {
-		Fib(15)
+		Fibo(15)
 	}
 }
 
@@ -22,7 +22,7 @@ func BenchmarkFib15(b *testing.B) {
 // on creating the fibbonacci sequence
 func BenchmarkFib25(b *testing.B) {
 	for n := 0; n < b.N; n++ {
-		Fib(25)
+		Fibo(25)
 	}
 }
 
@@ -30,7 +30,7 @@ func BenchmarkFib25(b *testing.B) {
 // on creating the fibbonacci sequence
 func BenchmarkFib35(b *testing.B) {
 	for n := 0; n < b.N; n++ {
-		Fib(35)
+		Fibo(35)
 	}
 }
 
@@ -38,6 +38,6 @@ func BenchmarkFib35(b *testing.B) {
 // on creating the fibbonacci sequence
 func BenchmarkFib45(b *testing.B) {
 	for n := 0; n < b.N; n++ {
-		Fib(45)
+		Fibo(45)
 	}
 }
