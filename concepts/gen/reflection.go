@@ -34,25 +34,22 @@ func takeArg(arg interface{}, kind reflect.Kind) (val reflect.Value, ok bool) {
 // get first element from input slice
 func getFirst(t interface{}) interface{} {
 	slice, _ := takeSlice(t)
- 	return slice[0]
+	return slice[0]
 }
 
 func main() {
+	var testData []interface{}
+	testData = append(testData, []string{"test", "test"})
+	testData = append(testData, []rune{'r', 'l'})
+	testData = append(testData, []int{1, 3})
+	testData = append(testData, []int64{232, 2323})
+	testData = append(testData, []float32{13.00, 245.99})
+	testData = append(testData, []float64{13.17, 233.33})
+	testData = append(testData, []bool{false, true})
 
-	resInt64, okInt64 := takeSlice([]int64{123, 321, 1234, 4321})
-	resRune, okRune := takeSlice([]rune{'a', 'b', 'c', 'd', 'e', 'f'})
-	resBool, okBool := takeSlice([]bool{false, false, true, true})
-	resInt, okInt := takeSlice([]int{123, 321, 1234, 4321})
-	resStr, okStr := takeSlice([]string{"LOL", "WOW", "STRING"})
-	
-	fmt.Printf("Res: %v Ok: %v \n", resRune, okRune)
-	fmt.Printf("Res: %v Ok: %v \n", resInt, okInt)
-	fmt.Printf("Res: %v Ok: %v \n", resInt64, okInt64)
-	fmt.Printf("Res: %v Ok: %v \n", resBool, okBool)
-	fmt.Printf("Res: %v Ok: %v \n", resStr, okStr)
-
-	intSlice := []int{12,13,14}
-	first := getFirst(intSlice)
-	fmt.Printf("Slice: %v First: %v \n", intSlice, first)
-
+	for _, c := range testData {
+		slice, ok := takeSlice(c)
+		first := getFirst(c)
+		fmt.Printf("Slice: %v, State: %v, First: %v \n", slice, ok, first)
+	}
 }
