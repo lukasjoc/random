@@ -31,6 +31,12 @@ func takeArg(arg interface{}, kind reflect.Kind) (val reflect.Value, ok bool) {
 	return
 }
 
+// get first element from input slice
+func getFirst(t interface{}) interface{} {
+	slice, _ := takeSlice(t)
+ 	return slice[0]
+}
+
 func main() {
 
 	resInt64, okInt64 := takeSlice([]int64{123, 321, 1234, 4321})
@@ -38,10 +44,15 @@ func main() {
 	resBool, okBool := takeSlice([]bool{false, false, true, true})
 	resInt, okInt := takeSlice([]int{123, 321, 1234, 4321})
 	resStr, okStr := takeSlice([]string{"LOL", "WOW", "STRING"})
-
+	
 	fmt.Printf("Res: %v Ok: %v \n", resRune, okRune)
 	fmt.Printf("Res: %v Ok: %v \n", resInt, okInt)
 	fmt.Printf("Res: %v Ok: %v \n", resInt64, okInt64)
 	fmt.Printf("Res: %v Ok: %v \n", resBool, okBool)
 	fmt.Printf("Res: %v Ok: %v \n", resStr, okStr)
+
+	intSlice := []int{12,13,14}
+	first := getFirst(intSlice)
+	fmt.Printf("Slice: %v First: %v \n", intSlice, first)
+
 }
