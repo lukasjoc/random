@@ -2,42 +2,50 @@ package main
 
 import "testing"
 
-// BenchmarkFib10 benchmarks the 10th fibonacci number calculated from the recursive approach
-// on creating the fibbonacci sequence
-func BenchmarkFib10(b *testing.B) {
-	for n := 0; n < b.N; n++ {
-		Fibo(10)
+type testFibonacci struct {
+	value, result int
+}
+
+var testsFibo = []testFibonacci{
+	{value: 0, result: 0},
+	{value: 10, result: 89},
+	{value: 15, result: 987},
+	{value: 25, result: 121393},
+	{value: 35, result: 14930352}, // think that is enough ;)
+}
+
+type testRatio struct {
+	value  int
+	result float64
+}
+
+var testsRatio = []testRatio{
+	{value: 0, result: 0},
+	{value: 10, result: 1.6181818181818182},
+	{value: 15, result: 1.618032786885246},
+	{value: 25, result: 1.6180339886704431},
+	{value: 35, result: 1.6180339887498896},
+}
+
+func TestFibo(t *testing.T) {
+	for _, c := range testsFibo {
+		if fibonacciN := Fibo(c.value); fibonacciN != c.result {
+			t.Errorf("for %v expected %v got: %v \n", c.value, c.result, fibonacciN)
+		}
 	}
 }
 
-// BenchmarkFib15 benchmarks the 15th fibonacci number calculated from the recursive approach
-// on creating the fibbonacci sequence
-func BenchmarkFib15(b *testing.B) {
-	for n := 0; n < b.N; n++ {
-		Fibo(15)
+func TestRatio(t *testing.T) {
+	for _, c := range testsRatio {
+		if ratioN := Ratio(c.value); ratioN != c.result {
+			t.Errorf("for %v expected %v got: %v \n", c.value, c.result, ratioN)
+		}
 	}
 }
-
-// BenchmarkFib25 benchmarks the 25th fibonacci number calculated from the recursive approach
-// on creating the fibbonacci sequence
-func BenchmarkFib25(b *testing.B) {
+func BenchmarkFibo(b *testing.B) {
 	for n := 0; n < b.N; n++ {
-		Fibo(25)
-	}
-}
-
-// BenchmarkFib35 benchmarks the 35th fibonacci number calculated from the recursive approach
-// on creating the fibbonacci sequence
-func BenchmarkFib35(b *testing.B) {
-	for n := 0; n < b.N; n++ {
-		Fibo(35)
-	}
-}
-
-// BenchmarkFib45 benchmarks the 45th fibonacci number calculated from the recursive approach
-// on creating the fibbonacci sequence
-func BenchmarkFib45(b *testing.B) {
-	for n := 0; n < b.N; n++ {
-		Fibo(45)
+		for _, c := range testsFibo {
+			Fibo(c.value)
+		}
 	}
 }
