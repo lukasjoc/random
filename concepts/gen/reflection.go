@@ -84,7 +84,8 @@ func GetAny(t interface{}, elems []int) (temp []interface{}) {
 // deletion process ...
 func Remove(t interface{}, elem int) interface{} {
 	slice, _ := anyToSlice(t)
-	slice = append(slice[:elem], slice[elem+1:]...)
+	slice[elem] = slice[len(slice)-1]
+	slice = slice[:len(slice)-1]
 
 	return slice
 }
