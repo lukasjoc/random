@@ -10,9 +10,10 @@ import "fmt"
 // goos: darwin
 // goarch: amd64
 // pkg: github.com/lukasjoc/random/concepts/gen/fibonacci_benchmark
-// BenchmarkFibo-12    	      38	  31242069 ns/op	       0 B/op	       0 allocs/op
+// BenchmarkFibo-12     	      37	  31692202 ns/op	       0 B/op	       0 allocs/op
+// BenchmarkRatio-12    	      22	  49965057 ns/op	       0 B/op	       0 allocs/op
 // PASS
-// ok  	github.com/lukasjoc/random/concepts/gen/fibonacci_benchmark	1.397s
+// ok  	github.com/lukasjoc/random/concepts/gen/fibonacci_benchmark	2.829s
 // =================================================================================
 
 // Calculate 42 Fibonacci numbers.. What to expect here is that with numbers getting bigger and bigger,

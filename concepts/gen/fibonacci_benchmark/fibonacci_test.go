@@ -49,3 +49,11 @@ func BenchmarkFibo(b *testing.B) {
 		}
 	}
 }
+
+func BenchmarkRatio(b *testing.B) {
+	for n := 0; n < b.N; n++ {
+		for _, c := range testsRatio {
+			Ratio(c.value)
+		}
+	}
+}
