@@ -28,30 +28,15 @@ sub configure_env {
   }
 }
 
-# TODO: Install more tools at once with more process workers
 sub install_tools {
-  my @tools = [
-    "docker",
-    "vim",
-    "git",
-    "tree",
-    "htop",
-    "ack",
-    "wget",
-    "curl"
-  ];
-
+  my @tools = [ "docker", "vim", "git", "tree", "htop", "ack", "wget", "curl" ];
   for my $tool (@tools) {
     exec('sudo', 'apt-get', 'install', $tools);
   }
 }
 
 sub update_system {
-  my @commands = [
-    'sudo apt-get update',
-    'sudo apt-get upgrade',
-    'sudo apt autoclean'
-  ];
+  my @commands = [ 'sudo apt-get update', 'sudo apt-get upgrade', 'sudo apt autoclean' ];
   for my $cmd (@commands) {
     exec($cmd);
   }
