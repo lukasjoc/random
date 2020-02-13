@@ -9,4 +9,4 @@ def pi_nks(limit: int) -> float:
   return pi_nks
 
 if __name__ == "__main__":
-  print(pi_nks(limit=1000000))
+  print(pi_nks(limit=100000))
