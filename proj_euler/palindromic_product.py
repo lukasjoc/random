@@ -2,7 +2,7 @@
 
 def pal() -> list:
     palindromics = []
-    start, limit = 1000, 10000
+    start, limit = 100, 999
     for n in range(start, limit):
         for subn in range(start, limit):
             product = int(n*subn)
@@ -18,3 +18,10 @@ def pal() -> list:
 
 if __name__ == "__main__":
     print(max(pal()))
+
+    #time python palindromic_product.py
+    #906609
+    #==================
+    #real	0m0.910s
+    #user	0m0.893s
+    #sys	0m0.011s
