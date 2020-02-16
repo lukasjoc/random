@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 
 def prime_facts(n) -> list:
-    prime_facts = []
-    d = 2
+    prime_facts, d = [], 2
     while (d*d <= n):
         while (n > 1):
             while (n % d) == 0:

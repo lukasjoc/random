@@ -6,13 +6,13 @@ function largestPalindrome() {
     let max = 0
     for (let i = limit; i > start; i--) {
         for (let j = i; j > start; j--) {
-            let mul = j * i;
+            let mul = j * i
             if (is_pal(mul) && mul > max) {
-                max = i * j;
+                max = i * j
             }
         }
     }
-    return max;
+    return max
 
 function is_pal(i) {
   i = "" + i
@@ -20,5 +20,6 @@ function is_pal(i) {
 }
 
 }
+
 
 console.log(largestPalindrome())

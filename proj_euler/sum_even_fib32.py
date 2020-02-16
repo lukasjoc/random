@@ -1,15 +1,11 @@
-#!usr/bin/env,python3
+#!usr/bin/env python3
 
 def even_fibs(fibs32: list) -> list:
     even_fibs = []
     for f in fibs32:
-        if f == 0:
+        if f == 0 or (f%2) == 0:
             even_fibs.append(f)
-        elif (f % 2) == 0:
-            even_fibs.append(f)
-
     return even_fibs
-
 
 if __name__ == "__main__":
     fib = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765,
