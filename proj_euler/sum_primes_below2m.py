@@ -13,6 +13,6 @@ def sum_primes(limit: int) -> int:
     return primes
 
 if __name__ == "__main__":
-    # this code is superbly inefficient.. someone (me :)) should defiantly use
+    # this code is superbly inefficient.. someone (me :)) should definitely  use
     # a thieve alg. like the Sieve of Eratosthenes to find primes.... lol
     print(sum(sum_primes(limit=2_000_000)))
