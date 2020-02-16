@@ -7,10 +7,12 @@ def sum_primes(limit: int) -> int:
             if (num%p) == 0:
                 break
         else:
-            print(num)
+            #print(num)
             primes.append(num)
         num += 2
     return primes
 
 if __name__ == "__main__":
-  print(sum(sum_primes(limit=2_000_000)))
+    # this code is superbly inefficient.. someone (me :)) should defiantly use
+    # a thieve alg. like the Sieve of Eratosthenes to find primes.... lol
+    print(sum(sum_primes(limit=2_000_000)))
