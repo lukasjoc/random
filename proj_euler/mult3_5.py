@@ -3,7 +3,7 @@
 def mult3_5sum(limit) -> list:
     multiples = []
     for n in range(limit):
-        if (n%3) == 0  or (n%5) == 0:
+        if (n % 3) == 0 or (n % 5) == 0:
             multiples.append(n)
     return multiples
 
