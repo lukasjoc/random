@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/usr/bin/env python3
 
 def smallest_mult(n: int) -> int:
     for i in range(n, fact(n) + 1, n):
