@@ -11,13 +11,18 @@ import javax.persistence.Id;
 public class Schueler implements Serializable {
 	
     @Id private int id;
-    private String name;
+    private String firstname, surname; 
     
-    public int getId() {return id;}
+    public void setId(int id) {
+    	this.id = id;
+    }
     
-    public void setId(int id) {this.id = id;}
+    public void setSurname(String surname) {
+    	this.surname = surname;
+    }
     
-    public String getName() {return name;}
+    public void setFirstName(String firstname) {
+    	this.firstname = firstname;
+    }
     
-    public void setName(String name) {this.name = name;} 
 }

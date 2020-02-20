@@ -18,12 +18,14 @@ public class FuckYou {
 		EntityManager em = emf.createEntityManager();
 		
 		Schueler s = new Schueler();
-		Schueler s1 = new Schueler()
-
 		s.setId(1);
-		s.setName("test");
+		s.setFirstName("test");
+		s.setSurname("test");
+		
+		Schueler s1 = new Schueler(); 
 		s1.setId(2);
-		s1.setName("test0");
+		s1.setFirstName("test");
+		s1.setSurname("test0");
 		
 		em.getTransaction().begin();
 		em.persist(s);
