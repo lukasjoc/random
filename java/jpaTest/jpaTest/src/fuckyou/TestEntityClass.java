@@ -21,7 +21,7 @@ public class TestEntityClass implements Serializable {
 	private final static int base_len = 125;
 	@Id
 	@Access(AccessType.FIELD)
-	@GeneratedValue(strategy = GenerationType.AUTO)
+	@GeneratedValue(strategy = GenerationType.IDENTITY)
 	private int id;
 
 	@Column(length = base_len)
@@ -33,28 +33,29 @@ public class TestEntityClass implements Serializable {
 
 	// setFirstName sets the firstname value that will be transported
 	// to the database layer
-	public void setFirstName(String firstname) {
-		if (firstname.length() <= base_len)
-			this.firstname = firstname;
-		else
-			this.firstname = firstname.substring(0, base_len);
-	}
+	public void setFirstName(String firstname) {	
+	  validateInput(this.firstname)
+  }
 
 	// setSurName sets the surname value that will be transported
 	// to the database layer
 	public void setSurName(String surname) {
-		if (surname.length() <= base_len)
-			this.surname = surname;
-		else
-			this.surname = surname.substring(0, base_len);
-	}
+	  validateInput(this.surname)
+  }
 
 	// sets the phone number with pre callable part into the databse
-	// jo
 	public void setTel(String number) {
 		String[] numbers = number.split(" ");
 		pre_tel = Long.parseLong(numbers[0]);
 		main_tel = Integer.parseInt(numbers[1]);
 	}
-
+  // validateInput validates the input string. It checks if the input is below a certain lenght of chars
+  // if the input length exceeds the base length the input is then returned shortened from char 0 - base_len
+  // valid critera are input < base or input == base
+  private void validateInput(String input) {
+    if (input <= base_len) {
+      return input;
+    }
+    return input.substring(0, base_len);
+  }
 }
