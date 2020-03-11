@@ -1,9 +1,11 @@
 #!/usr/bin/env python3
 
-from flask import Flask, escape, request
+from flask import Flask
+import escape
+import requesta
 
 # setting app as __name__ var
-app =  Flask(__name__)
+app = Flask(__name__)
 
 @app.route("/")
 def greet():

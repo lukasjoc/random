@@ -7,7 +7,6 @@ def sum_primes(limit: int) -> int:
             if (num%p) == 0:
                 break
         else:
-            #print(num)
             primes.append(num)
         num += 2
     return primes

@@ -1,0 +1,1 @@
+{"obj": [{"elem": "('abc', 'def')", "type": "<class 'tuple'>"}, {"elem": "1313", "type": "<class 'int'>"}, {"elem": "1313", "type": "<class 'int'>"}, {"elem": "abc", "type": "<class 'str'>"}, {"elem": "def", "type": "<class 'str'>"}, {"elem": "1:{'1': {'1': {'1': '1'}}}", "type": "<class 'dict'>"}, {"elem": "1:(1, 2, 4, 5)", "type": "<class 'dict'>"}]}

@@ -11,7 +11,6 @@ def pal() -> list:
                 rev  = ( rev * 10 ) + ( temp % 10 )
                 temp //= 10
             if product == rev:
-                #print(f"{n}x{subn} => pal() = {n*subn}")
                 palindromics.append(product)
 
     return palindromics # LOL this sounds like an autobot

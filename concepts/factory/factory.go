@@ -10,6 +10,8 @@ import (
 	"time"
 )
 
+//TODO: implement an interface and functions that share diffrent types of dogs
+// I dont really know how interfaces work with composition in GoLang
 type Dog struct {
 	Name   string
 	Age    int

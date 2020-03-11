@@ -1,6 +1,6 @@
 #!/usr/bin/env python3
 
-def alphabetiacal_value(string: str)-> int:
+def abc(string: str)-> int:
   values = {}
   letters =  ["A","B","C","D","E","F","G","H","I","J","K","L","M","O","P","Q","R","S","T","U","V","W","X","Y","Z"]
   for l in range(0, len(letters)):
@@ -14,7 +14,7 @@ def alphabetiacal_value(string: str)-> int:
 def name_scores(unsorted: list) -> list:
     sorted_values = []
     for i, n in enumerate(sorted(unsorted)):
-      sorted_values.append(i*alphabetical_value(n))
+      sorted_values.append(i*abc(n))
     return sorted_values
 
 if __name__ == "__main__":

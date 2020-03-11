@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 
 # Calculating pi with the circumference, and diamter of input data
-def pie(diameter: float, circumference: float) -> float:
+def main(diameter: float, circumference: float) -> float:
   try:
     pie = circumference/diameter
   except TypeError as err:
@@ -11,4 +11,4 @@ def pie(diameter: float, circumference: float) -> float:
 if __name__ == "__main__":
   circumference = float(input("Please insert an arbitrary circumference of your imaginary circle: "))
   diameter = float(input("Please insert an arbitrary diameter of your imaginary circle: "))
-  print(pie(diameter, circumference))
+  print(main(diameter, circumference))
