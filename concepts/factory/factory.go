@@ -42,7 +42,6 @@ func factorize(data string) []*Dog {
 
 	for {
 		line, err := reader.Read()
-
 		if err == io.EOF {
 			break
 		} else if err != nil {
