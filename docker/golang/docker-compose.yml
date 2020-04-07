@@ -1,0 +1,11 @@
+---
+version: "3.7"
+services:
+  test:
+    build:
+      context: .
+      dockerfile: docker/Dockerfile
+    container_name: go_docker_test
+    restart: always
+    ports:
+      - 8080:8080
