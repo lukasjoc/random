@@ -1,0 +1,39 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.wrapper {
+  overflow: hidden;
+}
+
+.wrapper > * {
+  display: flex;
+  flex-wrap: wrap;
+  margin: calc(1rem / 2 * -1);
+}
+
+.wrapper > * > * {
+  margin: calc(1rem / 2);
+  flex-basis: 25rem;
+  flex-grow: 1;
+}
+
+.wrapper > * > :last-child {
+  flex-basis: 10rem;
+  flex-grow: 999;
+}
+
+.sidebar {
+  background: red;
+  list-style: none;
+  display: flex;
+  flex-direction: row;
+}
+
+.content {
+  background: yellow;
+}
+
+/*# sourceMappingURL=/layout.ce9e190e.css.map */
