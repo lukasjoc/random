@@ -1,6 +1,5 @@
 use structopt::StructOpt;
 
-
 // This is a very light CLI which does some network stats
 // but for now it just prints the average ping
 
@@ -16,13 +15,11 @@ struct Cli {
     path: std::path::PathBuf,
 }
 
-
 impl std::fmt::Display for Cli {
     fn fmt(&self, f: &mut std::fmt::Formatter) -> std::fmt::Result {
         write!(f, "{} with pattern {}", self.path.display(), self.pattern)
     }
 }
-
 
 // i learned this is entry? neat
 fn main() {

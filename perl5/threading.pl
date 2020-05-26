@@ -6,7 +6,7 @@ use threads;
 
 my $thr = threads->new(\&sub1, "Param 1", "Param 2"); 
 
-sub sub1 { 
+sub sub1 {
   sleep 4;
   print "In the thread:".join(",", @_),"\n"; 
 }
