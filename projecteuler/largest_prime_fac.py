@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 
-def prime_facts(n) -> list:
+def prime_facts(n):
+
     prime_facts, d = [], 2
     while (d*d <= n):
         while (n > 1):
@@ -10,6 +11,7 @@ def prime_facts(n) -> list:
             d += 1
 
     return prime_facts
+
 
 if __name__ == "__main__":
     print(max(prime_facts(600851475143)))

@@ -3,7 +3,6 @@ use structopt::StructOpt;
 // This is a very light CLI which does some network stats
 // but for now it just prints the average ping
 
-
 // ohh structs
 #[derive(StructOpt)]
 

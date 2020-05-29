@@ -1,0 +1,1000 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+#	shit/reallshit/unique_id.js	/^#!\/usr\/bin\/env node$/;"	c
+#._id_	shit/reallshit/unique_id.js	/^Object.prototype._id_ = function () {$/;"	m
+$.Widget	java/jpaTest/External/doc/jquery/jquery-ui.js	/^$.Widget = function( \/* options, element *\/ ) {};$/;"	f
+$.Widget	java/jpaTest/External/doc/jquery/jquery-ui.js	/^$.Widget.prototype = {$/;"	c
+$.Widget	java/jpaTest/jpaTest/External/doc/jquery/jquery-ui.js	/^$.Widget = function( \/* options, element *\/ ) {};$/;"	f
+$.Widget	java/jpaTest/jpaTest/External/doc/jquery/jquery-ui.js	/^$.Widget.prototype = {$/;"	c
+$.Widget.defaultElement	java/jpaTest/External/doc/jquery/jquery-ui.js	/^	defaultElement: "<div>",$/;"	p
+$.Widget.defaultElement	java/jpaTest/jpaTest/External/doc/jquery/jquery-ui.js	/^	defaultElement: "<div>",$/;"	p
+$.Widget.options	java/jpaTest/External/doc/jquery/jquery-ui.js	/^	options: {$/;"	p
+$.Widget.options	java/jpaTest/jpaTest/External/doc/jquery/jquery-ui.js	/^	options: {$/;"	p
+$.Widget.widgetEventPrefix	java/jpaTest/External/doc/jquery/jquery-ui.js	/^	widgetEventPrefix: "",$/;"	p
+$.Widget.widgetEventPrefix	java/jpaTest/jpaTest/External/doc/jquery/jquery-ui.js	/^	widgetEventPrefix: "",$/;"	p
+$.Widget.widgetName	java/jpaTest/External/doc/jquery/jquery-ui.js	/^	widgetName: "widget",$/;"	p
+$.Widget.widgetName	java/jpaTest/jpaTest/External/doc/jquery/jquery-ui.js	/^	widgetName: "widget",$/;"	p
+$.expr.toLowerCase	java/jpaTest/External/doc/jquery/jquery-ui.js	/^	$.expr[ ":" ][ fullName.toLowerCase() ] = function( elem ) {$/;"	f
+$.expr.toLowerCase	java/jpaTest/jpaTest/External/doc/jquery/jquery-ui.js	/^	$.expr[ ":" ][ fullName.toLowerCase() ] = function( elem ) {$/;"	f
+$.fn	java/jpaTest/External/doc/jquery/jquery-ui.js	/^	$.fn[ name ] = function( options ) {$/;"	f
+$.fn	java/jpaTest/jpaTest/External/doc/jquery/jquery-ui.js	/^	$.fn[ name ] = function( options ) {$/;"	f
+$.fn.position	java/jpaTest/External/doc/jquery/jquery-ui.js	/^$.fn.position = function( options ) {$/;"	f
+$.fn.position	java/jpaTest/jpaTest/External/doc/jquery/jquery-ui.js	/^$.fn.position = function( options ) {$/;"	f
+$.position.getScrollInfo	java/jpaTest/External/doc/jquery/jquery-ui.js	/^	getScrollInfo: function( within ) {$/;"	m
+$.position.getScrollInfo	java/jpaTest/jpaTest/External/doc/jquery/jquery-ui.js	/^	getScrollInfo: function( within ) {$/;"	m
+$.position.scrollbarWidth	java/jpaTest/External/doc/jquery/jquery-ui.js	/^	scrollbarWidth: function() {$/;"	m
+$.position.scrollbarWidth	java/jpaTest/jpaTest/External/doc/jquery/jquery-ui.js	/^	scrollbarWidth: function() {$/;"	m
+$.ui.position.fit	java/jpaTest/External/doc/jquery/jquery-ui.js	/^	fit: {$/;"	p
+$.ui.position.fit	java/jpaTest/jpaTest/External/doc/jquery/jquery-ui.js	/^	fit: {$/;"	p
+$.widget	java/jpaTest/External/doc/jquery/jquery-ui.js	/^$.widget = function( name, base, prototype ) {$/;"	f
+$.widget	java/jpaTest/jpaTest/External/doc/jquery/jquery-ui.js	/^$.widget = function( name, base, prototype ) {$/;"	f
+$.widget.bridge	java/jpaTest/External/doc/jquery/jquery-ui.js	/^$.widget.bridge = function( name, object ) {$/;"	f
+$.widget.bridge	java/jpaTest/jpaTest/External/doc/jquery/jquery-ui.js	/^$.widget.bridge = function( name, object ) {$/;"	f
+$.widget.extend	java/jpaTest/External/doc/jquery/jquery-ui.js	/^$.widget.extend = function( target ) {$/;"	f
+$.widget.extend	java/jpaTest/jpaTest/External/doc/jquery/jquery-ui.js	/^$.widget.extend = function( target ) {$/;"	f
+BLANKLINE	swift/multiMark/Pods/Down/Source/cmark/commonmark.c	/^#define BLANKLINE(/;"	d	file:
+BLANKLINE	swift/multiMark/Pods/Down/Source/cmark/latex.c	/^#define BLANKLINE(/;"	d	file:
+BLANKLINE	swift/multiMark/Pods/Down/Source/cmark/man.c	/^#define BLANKLINE(/;"	d	file:
+BUFFER_SIZE	swift/multiMark/Pods/Down/Source/cmark/html.c	/^#define BUFFER_SIZE /;"	d	file:
+BUFFER_SIZE	swift/multiMark/Pods/Down/Source/cmark/xml.c	/^#define BUFFER_SIZE /;"	d	file:
+BULLET_LIST	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^#define BULLET_LIST /;"	d
+CMARK_AST_H	swift/multiMark/Pods/Down/Source/cmark/parser.h	/^#define CMARK_AST_H$/;"	d
+CMARK_ATTRIBUTE	swift/multiMark/Pods/Down/Source/cmark/config.h	/^  #define CMARK_ATTRIBUTE(/;"	d
+CMARK_BUFFER_H	swift/multiMark/Pods/Down/Source/cmark/buffer.h	/^#define CMARK_BUFFER_H$/;"	d
+CMARK_BUF_INIT	swift/multiMark/Pods/Down/Source/cmark/buffer.h	/^#define CMARK_BUF_INIT(/;"	d
+CMARK_BULLET_LIST	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^  CMARK_BULLET_LIST,$/;"	e	enum:__anon12
+CMARK_CHUNK_EMPTY	swift/multiMark/Pods/Down/Source/cmark/chunk.h	/^#define CMARK_CHUNK_EMPTY /;"	d
+CMARK_CHUNK_H	swift/multiMark/Pods/Down/Source/cmark/chunk.h	/^#define CMARK_CHUNK_H$/;"	d
+CMARK_CMARK_CTYPE_H	swift/multiMark/Pods/Down/Source/cmark/cmark_ctype.h	/^#define CMARK_CMARK_CTYPE_H$/;"	d
+CMARK_CONFIG_H	swift/multiMark/Pods/Down/Source/cmark/config.h	/^#define CMARK_CONFIG_H$/;"	d
+CMARK_DEPRECATED	swift/multiMark/Pods/Down/Source/cmark/cmark_export.h	/^#  define CMARK_DEPRECATED /;"	d
+CMARK_DEPRECATED_EXPORT	swift/multiMark/Pods/Down/Source/cmark/cmark_export.h	/^#  define CMARK_DEPRECATED_EXPORT /;"	d
+CMARK_DEPRECATED_NO_EXPORT	swift/multiMark/Pods/Down/Source/cmark/cmark_export.h	/^#  define CMARK_DEPRECATED_NO_EXPORT /;"	d
+CMARK_EVENT_DONE	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^  CMARK_EVENT_DONE,$/;"	e	enum:__anon14
+CMARK_EVENT_ENTER	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^  CMARK_EVENT_ENTER,$/;"	e	enum:__anon14
+CMARK_EVENT_EXIT	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^  CMARK_EVENT_EXIT$/;"	e	enum:__anon14
+CMARK_EVENT_NONE	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^  CMARK_EVENT_NONE,$/;"	e	enum:__anon14
+CMARK_EXPORT	swift/multiMark/Pods/Down/Source/cmark/cmark_export.h	/^#      define CMARK_EXPORT /;"	d
+CMARK_EXPORT	swift/multiMark/Pods/Down/Source/cmark/cmark_export.h	/^#  define CMARK_EXPORT$/;"	d
+CMARK_EXPORT_H	swift/multiMark/Pods/Down/Source/cmark/cmark_export.h	/^#define CMARK_EXPORT_H$/;"	d
+CMARK_H	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^#define CMARK_H$/;"	d
+CMARK_HOUDINI_H	swift/multiMark/Pods/Down/Source/cmark/houdini.h	/^#define CMARK_HOUDINI_H$/;"	d
+CMARK_INLINE	swift/multiMark/Pods/Down/Source/cmark/config.h	/^    #define CMARK_INLINE /;"	d
+CMARK_INLINES_H	swift/multiMark/Pods/Down/Source/cmark/inlines.h	/^#define CMARK_INLINES_H$/;"	d
+CMARK_ITERATOR_H	swift/multiMark/Pods/Down/Source/cmark/iterator.h	/^#define CMARK_ITERATOR_H$/;"	d
+CMARK_NODE_BLOCK_QUOTE	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^  CMARK_NODE_BLOCK_QUOTE,$/;"	e	enum:__anon11
+CMARK_NODE_CODE	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^  CMARK_NODE_CODE,$/;"	e	enum:__anon11
+CMARK_NODE_CODE_BLOCK	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^  CMARK_NODE_CODE_BLOCK,$/;"	e	enum:__anon11
+CMARK_NODE_CUSTOM_BLOCK	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^  CMARK_NODE_CUSTOM_BLOCK,$/;"	e	enum:__anon11
+CMARK_NODE_CUSTOM_INLINE	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^  CMARK_NODE_CUSTOM_INLINE,$/;"	e	enum:__anon11
+CMARK_NODE_DOCUMENT	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^  CMARK_NODE_DOCUMENT,$/;"	e	enum:__anon11
+CMARK_NODE_EMPH	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^  CMARK_NODE_EMPH,$/;"	e	enum:__anon11
+CMARK_NODE_FIRST_BLOCK	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^  CMARK_NODE_FIRST_BLOCK = CMARK_NODE_DOCUMENT,$/;"	e	enum:__anon11
+CMARK_NODE_FIRST_INLINE	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^  CMARK_NODE_FIRST_INLINE = CMARK_NODE_TEXT,$/;"	e	enum:__anon11
+CMARK_NODE_H	swift/multiMark/Pods/Down/Source/cmark/node.h	/^#define CMARK_NODE_H$/;"	d
+CMARK_NODE_HEADER	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^#define CMARK_NODE_HEADER /;"	d
+CMARK_NODE_HEADING	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^  CMARK_NODE_HEADING,$/;"	e	enum:__anon11
+CMARK_NODE_HRULE	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^#define CMARK_NODE_HRULE /;"	d
+CMARK_NODE_HTML	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^#define CMARK_NODE_HTML /;"	d
+CMARK_NODE_HTML_BLOCK	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^  CMARK_NODE_HTML_BLOCK,$/;"	e	enum:__anon11
+CMARK_NODE_HTML_INLINE	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^  CMARK_NODE_HTML_INLINE,$/;"	e	enum:__anon11
+CMARK_NODE_IMAGE	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^  CMARK_NODE_IMAGE,$/;"	e	enum:__anon11
+CMARK_NODE_INLINE_HTML	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^#define CMARK_NODE_INLINE_HTML /;"	d
+CMARK_NODE_ITEM	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^  CMARK_NODE_ITEM,$/;"	e	enum:__anon11
+CMARK_NODE_LAST_BLOCK	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^  CMARK_NODE_LAST_BLOCK = CMARK_NODE_THEMATIC_BREAK,$/;"	e	enum:__anon11
+CMARK_NODE_LAST_INLINE	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^  CMARK_NODE_LAST_INLINE = CMARK_NODE_IMAGE,$/;"	e	enum:__anon11
+CMARK_NODE_LINEBREAK	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^  CMARK_NODE_LINEBREAK,$/;"	e	enum:__anon11
+CMARK_NODE_LINK	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^  CMARK_NODE_LINK,$/;"	e	enum:__anon11
+CMARK_NODE_LIST	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^  CMARK_NODE_LIST,$/;"	e	enum:__anon11
+CMARK_NODE_NONE	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^  CMARK_NODE_NONE,$/;"	e	enum:__anon11
+CMARK_NODE_PARAGRAPH	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^  CMARK_NODE_PARAGRAPH,$/;"	e	enum:__anon11
+CMARK_NODE_SOFTBREAK	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^  CMARK_NODE_SOFTBREAK,$/;"	e	enum:__anon11
+CMARK_NODE_STRONG	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^  CMARK_NODE_STRONG,$/;"	e	enum:__anon11
+CMARK_NODE_TEXT	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^  CMARK_NODE_TEXT,$/;"	e	enum:__anon11
+CMARK_NODE_THEMATIC_BREAK	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^  CMARK_NODE_THEMATIC_BREAK,$/;"	e	enum:__anon11
+CMARK_NODE__LAST_LINE_BLANK	swift/multiMark/Pods/Down/Source/cmark/node.h	/^  CMARK_NODE__LAST_LINE_BLANK = (1 << 1),$/;"	e	enum:cmark_node__internal_flags
+CMARK_NODE__LAST_LINE_CHECKED	swift/multiMark/Pods/Down/Source/cmark/node.h	/^  CMARK_NODE__LAST_LINE_CHECKED = (1 << 2),$/;"	e	enum:cmark_node__internal_flags
+CMARK_NODE__OPEN	swift/multiMark/Pods/Down/Source/cmark/node.h	/^  CMARK_NODE__OPEN = (1 << 0),$/;"	e	enum:cmark_node__internal_flags
+CMARK_NO_DELIM	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^  CMARK_NO_DELIM,$/;"	e	enum:__anon13
+CMARK_NO_EXPORT	swift/multiMark/Pods/Down/Source/cmark/cmark_export.h	/^#    define CMARK_NO_EXPORT /;"	d
+CMARK_NO_EXPORT	swift/multiMark/Pods/Down/Source/cmark/cmark_export.h	/^#  define CMARK_NO_EXPORT$/;"	d
+CMARK_NO_LIST	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^  CMARK_NO_LIST,$/;"	e	enum:__anon12
+CMARK_OPT_DEFAULT	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^#define CMARK_OPT_DEFAULT /;"	d
+CMARK_OPT_HARDBREAKS	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^#define CMARK_OPT_HARDBREAKS /;"	d
+CMARK_OPT_NOBREAKS	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^#define CMARK_OPT_NOBREAKS /;"	d
+CMARK_OPT_NORMALIZE	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^#define CMARK_OPT_NORMALIZE /;"	d
+CMARK_OPT_SAFE	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^#define CMARK_OPT_SAFE /;"	d
+CMARK_OPT_SMART	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^#define CMARK_OPT_SMART /;"	d
+CMARK_OPT_SOURCEPOS	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^#define CMARK_OPT_SOURCEPOS /;"	d
+CMARK_OPT_UNSAFE	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^#define CMARK_OPT_UNSAFE /;"	d
+CMARK_OPT_VALIDATE_UTF8	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^#define CMARK_OPT_VALIDATE_UTF8 /;"	d
+CMARK_ORDERED_LIST	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^  CMARK_ORDERED_LIST$/;"	e	enum:__anon12
+CMARK_PAREN_DELIM	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^  CMARK_PAREN_DELIM$/;"	e	enum:__anon13
+CMARK_PERIOD_DELIM	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^  CMARK_PERIOD_DELIM,$/;"	e	enum:__anon13
+CMARK_REFERENCES_H	swift/multiMark/Pods/Down/Source/cmark/references.h	/^#define CMARK_REFERENCES_H$/;"	d
+CMARK_RENDER_H	swift/multiMark/Pods/Down/Source/cmark/render.h	/^#define CMARK_RENDER_H$/;"	d
+CMARK_UTF8_H	swift/multiMark/Pods/Down/Source/cmark/utf8.h	/^#define CMARK_UTF8_H$/;"	d
+CMARK_VERSION	swift/multiMark/Pods/Down/Source/cmark/cmark_version.h	/^#define CMARK_VERSION /;"	d
+CMARK_VERSION_H	swift/multiMark/Pods/Down/Source/cmark/cmark_version.h	/^#define CMARK_VERSION_H$/;"	d
+CMARK_VERSION_STRING	swift/multiMark/Pods/Down/Source/cmark/cmark_version.h	/^#define CMARK_VERSION_STRING /;"	d
+CODE_INDENT	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^#define CODE_INDENT /;"	d	file:
+CR	swift/multiMark/Pods/Down/Source/cmark/commonmark.c	/^#define CR(/;"	d	file:
+CR	swift/multiMark/Pods/Down/Source/cmark/latex.c	/^#define CR(/;"	d	file:
+CR	swift/multiMark/Pods/Down/Source/cmark/man.c	/^#define CR(/;"	d	file:
+DEFAULT_MEM_ALLOCATOR	swift/multiMark/Pods/Down/Source/cmark/cmark.c	/^cmark_mem DEFAULT_MEM_ALLOCATOR = {xcalloc, xrealloc, free};$/;"	v
+DownVersionNumber	swift/multiMark/Pods/Down/Source/Down.h	/^FOUNDATION_EXPORT double DownVersionNumber;$/;"	v
+DownVersionNumber	swift/multiMark/Pods/Target Support Files/Down/Down-umbrella.h	/^FOUNDATION_EXPORT double DownVersionNumber;$/;"	v
+DownVersionString	swift/multiMark/Pods/Down/Source/Down.h	/^FOUNDATION_EXPORT const unsigned char DownVersionString[];$/;"	v
+DownVersionString	swift/multiMark/Pods/Target Support Files/Down/Down-umbrella.h	/^FOUNDATION_EXPORT const unsigned char DownVersionString[];$/;"	v
+ELLIPSES	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static const char *ELLIPSES = "\\xE2\\x80\\xA6";$/;"	v	file:
+EMAIL_AUTOLINK	swift/multiMark/Pods/Down/Source/cmark/latex.c	/^  EMAIL_AUTOLINK,$/;"	e	enum:__anon2	file:
+EMDASH	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static const char *EMDASH = "\\xE2\\x80\\x94";$/;"	v	file:
+ENCODED_SIZE	swift/multiMark/Pods/Down/Source/cmark/commonmark.c	/^#define ENCODED_SIZE /;"	d	file:
+ENDASH	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static const char *ENDASH = "\\xE2\\x80\\x93";$/;"	v	file:
+ENGINE	shit/python/plotly_test.py	/^ENGINE = create_engine(URL, fast_executemany=True)$/;"	v
+FOUNDATION_EXPORT	swift/multiMark/Pods/Target Support Files/Down/Down-umbrella.h	/^#define FOUNDATION_EXPORT /;"	d
+FOUNDATION_EXPORT	swift/multiMark/Pods/Target Support Files/Pods-multiMark/Pods-multiMark-umbrella.h	/^#define FOUNDATION_EXPORT /;"	d
+Flask	concepts/tryouts/flask_server/server.py	/^from flask import Flask$/;"	i
+Foundation	swift/multiMark/Pods/Down/Source/Down.h	/^@import Foundation;$/;"	v
+FuckYou	java/jpaTest/jpaTest/src/fuckyou/FuckYou.java	/^public class FuckYou {$/;"	c
+HAVE_STDBOOL_H	swift/multiMark/Pods/Down/Source/cmark/config.h	/^#define HAVE_STDBOOL_H$/;"	d
+HAVE___ATTRIBUTE__	swift/multiMark/Pods/Down/Source/cmark/config.h	/^#define HAVE___ATTRIBUTE__$/;"	d
+HAVE___BUILTIN_EXPECT	swift/multiMark/Pods/Down/Source/cmark/config.h	/^#define HAVE___BUILTIN_EXPECT$/;"	d
+HOUDINI_ESCAPED_SIZE	swift/multiMark/Pods/Down/Source/cmark/houdini.h	/^#define HOUDINI_ESCAPED_SIZE(/;"	d
+HOUDINI_UNESCAPED_SIZE	swift/multiMark/Pods/Down/Source/cmark/houdini.h	/^#define HOUDINI_UNESCAPED_SIZE(/;"	d
+HREF_SAFE	swift/multiMark/Pods/Down/Source/cmark/houdini_href_e.c	/^static const char HREF_SAFE[] = {$/;"	v	file:
+HTML_ESCAPES	swift/multiMark/Pods/Down/Source/cmark/houdini_html_e.c	/^static const char *HTML_ESCAPES[] = {"",      "&quot;", "&amp;", "&#39;",$/;"	v	file:
+HTML_ESCAPE_TABLE	swift/multiMark/Pods/Down/Source/cmark/houdini_html_e.c	/^static const char HTML_ESCAPE_TABLE[] = {$/;"	v	file:
+HelloWorldTest	exercism/python/hello-world/hello_world_test.py	/^class HelloWorldTest(unittest.TestCase):$/;"	c
+HighScoresTest	exercism/python/high-scores/high_scores_test.py	/^class HighScoresTest(unittest.TestCase):$/;"	c
+HolyIter	shit/python/iterator.py	/^class HolyIter:$/;"	c
+INTERNAL_LINK	swift/multiMark/Pods/Down/Source/cmark/latex.c	/^  INTERNAL_LINK$/;"	e	enum:__anon2	file:
+LEFTDOUBLEQUOTE	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static const char *LEFTDOUBLEQUOTE = "\\xE2\\x80\\x9C";$/;"	v	file:
+LEFTSINGLEQUOTE	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static const char *LEFTSINGLEQUOTE = "\\xE2\\x80\\x98";$/;"	v	file:
+LISTMARKER_SIZE	swift/multiMark/Pods/Down/Source/cmark/commonmark.c	/^#define LISTMARKER_SIZE /;"	d	file:
+LIST_NUMBER_SIZE	swift/multiMark/Pods/Down/Source/cmark/man.c	/^#define LIST_NUMBER_SIZE /;"	d	file:
+LIST_NUMBER_STRING_SIZE	swift/multiMark/Pods/Down/Source/cmark/latex.c	/^#define LIST_NUMBER_STRING_SIZE /;"	d	file:
+LIT	swift/multiMark/Pods/Down/Source/cmark/commonmark.c	/^#define LIT(/;"	d	file:
+LIT	swift/multiMark/Pods/Down/Source/cmark/latex.c	/^#define LIT(/;"	d	file:
+LIT	swift/multiMark/Pods/Down/Source/cmark/man.c	/^#define LIT(/;"	d	file:
+LITERAL	swift/multiMark/Pods/Down/Source/cmark/render.h	/^typedef enum { LITERAL, NORMAL, TITLE, URL } cmark_escaping;$/;"	e	enum:__anon16
+MAXBACKTICKS	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^#define MAXBACKTICKS /;"	d	file:
+MAX_LINK_LABEL_LENGTH	swift/multiMark/Pods/Down/Source/cmark/parser.h	/^#define MAX_LINK_LABEL_LENGTH /;"	d
+MIN	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^#define MIN(/;"	d	file:
+MIN	swift/multiMark/Pods/Down/Source/cmark/buffer.c	/^#define MIN(/;"	d	file:
+Main	java/jdbcConnectionTest/src/app/Main.java	/^public class Main {$/;"	c
+Matrix	exercism/python/matrix/matrix.py	/^class Matrix:$/;"	c
+Matrix	exercism/python/matrix/matrix_test.py	/^from matrix import Matrix$/;"	i
+MatrixTest	exercism/python/matrix/matrix_test.py	/^class MatrixTest(unittest.TestCase):$/;"	c
+NODE_BLOCK_QUOTE	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^#define NODE_BLOCK_QUOTE /;"	d
+NODE_CODE	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^#define NODE_CODE /;"	d
+NODE_CODE_BLOCK	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^#define NODE_CODE_BLOCK /;"	d
+NODE_CUSTOM_BLOCK	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^#define NODE_CUSTOM_BLOCK /;"	d
+NODE_CUSTOM_INLINE	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^#define NODE_CUSTOM_INLINE /;"	d
+NODE_DOCUMENT	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^#define NODE_DOCUMENT /;"	d
+NODE_EMPH	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^#define NODE_EMPH /;"	d
+NODE_HEADER	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^#define NODE_HEADER /;"	d
+NODE_HEADING	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^#define NODE_HEADING /;"	d
+NODE_HRULE	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^#define NODE_HRULE /;"	d
+NODE_HTML_BLOCK	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^#define NODE_HTML_BLOCK /;"	d
+NODE_HTML_INLINE	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^#define NODE_HTML_INLINE /;"	d
+NODE_IMAGE	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^#define NODE_IMAGE /;"	d
+NODE_ITEM	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^#define NODE_ITEM /;"	d
+NODE_LINEBREAK	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^#define NODE_LINEBREAK /;"	d
+NODE_LINK	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^#define NODE_LINK /;"	d
+NODE_LIST	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^#define NODE_LIST /;"	d
+NODE_MEM	swift/multiMark/Pods/Down/Source/cmark/node.c	/^#define NODE_MEM(/;"	d	file:
+NODE_PARAGRAPH	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^#define NODE_PARAGRAPH /;"	d
+NODE_SOFTBREAK	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^#define NODE_SOFTBREAK /;"	d
+NODE_STRONG	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^#define NODE_STRONG /;"	d
+NODE_TEXT	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^#define NODE_TEXT /;"	d
+NODE_THEMATIC_BREAK	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^#define NODE_THEMATIC_BREAK /;"	d
+NORMAL	swift/multiMark/Pods/Down/Source/cmark/render.h	/^typedef enum { LITERAL, NORMAL, TITLE, URL } cmark_escaping;$/;"	e	enum:__anon16
+NORMAL_LINK	swift/multiMark/Pods/Down/Source/cmark/latex.c	/^  NORMAL_LINK,$/;"	e	enum:__anon2	file:
+NO_LINK	swift/multiMark/Pods/Down/Source/cmark/latex.c	/^  NO_LINK,$/;"	e	enum:__anon2	file:
+Nominatim	shit/python/find_country/city.py	/^from geopy.geocoders import Nominatim$/;"	i
+Nominatim	shit/python/find_country/geo.py	/^from geopy.geocoders import Nominatim$/;"	i
+Nominatim	shit/python/find_country/plz.py	/^from geopy.geocoders import Nominatim$/;"	i
+ORDERED_LIST	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^#define ORDERED_LIST /;"	d
+OUT	swift/multiMark/Pods/Down/Source/cmark/commonmark.c	/^#define OUT(/;"	d	file:
+OUT	swift/multiMark/Pods/Down/Source/cmark/latex.c	/^#define OUT(/;"	d	file:
+OUT	swift/multiMark/Pods/Down/Source/cmark/man.c	/^#define OUT(/;"	d	file:
+PAREN_DELIM	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^#define PAREN_DELIM /;"	d
+PERIOD_DELIM	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^#define PERIOD_DELIM /;"	d
+PersistenceFactory	java/jdbcConnectionTest/src/app/PersistenceFactory.java	/^public class PersistenceFactory {$/;"	c
+Pods_multiMarkVersionNumber	swift/multiMark/Pods/Target Support Files/Pods-multiMark/Pods-multiMark-umbrella.h	/^FOUNDATION_EXPORT double Pods_multiMarkVersionNumber;$/;"	v
+Pods_multiMarkVersionString	swift/multiMark/Pods/Target Support Files/Pods-multiMark/Pods-multiMark-umbrella.h	/^FOUNDATION_EXPORT const unsigned char Pods_multiMarkVersionString[];$/;"	v
+REFMAP_SIZE	swift/multiMark/Pods/Down/Source/cmark/references.h	/^#define REFMAP_SIZE /;"	d
+RIGHTDOUBLEQUOTE	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static const char *RIGHTDOUBLEQUOTE = "\\xE2\\x80\\x9D";$/;"	v	file:
+RIGHTSINGLEQUOTE	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static const char *RIGHTSINGLEQUOTE = "\\xE2\\x80\\x99";$/;"	v	file:
+RaindropsTest	exercism/python/raindrops/raindrops_test.py	/^class RaindropsTest(unittest.TestCase):$/;"	c
+S_advance_offset	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^static void S_advance_offset(cmark_parser *parser, cmark_chunk *input,$/;"	f	file:
+S_blankline	swift/multiMark/Pods/Down/Source/cmark/render.c	/^static CMARK_INLINE void S_blankline(cmark_renderer *renderer) {$/;"	f	file:
+S_can_contain	swift/multiMark/Pods/Down/Source/cmark/node.c	/^static bool S_can_contain(cmark_node *node, cmark_node *child) {$/;"	f	file:
+S_cr	swift/multiMark/Pods/Down/Source/cmark/render.c	/^static CMARK_INLINE void S_cr(cmark_renderer *renderer) {$/;"	f	file:
+S_ends_with_blank_line	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^static bool S_ends_with_blank_line(cmark_node *node) {$/;"	f	file:
+S_find_first_nonspace	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^static void S_find_first_nonspace(cmark_parser *parser, cmark_chunk *input) {$/;"	f	file:
+S_free_nodes	swift/multiMark/Pods/Down/Source/cmark/node.c	/^static void S_free_nodes(cmark_node *e) {$/;"	f	file:
+S_get_enumlevel	swift/multiMark/Pods/Down/Source/cmark/latex.c	/^static int S_get_enumlevel(cmark_node *node) {$/;"	f	file:
+S_insert_emph	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static delimiter *S_insert_emph(subject *subj, delimiter *opener,$/;"	f	file:
+S_is_block	swift/multiMark/Pods/Down/Source/cmark/node.c	/^static CMARK_INLINE bool S_is_block(cmark_node *node) {$/;"	f	file:
+S_is_inline	swift/multiMark/Pods/Down/Source/cmark/node.c	/^static CMARK_INLINE bool S_is_inline(cmark_node *node) {$/;"	f	file:
+S_is_leaf	swift/multiMark/Pods/Down/Source/cmark/iterator.c	/^static bool S_is_leaf(cmark_node *node) {$/;"	f	file:
+S_is_line_end_char	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^static CMARK_INLINE bool S_is_line_end_char(char c) {$/;"	f	file:
+S_is_line_end_char	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static CMARK_INLINE bool S_is_line_end_char(char c) {$/;"	f	file:
+S_is_space_or_tab	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^static CMARK_INLINE bool S_is_space_or_tab(char c) {$/;"	f	file:
+S_last_child_is_open	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^static bool S_last_child_is_open(cmark_node *container) {$/;"	f	file:
+S_last_line_blank	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^static bool S_last_line_blank(const cmark_node *node) {$/;"	f	file:
+S_last_line_checked	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^static bool S_last_line_checked(const cmark_node *node) {$/;"	f	file:
+S_leaf_mask	swift/multiMark/Pods/Down/Source/cmark/iterator.c	/^static const int S_leaf_mask =$/;"	v	file:
+S_lookup	swift/multiMark/Pods/Down/Source/cmark/houdini_html_u.c	/^static const unsigned char *S_lookup(int i, int low, int hi,$/;"	f	file:
+S_lookup_entity	swift/multiMark/Pods/Down/Source/cmark/houdini_html_u.c	/^static const unsigned char *S_lookup_entity(const unsigned char *s, int len) {$/;"	f	file:
+S_node_unlink	swift/multiMark/Pods/Down/Source/cmark/node.c	/^static void S_node_unlink(cmark_node *node) {$/;"	f	file:
+S_normalize_code	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static void S_normalize_code(cmark_strbuf *s) {$/;"	f	file:
+S_out	swift/multiMark/Pods/Down/Source/cmark/render.c	/^static void S_out(cmark_renderer *renderer, const char *source, bool wrap,$/;"	f	file:
+S_outc	swift/multiMark/Pods/Down/Source/cmark/man.c	/^static void S_outc(cmark_renderer *renderer, cmark_escaping escape, int32_t c,$/;"	f	file:
+S_parser_feed	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^static void S_parser_feed(cmark_parser *parser, const unsigned char *buffer,$/;"	f	file:
+S_print_error	swift/multiMark/Pods/Down/Source/cmark/node.c	/^static void S_print_error(FILE *out, cmark_node *node, const char *elem) {$/;"	f	file:
+S_process_line	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^static void S_process_line(cmark_parser *parser, const unsigned char *buffer,$/;"	f	file:
+S_render_node	swift/multiMark/Pods/Down/Source/cmark/commonmark.c	/^static int S_render_node(cmark_renderer *renderer, cmark_node *node,$/;"	f	file:
+S_render_node	swift/multiMark/Pods/Down/Source/cmark/html.c	/^static int S_render_node(cmark_node *node, cmark_event_type ev_type,$/;"	f	file:
+S_render_node	swift/multiMark/Pods/Down/Source/cmark/latex.c	/^static int S_render_node(cmark_renderer *renderer, cmark_node *node,$/;"	f	file:
+S_render_node	swift/multiMark/Pods/Down/Source/cmark/man.c	/^static int S_render_node(cmark_renderer *renderer, cmark_node *node,$/;"	f	file:
+S_render_node	swift/multiMark/Pods/Down/Source/cmark/xml.c	/^static int S_render_node(cmark_node *node, cmark_event_type ev_type,$/;"	f	file:
+S_render_sourcepos	swift/multiMark/Pods/Down/Source/cmark/html.c	/^static void S_render_sourcepos(cmark_node *node, cmark_strbuf *html,$/;"	f	file:
+S_scan_thematic_break	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^static int S_scan_thematic_break(cmark_parser *parser, cmark_chunk *input,$/;"	f	file:
+S_set_last_line_blank	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^static void S_set_last_line_blank(cmark_node *node, bool is_blank) {$/;"	f	file:
+S_set_last_line_checked	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^static void S_set_last_line_checked(cmark_node *node) {$/;"	f	file:
+S_strbuf_grow_by	swift/multiMark/Pods/Down/Source/cmark/buffer.c	/^static CMARK_INLINE void S_strbuf_grow_by(cmark_strbuf *buf, bufsize_t add) {$/;"	f	file:
+S_type	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^static CMARK_INLINE cmark_node_type S_type(const cmark_node *node) {$/;"	f	file:
+T	shit/python/fib_generator.py	/^import typing as T$/;"	i
+T	shit/python/generator.py	/^import typing as T$/;"	i
+TAB_STOP	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^#define TAB_STOP /;"	d	file:
+TITLE	swift/multiMark/Pods/Down/Source/cmark/render.h	/^typedef enum { LITERAL, NORMAL, TITLE, URL } cmark_escaping;$/;"	e	enum:__anon16
+TestEntityClass	java/jpaTest/jpaTest/src/fuckyou/TestEntityClass.java	/^public class TestEntityClass implements Serializable {$/;"	c
+URL	swift/multiMark/Pods/Down/Source/cmark/render.h	/^typedef enum { LITERAL, NORMAL, TITLE, URL } cmark_escaping;$/;"	e	enum:__anon16
+URL_AUTOLINK	swift/multiMark/Pods/Down/Source/cmark/latex.c	/^  URL_AUTOLINK,$/;"	e	enum:__anon2	file:
+__init__	exercism/python/matrix/matrix.py	/^    def __init__(self, matrix_string):$/;"	m	class:Matrix
+__init__	shit/python/iterator.py	/^    def __init__(self):$/;"	m	class:HolyIter
+__iter__	shit/python/iterator.py	/^    def __iter__(self):$/;"	m	class:HolyIter	file:
+__next__	shit/python/iterator.py	/^    def __next__(self):$/;"	m	class:HolyIter	file:
+_isdigit	swift/multiMark/Pods/Down/Source/cmark/houdini.h	/^#define _isdigit(/;"	d
+_isxdigit	swift/multiMark/Pods/Down/Source/cmark/houdini.h	/^#define _isxdigit(/;"	d
+_scan_at	swift/multiMark/Pods/Down/Source/cmark/scanners.c	/^bufsize_t _scan_at(bufsize_t (*scanner)(const unsigned char *), cmark_chunk *c,$/;"	f
+_scan_atx_heading_start	swift/multiMark/Pods/Down/Source/cmark/scanners.c	/^bufsize_t _scan_atx_heading_start(const unsigned char *p) {$/;"	f
+_scan_autolink_email	swift/multiMark/Pods/Down/Source/cmark/scanners.c	/^bufsize_t _scan_autolink_email(const unsigned char *p) {$/;"	f
+_scan_autolink_uri	swift/multiMark/Pods/Down/Source/cmark/scanners.c	/^bufsize_t _scan_autolink_uri(const unsigned char *p) {$/;"	f
+_scan_close_code_fence	swift/multiMark/Pods/Down/Source/cmark/scanners.c	/^bufsize_t _scan_close_code_fence(const unsigned char *p) {$/;"	f
+_scan_dangerous_url	swift/multiMark/Pods/Down/Source/cmark/scanners.c	/^bufsize_t _scan_dangerous_url(const unsigned char *p) {$/;"	f
+_scan_entity	swift/multiMark/Pods/Down/Source/cmark/scanners.c	/^bufsize_t _scan_entity(const unsigned char *p) {$/;"	f
+_scan_html_block_end_1	swift/multiMark/Pods/Down/Source/cmark/scanners.c	/^bufsize_t _scan_html_block_end_1(const unsigned char *p) {$/;"	f
+_scan_html_block_end_2	swift/multiMark/Pods/Down/Source/cmark/scanners.c	/^bufsize_t _scan_html_block_end_2(const unsigned char *p) {$/;"	f
+_scan_html_block_end_3	swift/multiMark/Pods/Down/Source/cmark/scanners.c	/^bufsize_t _scan_html_block_end_3(const unsigned char *p) {$/;"	f
+_scan_html_block_end_4	swift/multiMark/Pods/Down/Source/cmark/scanners.c	/^bufsize_t _scan_html_block_end_4(const unsigned char *p) {$/;"	f
+_scan_html_block_end_5	swift/multiMark/Pods/Down/Source/cmark/scanners.c	/^bufsize_t _scan_html_block_end_5(const unsigned char *p) {$/;"	f
+_scan_html_block_start	swift/multiMark/Pods/Down/Source/cmark/scanners.c	/^bufsize_t _scan_html_block_start(const unsigned char *p) {$/;"	f
+_scan_html_block_start_7	swift/multiMark/Pods/Down/Source/cmark/scanners.c	/^bufsize_t _scan_html_block_start_7(const unsigned char *p) {$/;"	f
+_scan_html_tag	swift/multiMark/Pods/Down/Source/cmark/scanners.c	/^bufsize_t _scan_html_tag(const unsigned char *p) {$/;"	f
+_scan_link_title	swift/multiMark/Pods/Down/Source/cmark/scanners.c	/^bufsize_t _scan_link_title(const unsigned char *p) {$/;"	f
+_scan_open_code_fence	swift/multiMark/Pods/Down/Source/cmark/scanners.c	/^bufsize_t _scan_open_code_fence(const unsigned char *p) {$/;"	f
+_scan_scheme	swift/multiMark/Pods/Down/Source/cmark/scanners.c	/^bufsize_t _scan_scheme(const unsigned char *p) {$/;"	f
+_scan_setext_heading_line	swift/multiMark/Pods/Down/Source/cmark/scanners.c	/^bufsize_t _scan_setext_heading_line(const unsigned char *p) {$/;"	f
+_scan_spacechars	swift/multiMark/Pods/Down/Source/cmark/scanners.c	/^bufsize_t _scan_spacechars(const unsigned char *p) {$/;"	f
+abc	projecteuler/name_scores.py	/^def abc(string: str)-> int:$/;"	f
+accepts_lines	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^static CMARK_INLINE bool accepts_lines(cmark_node_type block_type) {$/;"	f	file:
+active	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^  bool active;$/;"	m	struct:bracket	file:
+add	shit/reallshit/big_factorials.js	/^ function add(str1, str2) {$/;"	f
+add_child	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^static cmark_node *add_child(cmark_parser *parser, cmark_node *parent,$/;"	f	file:
+add_line	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^static void add_line(cmark_node *node, cmark_chunk *ch, cmark_parser *parser) {$/;"	f	file:
+add_reference	swift/multiMark/Pods/Down/Source/cmark/references.c	/^static void add_reference(cmark_reference_map *map, cmark_reference *ref) {$/;"	f	file:
+add_text_to_container	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^static void add_text_to_container(cmark_parser *parser, cmark_node *container,$/;"	f	file:
+adjust_subj_node_newlines	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static void adjust_subj_node_newlines(subject *subj, cmark_node *node, int matchlen, int extra, int options) {$/;"	f	file:
+advance	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^#define advance(/;"	d	file:
+aggr_df	shit/python/plotly_test.py	/^aggr_df= pd.read_sql_table("kpi_aggregated", ENGINE)$/;"	v
+alloc	swift/multiMark/Pods/Down/Source/cmark/chunk.h	/^  bufsize_t alloc; \/\/ also implies a NULL-terminated string$/;"	m	struct:__anon3
+ap	shit/python/http_client.py	/^import argparse as ap$/;"	i
+app	concepts/tryouts/flask_server/server.py	/^app = Flask(__name__)$/;"	v
+app	java/jdbcConnectionTest/src/app/Main.java	/^package app;$/;"	p
+app	java/jdbcConnectionTest/src/app/PersistenceFactory.java	/^package app;$/;"	p
+argparse	shit/python/duplicate_order.py	/^    import argparse$/;"	i
+argparse	shit/python/today.py	/^import argparse$/;"	i
+args	shit/python/duplicate_order.py	/^    args = parser.parse_args()$/;"	v
+args	shit/python/http_client.py	/^    args = parser.parse_args()$/;"	v
+args_test	shit/python/args.py	/^def args_test(arg, *argv, **kwargs):$/;"	f
+as	swift/multiMark/Pods/Down/Source/cmark/node.h	/^  } as;$/;"	m	struct:cmark_node	typeref:union:cmark_node::__anon9
+asize	swift/multiMark/Pods/Down/Source/cmark/buffer.h	/^  bufsize_t asize, size;$/;"	m	struct:__anon10
+background	perl5/games/color/game.pl	/^    background:#$color;$/;"	l
+backticks	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^  bufsize_t backticks[MAXBACKTICKS + 1];$/;"	m	struct:__anon1	file:
+base_len	java/jpaTest/jpaTest/src/fuckyou/TestEntityClass.java	/^	private final static int base_len = 125;$/;"	f	class:TestEntityClass	file:
+begin_content	swift/multiMark/Pods/Down/Source/cmark/render.h	/^  bool begin_content;$/;"	m	struct:cmark_renderer
+begin_line	swift/multiMark/Pods/Down/Source/cmark/render.h	/^  bool begin_line;$/;"	m	struct:cmark_renderer
+blank	swift/multiMark/Pods/Down/Source/cmark/parser.h	/^  bool blank;$/;"	m	struct:cmark_parser
+blankline	swift/multiMark/Pods/Down/Source/cmark/render.h	/^  void (*blankline)(struct cmark_renderer *);$/;"	m	struct:cmark_renderer
+block_offset	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^  int block_offset;$/;"	m	struct:__anon1	file:
+bool	swift/multiMark/Pods/Down/Source/cmark/config.h	/^  typedef char bool;$/;"	t
+bracket	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^typedef struct bracket {$/;"	s	file:
+bracket	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^} bracket;$/;"	t	typeref:struct:bracket	file:
+bracket_after	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^  bool bracket_after;$/;"	m	struct:bracket	file:
+buffer	swift/multiMark/Pods/Down/Source/cmark/render.h	/^  cmark_strbuf *buffer;$/;"	m	struct:cmark_renderer
+bufpush	swift/multiMark/Pods/Down/Source/cmark/utf8.c	/^#define bufpush(/;"	d	file:
+bufsize_t	swift/multiMark/Pods/Down/Source/cmark/buffer.h	/^typedef int32_t bufsize_t;$/;"	t
+bullet_char	swift/multiMark/Pods/Down/Source/cmark/node.h	/^  unsigned char bullet_char;$/;"	m	struct:__anon4
+c99_snprintf	swift/multiMark/Pods/Down/Source/cmark/config.h	/^CMARK_INLINE int c99_snprintf(char *outBuf, size_t size, const char *format, ...)$/;"	f
+c99_vsnprintf	swift/multiMark/Pods/Down/Source/cmark/config.h	/^CMARK_INLINE int c99_vsnprintf(char *outBuf, size_t size, const char *format, va_list ap)$/;"	f
+c_indent	shit/python/pp_tree.py	/^def c_indent(indent):$/;"	f
+c_primes	projecteuler/circular_primes.py	/^def c_primes(limit: int) -> int:$/;"	f
+calloc	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^  void *(*calloc)(size_t, size_t);$/;"	m	struct:cmark_mem
+camelCaseRegexp	java/jpaTest/External/doc/search.js	/^var camelCaseRegexp = "";$/;"	v
+camelCaseRegexp	java/jpaTest/jpaTest/External/doc/search.js	/^var camelCaseRegexp = "";$/;"	v
+can_close	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^  bool can_close;$/;"	m	struct:delimiter	file:
+can_contain	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^static CMARK_INLINE bool can_contain(cmark_node_type parent_type,$/;"	f	file:
+can_open	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^  bool can_open;$/;"	m	struct:delimiter	file:
+catMembers	java/jpaTest/External/doc/search.js	/^var catMembers = "Members";$/;"	v
+catMembers	java/jpaTest/jpaTest/External/doc/search.js	/^var catMembers = "Members";$/;"	v
+catModules	java/jpaTest/External/doc/search.js	/^var catModules = "Modules";$/;"	v
+catModules	java/jpaTest/jpaTest/External/doc/search.js	/^var catModules = "Modules";$/;"	v
+catPackages	java/jpaTest/External/doc/search.js	/^var catPackages = "Packages";$/;"	v
+catPackages	java/jpaTest/jpaTest/External/doc/search.js	/^var catPackages = "Packages";$/;"	v
+catSearchTags	java/jpaTest/External/doc/search.js	/^var catSearchTags = "SearchTags";$/;"	v
+catSearchTags	java/jpaTest/jpaTest/External/doc/search.js	/^var catSearchTags = "SearchTags";$/;"	v
+catTypes	java/jpaTest/External/doc/search.js	/^var catTypes = "Types";$/;"	v
+catTypes	java/jpaTest/jpaTest/External/doc/search.js	/^var catTypes = "Types";$/;"	v
+check_open_blocks	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^static cmark_node *check_open_blocks(cmark_parser *parser, cmark_chunk *input,$/;"	f	file:
+chop_trailing_hashtags	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^static void chop_trailing_hashtags(cmark_chunk *ch) {$/;"	f	file:
+chunk_clone	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static cmark_chunk chunk_clone(cmark_mem *mem, cmark_chunk *src) {$/;"	f	file:
+circumference	concepts/tryouts/pi/pi.py	/^  circumference = float(input("Please insert an arbitrary circumference of your imaginary circle: "))$/;"	v
+cleanup	docker/gui_experiments/socatx11.sh	/^cleanup() {$/;"	f
+client	shit/python/http_client.py	/^import http.client$/;"	i
+cmark_chunk	swift/multiMark/Pods/Down/Source/cmark/chunk.h	/^} cmark_chunk;$/;"	t	typeref:struct:__anon3
+cmark_chunk_buf_detach	swift/multiMark/Pods/Down/Source/cmark/chunk.h	/^static CMARK_INLINE cmark_chunk cmark_chunk_buf_detach(cmark_strbuf *buf) {$/;"	f
+cmark_chunk_dup	swift/multiMark/Pods/Down/Source/cmark/chunk.h	/^static CMARK_INLINE cmark_chunk cmark_chunk_dup(const cmark_chunk *ch,$/;"	f
+cmark_chunk_free	swift/multiMark/Pods/Down/Source/cmark/chunk.h	/^static CMARK_INLINE void cmark_chunk_free(cmark_mem *mem, cmark_chunk *c) {$/;"	f
+cmark_chunk_literal	swift/multiMark/Pods/Down/Source/cmark/chunk.h	/^static CMARK_INLINE cmark_chunk cmark_chunk_literal(const char *data) {$/;"	f
+cmark_chunk_ltrim	swift/multiMark/Pods/Down/Source/cmark/chunk.h	/^static CMARK_INLINE void cmark_chunk_ltrim(cmark_chunk *c) {$/;"	f
+cmark_chunk_rtrim	swift/multiMark/Pods/Down/Source/cmark/chunk.h	/^static CMARK_INLINE void cmark_chunk_rtrim(cmark_chunk *c) {$/;"	f
+cmark_chunk_set_cstr	swift/multiMark/Pods/Down/Source/cmark/chunk.h	/^static CMARK_INLINE void cmark_chunk_set_cstr(cmark_mem *mem, cmark_chunk *c,$/;"	f
+cmark_chunk_strchr	swift/multiMark/Pods/Down/Source/cmark/chunk.h	/^static CMARK_INLINE bufsize_t cmark_chunk_strchr(cmark_chunk *ch, int c,$/;"	f
+cmark_chunk_to_cstr	swift/multiMark/Pods/Down/Source/cmark/chunk.h	/^static CMARK_INLINE const char *cmark_chunk_to_cstr(cmark_mem *mem,$/;"	f
+cmark_chunk_trim	swift/multiMark/Pods/Down/Source/cmark/chunk.h	/^static CMARK_INLINE void cmark_chunk_trim(cmark_chunk *c) {$/;"	f
+cmark_clean_autolink	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static cmark_chunk cmark_clean_autolink(cmark_mem *mem, cmark_chunk *url,$/;"	f	file:
+cmark_clean_title	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^cmark_chunk cmark_clean_title(cmark_mem *mem, cmark_chunk *title) {$/;"	f
+cmark_clean_url	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^cmark_chunk cmark_clean_url(cmark_mem *mem, cmark_chunk *url) {$/;"	f
+cmark_code	swift/multiMark/Pods/Down/Source/cmark/node.h	/^} cmark_code;$/;"	t	typeref:struct:__anon5
+cmark_consolidate_text_nodes	swift/multiMark/Pods/Down/Source/cmark/iterator.c	/^void cmark_consolidate_text_nodes(cmark_node *root) {$/;"	f
+cmark_ctype_class	swift/multiMark/Pods/Down/Source/cmark/cmark_ctype.c	/^static const uint8_t cmark_ctype_class[256] = {$/;"	v	file:
+cmark_custom	swift/multiMark/Pods/Down/Source/cmark/node.h	/^} cmark_custom;$/;"	t	typeref:struct:__anon8
+cmark_delim_type	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^} cmark_delim_type;$/;"	t	typeref:enum:__anon13
+cmark_escaping	swift/multiMark/Pods/Down/Source/cmark/render.h	/^typedef enum { LITERAL, NORMAL, TITLE, URL } cmark_escaping;$/;"	t	typeref:enum:__anon16
+cmark_event_type	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^} cmark_event_type;$/;"	t	typeref:enum:__anon14
+cmark_heading	swift/multiMark/Pods/Down/Source/cmark/node.h	/^} cmark_heading;$/;"	t	typeref:struct:__anon6
+cmark_isalnum	swift/multiMark/Pods/Down/Source/cmark/cmark_ctype.c	/^int cmark_isalnum(char c) {$/;"	f
+cmark_isalpha	swift/multiMark/Pods/Down/Source/cmark/cmark_ctype.c	/^int cmark_isalpha(char c) { return cmark_ctype_class[(uint8_t)c] == 4; }$/;"	f
+cmark_isdigit	swift/multiMark/Pods/Down/Source/cmark/cmark_ctype.c	/^int cmark_isdigit(char c) { return cmark_ctype_class[(uint8_t)c] == 3; }$/;"	f
+cmark_ispunct	swift/multiMark/Pods/Down/Source/cmark/cmark_ctype.c	/^int cmark_ispunct(char c) { return cmark_ctype_class[(uint8_t)c] == 2; }$/;"	f
+cmark_isspace	swift/multiMark/Pods/Down/Source/cmark/cmark_ctype.c	/^int cmark_isspace(char c) { return cmark_ctype_class[(uint8_t)c] == 1; }$/;"	f
+cmark_iter	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^typedef struct cmark_iter cmark_iter;$/;"	t	typeref:struct:cmark_iter
+cmark_iter	swift/multiMark/Pods/Down/Source/cmark/iterator.h	/^struct cmark_iter {$/;"	s
+cmark_iter_free	swift/multiMark/Pods/Down/Source/cmark/iterator.c	/^void cmark_iter_free(cmark_iter *iter) { iter->mem->free(iter); }$/;"	f
+cmark_iter_get_event_type	swift/multiMark/Pods/Down/Source/cmark/iterator.c	/^cmark_event_type cmark_iter_get_event_type(cmark_iter *iter) {$/;"	f
+cmark_iter_get_node	swift/multiMark/Pods/Down/Source/cmark/iterator.c	/^cmark_node *cmark_iter_get_node(cmark_iter *iter) { return iter->cur.node; }$/;"	f
+cmark_iter_get_root	swift/multiMark/Pods/Down/Source/cmark/iterator.c	/^cmark_node *cmark_iter_get_root(cmark_iter *iter) { return iter->root; }$/;"	f
+cmark_iter_new	swift/multiMark/Pods/Down/Source/cmark/iterator.c	/^cmark_iter *cmark_iter_new(cmark_node *root) {$/;"	f
+cmark_iter_next	swift/multiMark/Pods/Down/Source/cmark/iterator.c	/^cmark_event_type cmark_iter_next(cmark_iter *iter) {$/;"	f
+cmark_iter_reset	swift/multiMark/Pods/Down/Source/cmark/iterator.c	/^void cmark_iter_reset(cmark_iter *iter, cmark_node *current,$/;"	f
+cmark_iter_state	swift/multiMark/Pods/Down/Source/cmark/iterator.h	/^} cmark_iter_state;$/;"	t	typeref:struct:__anon15
+cmark_link	swift/multiMark/Pods/Down/Source/cmark/node.h	/^} cmark_link;$/;"	t	typeref:struct:__anon7
+cmark_list	swift/multiMark/Pods/Down/Source/cmark/node.h	/^} cmark_list;$/;"	t	typeref:struct:__anon4
+cmark_list_type	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^} cmark_list_type;$/;"	t	typeref:enum:__anon12
+cmark_markdown_to_html	swift/multiMark/Pods/Down/Source/cmark/cmark.c	/^char *cmark_markdown_to_html(const char *text, size_t len, int options) {$/;"	f
+cmark_mem	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^typedef struct cmark_mem {$/;"	s
+cmark_mem	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^} cmark_mem;$/;"	t	typeref:struct:cmark_mem
+cmark_node	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^typedef struct cmark_node cmark_node;$/;"	t	typeref:struct:cmark_node
+cmark_node	swift/multiMark/Pods/Down/Source/cmark/node.h	/^struct cmark_node {$/;"	s
+cmark_node__internal_flags	swift/multiMark/Pods/Down/Source/cmark/node.h	/^enum cmark_node__internal_flags {$/;"	g
+cmark_node_append_child	swift/multiMark/Pods/Down/Source/cmark/node.c	/^int cmark_node_append_child(cmark_node *node, cmark_node *child) {$/;"	f
+cmark_node_check	swift/multiMark/Pods/Down/Source/cmark/node.c	/^int cmark_node_check(cmark_node *node, FILE *out) {$/;"	f
+cmark_node_first_child	swift/multiMark/Pods/Down/Source/cmark/node.c	/^cmark_node *cmark_node_first_child(cmark_node *node) {$/;"	f
+cmark_node_free	swift/multiMark/Pods/Down/Source/cmark/node.c	/^void cmark_node_free(cmark_node *node) {$/;"	f
+cmark_node_get_end_column	swift/multiMark/Pods/Down/Source/cmark/node.c	/^int cmark_node_get_end_column(cmark_node *node) {$/;"	f
+cmark_node_get_end_line	swift/multiMark/Pods/Down/Source/cmark/node.c	/^int cmark_node_get_end_line(cmark_node *node) {$/;"	f
+cmark_node_get_fence_info	swift/multiMark/Pods/Down/Source/cmark/node.c	/^const char *cmark_node_get_fence_info(cmark_node *node) {$/;"	f
+cmark_node_get_header_level	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^#define cmark_node_get_header_level /;"	d
+cmark_node_get_heading_level	swift/multiMark/Pods/Down/Source/cmark/node.c	/^int cmark_node_get_heading_level(cmark_node *node) {$/;"	f
+cmark_node_get_list_delim	swift/multiMark/Pods/Down/Source/cmark/node.c	/^cmark_delim_type cmark_node_get_list_delim(cmark_node *node) {$/;"	f
+cmark_node_get_list_start	swift/multiMark/Pods/Down/Source/cmark/node.c	/^int cmark_node_get_list_start(cmark_node *node) {$/;"	f
+cmark_node_get_list_tight	swift/multiMark/Pods/Down/Source/cmark/node.c	/^int cmark_node_get_list_tight(cmark_node *node) {$/;"	f
+cmark_node_get_list_type	swift/multiMark/Pods/Down/Source/cmark/node.c	/^cmark_list_type cmark_node_get_list_type(cmark_node *node) {$/;"	f
+cmark_node_get_literal	swift/multiMark/Pods/Down/Source/cmark/node.c	/^const char *cmark_node_get_literal(cmark_node *node) {$/;"	f
+cmark_node_get_on_enter	swift/multiMark/Pods/Down/Source/cmark/node.c	/^const char *cmark_node_get_on_enter(cmark_node *node) {$/;"	f
+cmark_node_get_on_exit	swift/multiMark/Pods/Down/Source/cmark/node.c	/^const char *cmark_node_get_on_exit(cmark_node *node) {$/;"	f
+cmark_node_get_start_column	swift/multiMark/Pods/Down/Source/cmark/node.c	/^int cmark_node_get_start_column(cmark_node *node) {$/;"	f
+cmark_node_get_start_line	swift/multiMark/Pods/Down/Source/cmark/node.c	/^int cmark_node_get_start_line(cmark_node *node) {$/;"	f
+cmark_node_get_title	swift/multiMark/Pods/Down/Source/cmark/node.c	/^const char *cmark_node_get_title(cmark_node *node) {$/;"	f
+cmark_node_get_type	swift/multiMark/Pods/Down/Source/cmark/node.c	/^cmark_node_type cmark_node_get_type(cmark_node *node) {$/;"	f
+cmark_node_get_type_string	swift/multiMark/Pods/Down/Source/cmark/node.c	/^const char *cmark_node_get_type_string(cmark_node *node) {$/;"	f
+cmark_node_get_url	swift/multiMark/Pods/Down/Source/cmark/node.c	/^const char *cmark_node_get_url(cmark_node *node) {$/;"	f
+cmark_node_get_user_data	swift/multiMark/Pods/Down/Source/cmark/node.c	/^void *cmark_node_get_user_data(cmark_node *node) {$/;"	f
+cmark_node_insert_after	swift/multiMark/Pods/Down/Source/cmark/node.c	/^int cmark_node_insert_after(cmark_node *node, cmark_node *sibling) {$/;"	f
+cmark_node_insert_before	swift/multiMark/Pods/Down/Source/cmark/node.c	/^int cmark_node_insert_before(cmark_node *node, cmark_node *sibling) {$/;"	f
+cmark_node_last_child	swift/multiMark/Pods/Down/Source/cmark/node.c	/^cmark_node *cmark_node_last_child(cmark_node *node) {$/;"	f
+cmark_node_mem	swift/multiMark/Pods/Down/Source/cmark/node.h	/^static CMARK_INLINE cmark_mem *cmark_node_mem(cmark_node *node) {$/;"	f
+cmark_node_new	swift/multiMark/Pods/Down/Source/cmark/node.c	/^cmark_node *cmark_node_new(cmark_node_type type) {$/;"	f
+cmark_node_new_with_mem	swift/multiMark/Pods/Down/Source/cmark/node.c	/^cmark_node *cmark_node_new_with_mem(cmark_node_type type, cmark_mem *mem) {$/;"	f
+cmark_node_next	swift/multiMark/Pods/Down/Source/cmark/node.c	/^cmark_node *cmark_node_next(cmark_node *node) {$/;"	f
+cmark_node_parent	swift/multiMark/Pods/Down/Source/cmark/node.c	/^cmark_node *cmark_node_parent(cmark_node *node) {$/;"	f
+cmark_node_prepend_child	swift/multiMark/Pods/Down/Source/cmark/node.c	/^int cmark_node_prepend_child(cmark_node *node, cmark_node *child) {$/;"	f
+cmark_node_previous	swift/multiMark/Pods/Down/Source/cmark/node.c	/^cmark_node *cmark_node_previous(cmark_node *node) {$/;"	f
+cmark_node_replace	swift/multiMark/Pods/Down/Source/cmark/node.c	/^int cmark_node_replace(cmark_node *oldnode, cmark_node *newnode) {$/;"	f
+cmark_node_set_fence_info	swift/multiMark/Pods/Down/Source/cmark/node.c	/^int cmark_node_set_fence_info(cmark_node *node, const char *info) {$/;"	f
+cmark_node_set_header_level	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^#define cmark_node_set_header_level /;"	d
+cmark_node_set_heading_level	swift/multiMark/Pods/Down/Source/cmark/node.c	/^int cmark_node_set_heading_level(cmark_node *node, int level) {$/;"	f
+cmark_node_set_list_delim	swift/multiMark/Pods/Down/Source/cmark/node.c	/^int cmark_node_set_list_delim(cmark_node *node, cmark_delim_type delim) {$/;"	f
+cmark_node_set_list_start	swift/multiMark/Pods/Down/Source/cmark/node.c	/^int cmark_node_set_list_start(cmark_node *node, int start) {$/;"	f
+cmark_node_set_list_tight	swift/multiMark/Pods/Down/Source/cmark/node.c	/^int cmark_node_set_list_tight(cmark_node *node, int tight) {$/;"	f
+cmark_node_set_list_type	swift/multiMark/Pods/Down/Source/cmark/node.c	/^int cmark_node_set_list_type(cmark_node *node, cmark_list_type type) {$/;"	f
+cmark_node_set_literal	swift/multiMark/Pods/Down/Source/cmark/node.c	/^int cmark_node_set_literal(cmark_node *node, const char *content) {$/;"	f
+cmark_node_set_on_enter	swift/multiMark/Pods/Down/Source/cmark/node.c	/^int cmark_node_set_on_enter(cmark_node *node, const char *on_enter) {$/;"	f
+cmark_node_set_on_exit	swift/multiMark/Pods/Down/Source/cmark/node.c	/^int cmark_node_set_on_exit(cmark_node *node, const char *on_exit) {$/;"	f
+cmark_node_set_title	swift/multiMark/Pods/Down/Source/cmark/node.c	/^int cmark_node_set_title(cmark_node *node, const char *title) {$/;"	f
+cmark_node_set_url	swift/multiMark/Pods/Down/Source/cmark/node.c	/^int cmark_node_set_url(cmark_node *node, const char *url) {$/;"	f
+cmark_node_set_user_data	swift/multiMark/Pods/Down/Source/cmark/node.c	/^int cmark_node_set_user_data(cmark_node *node, void *user_data) {$/;"	f
+cmark_node_type	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^} cmark_node_type;$/;"	t	typeref:enum:__anon11
+cmark_node_unlink	swift/multiMark/Pods/Down/Source/cmark/node.c	/^void cmark_node_unlink(cmark_node *node) {$/;"	f
+cmark_parse_document	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^cmark_node *cmark_parse_document(const char *buffer, size_t len, int options) {$/;"	f
+cmark_parse_file	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^cmark_node *cmark_parse_file(FILE *f, int options) {$/;"	f
+cmark_parse_inlines	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^extern void cmark_parse_inlines(cmark_mem *mem, cmark_node *parent,$/;"	f
+cmark_parse_reference_inline	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^bufsize_t cmark_parse_reference_inline(cmark_mem *mem, cmark_chunk *input,$/;"	f
+cmark_parser	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^typedef struct cmark_parser cmark_parser;$/;"	t	typeref:struct:cmark_parser
+cmark_parser	swift/multiMark/Pods/Down/Source/cmark/parser.h	/^struct cmark_parser {$/;"	s
+cmark_parser_feed	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^void cmark_parser_feed(cmark_parser *parser, const char *buffer, size_t len) {$/;"	f
+cmark_parser_finish	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^cmark_node *cmark_parser_finish(cmark_parser *parser) {$/;"	f
+cmark_parser_free	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^void cmark_parser_free(cmark_parser *parser) {$/;"	f
+cmark_parser_new	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^cmark_parser *cmark_parser_new(int options) {$/;"	f
+cmark_parser_new_with_mem	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^cmark_parser *cmark_parser_new_with_mem(int options, cmark_mem *mem) {$/;"	f
+cmark_reference	swift/multiMark/Pods/Down/Source/cmark/references.h	/^struct cmark_reference {$/;"	s
+cmark_reference	swift/multiMark/Pods/Down/Source/cmark/references.h	/^typedef struct cmark_reference cmark_reference;$/;"	t	typeref:struct:cmark_reference
+cmark_reference_create	swift/multiMark/Pods/Down/Source/cmark/references.c	/^void cmark_reference_create(cmark_reference_map *map, cmark_chunk *label,$/;"	f
+cmark_reference_lookup	swift/multiMark/Pods/Down/Source/cmark/references.c	/^cmark_reference *cmark_reference_lookup(cmark_reference_map *map,$/;"	f
+cmark_reference_map	swift/multiMark/Pods/Down/Source/cmark/references.h	/^struct cmark_reference_map {$/;"	s
+cmark_reference_map	swift/multiMark/Pods/Down/Source/cmark/references.h	/^typedef struct cmark_reference_map cmark_reference_map;$/;"	t	typeref:struct:cmark_reference_map
+cmark_reference_map_free	swift/multiMark/Pods/Down/Source/cmark/references.c	/^void cmark_reference_map_free(cmark_reference_map *map) {$/;"	f
+cmark_reference_map_new	swift/multiMark/Pods/Down/Source/cmark/references.c	/^cmark_reference_map *cmark_reference_map_new(cmark_mem *mem) {$/;"	f
+cmark_render	swift/multiMark/Pods/Down/Source/cmark/render.c	/^char *cmark_render(cmark_node *root, int options, int width,$/;"	f
+cmark_render_ascii	swift/multiMark/Pods/Down/Source/cmark/render.c	/^void cmark_render_ascii(cmark_renderer *renderer, const char *s) {$/;"	f
+cmark_render_code_point	swift/multiMark/Pods/Down/Source/cmark/render.c	/^void cmark_render_code_point(cmark_renderer *renderer, uint32_t c) {$/;"	f
+cmark_render_commonmark	swift/multiMark/Pods/Down/Source/cmark/commonmark.c	/^char *cmark_render_commonmark(cmark_node *root, int options, int width) {$/;"	f
+cmark_render_html	swift/multiMark/Pods/Down/Source/cmark/html.c	/^char *cmark_render_html(cmark_node *root, int options) {$/;"	f
+cmark_render_latex	swift/multiMark/Pods/Down/Source/cmark/latex.c	/^char *cmark_render_latex(cmark_node *root, int options, int width) {$/;"	f
+cmark_render_man	swift/multiMark/Pods/Down/Source/cmark/man.c	/^char *cmark_render_man(cmark_node *root, int options, int width) {$/;"	f
+cmark_render_xml	swift/multiMark/Pods/Down/Source/cmark/xml.c	/^char *cmark_render_xml(cmark_node *root, int options) {$/;"	f
+cmark_renderer	swift/multiMark/Pods/Down/Source/cmark/render.h	/^struct cmark_renderer {$/;"	s
+cmark_renderer	swift/multiMark/Pods/Down/Source/cmark/render.h	/^typedef struct cmark_renderer cmark_renderer;$/;"	t	typeref:struct:cmark_renderer
+cmark_strbuf	swift/multiMark/Pods/Down/Source/cmark/buffer.h	/^} cmark_strbuf;$/;"	t	typeref:struct:__anon10
+cmark_strbuf__initbuf	swift/multiMark/Pods/Down/Source/cmark/buffer.c	/^unsigned char cmark_strbuf__initbuf[1];$/;"	v
+cmark_strbuf_at	swift/multiMark/Pods/Down/Source/cmark/buffer.h	/^#define cmark_strbuf_at(/;"	d
+cmark_strbuf_clear	swift/multiMark/Pods/Down/Source/cmark/buffer.c	/^void cmark_strbuf_clear(cmark_strbuf *buf) {$/;"	f
+cmark_strbuf_cmp	swift/multiMark/Pods/Down/Source/cmark/buffer.c	/^int cmark_strbuf_cmp(const cmark_strbuf *a, const cmark_strbuf *b) {$/;"	f
+cmark_strbuf_copy_cstr	swift/multiMark/Pods/Down/Source/cmark/buffer.c	/^void cmark_strbuf_copy_cstr(char *data, bufsize_t datasize,$/;"	f
+cmark_strbuf_cstr	swift/multiMark/Pods/Down/Source/cmark/buffer.h	/^static CMARK_INLINE const char *cmark_strbuf_cstr(const cmark_strbuf *buf) {$/;"	f
+cmark_strbuf_detach	swift/multiMark/Pods/Down/Source/cmark/buffer.c	/^unsigned char *cmark_strbuf_detach(cmark_strbuf *buf) {$/;"	f
+cmark_strbuf_drop	swift/multiMark/Pods/Down/Source/cmark/buffer.c	/^void cmark_strbuf_drop(cmark_strbuf *buf, bufsize_t n) {$/;"	f
+cmark_strbuf_free	swift/multiMark/Pods/Down/Source/cmark/buffer.c	/^void cmark_strbuf_free(cmark_strbuf *buf) {$/;"	f
+cmark_strbuf_grow	swift/multiMark/Pods/Down/Source/cmark/buffer.c	/^void cmark_strbuf_grow(cmark_strbuf *buf, bufsize_t target_size) {$/;"	f
+cmark_strbuf_init	swift/multiMark/Pods/Down/Source/cmark/buffer.c	/^void cmark_strbuf_init(cmark_mem *mem, cmark_strbuf *buf,$/;"	f
+cmark_strbuf_len	swift/multiMark/Pods/Down/Source/cmark/buffer.c	/^bufsize_t cmark_strbuf_len(const cmark_strbuf *buf) { return buf->size; }$/;"	f
+cmark_strbuf_normalize_whitespace	swift/multiMark/Pods/Down/Source/cmark/buffer.c	/^void cmark_strbuf_normalize_whitespace(cmark_strbuf *s) {$/;"	f
+cmark_strbuf_put	swift/multiMark/Pods/Down/Source/cmark/buffer.c	/^void cmark_strbuf_put(cmark_strbuf *buf, const unsigned char *data,$/;"	f
+cmark_strbuf_putc	swift/multiMark/Pods/Down/Source/cmark/buffer.c	/^void cmark_strbuf_putc(cmark_strbuf *buf, int c) {$/;"	f
+cmark_strbuf_puts	swift/multiMark/Pods/Down/Source/cmark/buffer.c	/^void cmark_strbuf_puts(cmark_strbuf *buf, const char *string) {$/;"	f
+cmark_strbuf_rtrim	swift/multiMark/Pods/Down/Source/cmark/buffer.c	/^void cmark_strbuf_rtrim(cmark_strbuf *buf) {$/;"	f
+cmark_strbuf_set	swift/multiMark/Pods/Down/Source/cmark/buffer.c	/^void cmark_strbuf_set(cmark_strbuf *buf, const unsigned char *data,$/;"	f
+cmark_strbuf_sets	swift/multiMark/Pods/Down/Source/cmark/buffer.c	/^void cmark_strbuf_sets(cmark_strbuf *buf, const char *string) {$/;"	f
+cmark_strbuf_strchr	swift/multiMark/Pods/Down/Source/cmark/buffer.c	/^bufsize_t cmark_strbuf_strchr(const cmark_strbuf *buf, int c, bufsize_t pos) {$/;"	f
+cmark_strbuf_strrchr	swift/multiMark/Pods/Down/Source/cmark/buffer.c	/^bufsize_t cmark_strbuf_strrchr(const cmark_strbuf *buf, int c, bufsize_t pos) {$/;"	f
+cmark_strbuf_swap	swift/multiMark/Pods/Down/Source/cmark/buffer.c	/^void cmark_strbuf_swap(cmark_strbuf *buf_a, cmark_strbuf *buf_b) {$/;"	f
+cmark_strbuf_trim	swift/multiMark/Pods/Down/Source/cmark/buffer.c	/^void cmark_strbuf_trim(cmark_strbuf *buf) {$/;"	f
+cmark_strbuf_truncate	swift/multiMark/Pods/Down/Source/cmark/buffer.c	/^void cmark_strbuf_truncate(cmark_strbuf *buf, bufsize_t len) {$/;"	f
+cmark_strbuf_unescape	swift/multiMark/Pods/Down/Source/cmark/buffer.c	/^extern void cmark_strbuf_unescape(cmark_strbuf *buf) {$/;"	f
+cmark_utf8proc_case_fold	swift/multiMark/Pods/Down/Source/cmark/utf8.c	/^void cmark_utf8proc_case_fold(cmark_strbuf *dest, const uint8_t *str,$/;"	f
+cmark_utf8proc_check	swift/multiMark/Pods/Down/Source/cmark/utf8.c	/^void cmark_utf8proc_check(cmark_strbuf *ob, const uint8_t *line,$/;"	f
+cmark_utf8proc_encode_char	swift/multiMark/Pods/Down/Source/cmark/utf8.c	/^void cmark_utf8proc_encode_char(int32_t uc, cmark_strbuf *buf) {$/;"	f
+cmark_utf8proc_is_punctuation	swift/multiMark/Pods/Down/Source/cmark/utf8.c	/^int cmark_utf8proc_is_punctuation(int32_t uc) {$/;"	f
+cmark_utf8proc_is_space	swift/multiMark/Pods/Down/Source/cmark/utf8.c	/^int cmark_utf8proc_is_space(int32_t uc) {$/;"	f
+cmark_utf8proc_iterate	swift/multiMark/Pods/Down/Source/cmark/utf8.c	/^int cmark_utf8proc_iterate(const uint8_t *str, bufsize_t str_len,$/;"	f
+cmark_version	swift/multiMark/Pods/Down/Source/cmark/cmark.c	/^int cmark_version() { return CMARK_VERSION; }$/;"	f
+cmark_version_string	swift/multiMark/Pods/Down/Source/cmark/cmark.c	/^const char *cmark_version_string() { return CMARK_VERSION_STRING; }$/;"	f
+code	swift/multiMark/Pods/Down/Source/cmark/node.h	/^    cmark_code code;$/;"	m	union:cmark_node::__anon9
+code_sign_if_enabled	swift/multiMark/Pods/Target Support Files/Pods-multiMark/Pods-multiMark-frameworks.sh	/^code_sign_if_enabled() {$/;"	f
+codecs	shit/python/corona/sum_died.py	/^import codecs$/;"	i
+color	perl5/games/color/game.pl	/^       color:#fff;$/;"	l
+column	exercism/python/matrix/matrix.py	/^    def column(self, index):$/;"	m	class:Matrix
+column	swift/multiMark/Pods/Down/Source/cmark/parser.h	/^  bufsize_t column;$/;"	m	struct:cmark_parser
+column	swift/multiMark/Pods/Down/Source/cmark/render.h	/^  int column;$/;"	m	struct:cmark_renderer
+column_offset	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^  int column_offset;$/;"	m	struct:__anon1	file:
+complex_types	shit/python/test.py	/^complex_types = dict, list, tuple$/;"	v
+configure_env	perl5/autoupdate.pl	/^sub configure_env {$/;"	s
+configure_env	perl5/dockeruser.pl	/^sub configure_env {$/;"	s
+conn	java/jdbcConnectionTest/src/app/Main.java	/^  private static Connection conn = PersistenceFactory.jdbcConn;$/;"	f	class:Main	file:
+const	shit/mai_solutions/uid.js	/^const attach_id = function () {$/;"	f
+constructor	java/jpaTest/External/doc/jquery/jquery-ui.js	/^	constructor.prototype = $.widget.extend( basePrototype, {$/;"	c
+constructor	java/jpaTest/jpaTest/External/doc/jquery/jquery-ui.js	/^	constructor.prototype = $.widget.extend( basePrototype, {$/;"	c
+contains_inlines	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^static CMARK_INLINE bool contains_inlines(cmark_node_type block_type) {$/;"	f	file:
+content	swift/multiMark/Pods/Down/Source/cmark/node.h	/^  cmark_strbuf content;$/;"	m	struct:cmark_node
+convert	exercism/python/raindrops/raindrops.py	/^def convert(number):$/;"	f
+convert	exercism/python/raindrops/raindrops_test.py	/^from raindrops import convert$/;"	i
+count_newlines	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static int count_newlines(subject *subj, bufsize_t from, bufsize_t len, int *since_newline) {$/;"	f	file:
+countingSort	shit/python/csort.py	/^def countingSort(array):$/;"	f
+cr	swift/multiMark/Pods/Down/Source/cmark/html.c	/^static CMARK_INLINE void cr(cmark_strbuf *html) {$/;"	f	file:
+cr	swift/multiMark/Pods/Down/Source/cmark/render.h	/^  void (*cr)(struct cmark_renderer *);$/;"	m	struct:cmark_renderer
+createElem	java/jpaTest/External/doc/script.js	/^function createElem(doc, tag, path) {$/;"	f
+createElem	java/jpaTest/jpaTest/External/doc/script.js	/^function createElem(doc, tag, path) {$/;"	f
+create_engine	shit/python/plotly_test.py	/^from sqlalchemy import create_engine$/;"	i
+create_tree	shit/python/pp_tree.py	/^def create_tree(obj):$/;"	f
+csv	shit/python/find_country/plz.py	/^    import csv$/;"	i
+cur	swift/multiMark/Pods/Down/Source/cmark/iterator.h	/^  cmark_iter_state cur;$/;"	m	struct:cmark_iter
+curOption	java/jpaTest/External/doc/jquery/jquery-ui.js	/^		var curOption;$/;"	v
+curOption	java/jpaTest/jpaTest/External/doc/jquery/jquery-ui.js	/^		var curOption;$/;"	v
+curline	swift/multiMark/Pods/Down/Source/cmark/parser.h	/^  cmark_strbuf curline;$/;"	m	struct:cmark_parser
+current	swift/multiMark/Pods/Down/Source/cmark/parser.h	/^  struct cmark_node *current;$/;"	m	struct:cmark_parser	typeref:struct:cmark_parser::cmark_node
+custom	swift/multiMark/Pods/Down/Source/cmark/node.h	/^    cmark_custom custom;$/;"	m	union:cmark_node::__anon9
+data	swift/multiMark/Pods/Down/Source/cmark/chunk.h	/^  unsigned char *data;$/;"	m	struct:__anon3
+delim_char	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^  unsigned char delim_char;$/;"	m	struct:delimiter	file:
+delimiter	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^typedef struct delimiter {$/;"	s	file:
+delimiter	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^} delimiter;$/;"	t	typeref:struct:delimiter	file:
+delimiter	swift/multiMark/Pods/Down/Source/cmark/node.h	/^  cmark_delim_type delimiter;$/;"	m	struct:__anon4
+diameter	concepts/tryouts/pi/pi.py	/^  diameter = float(input("Please insert an arbitrary diameter of your imaginary circle: "))$/;"	v
+died	shit/python/corona/sum_died.py	/^    died = 0.0$/;"	v
+digital_root	shit/python/sum_of_digits.py	/^def digital_root(n):$/;"	f
+dirReduc	shit/python/str_pair.py	/^def dirReduc(arr: list) -> list:$/;"	f
+divisorGenerator	shit/python/get_divisors.py	/^def divisorGenerator(n):$/;"	f
+duckGen	shit/python/generator.py	/^def duckGen(amount: int) -> T.Coroutine:$/;"	f
+duplicate_encode	shit/python/duplicate_order.py	/^def duplicate_encode(word: str) -> str:$/;"	f
+encode_unknown	swift/multiMark/Pods/Down/Source/cmark/utf8.c	/^static void encode_unknown(cmark_strbuf *buf) {$/;"	f	file:
+encoded	shit/python/duplicate_order.py	/^    encoded = duplicate_encode(word=args.w)$/;"	v
+end_column	swift/multiMark/Pods/Down/Source/cmark/node.h	/^  int end_column;$/;"	m	struct:cmark_node
+end_line	swift/multiMark/Pods/Down/Source/cmark/node.h	/^  int end_line;$/;"	m	struct:cmark_node
+escape	concepts/tryouts/flask_server/server.py	/^import escape$/;"	i
+escape_html	swift/multiMark/Pods/Down/Source/cmark/html.c	/^static void escape_html(cmark_strbuf *dest, const unsigned char *source,$/;"	f	file:
+escape_xml	swift/multiMark/Pods/Down/Source/cmark/xml.c	/^static void escape_xml(cmark_strbuf *dest, const unsigned char *source,$/;"	f	file:
+ev_type	swift/multiMark/Pods/Down/Source/cmark/iterator.h	/^  cmark_event_type ev_type;$/;"	m	struct:__anon15
+even_fibs	projecteuler/sum_even_fib32.py	/^def even_fibs(fibs32: list) -> list:$/;"	f
+fact	projecteuler/smallest_divisable_0_20.py	/^def fact(n: int) -> int:$/;"	f
+factorial	shit/reallshit/big_factorials.js	/^function factorial(n){$/;"	f
+factorize	shit/python/calc_sum.py	/^def factorize(lol, facts):$/;"	f
+facts	shit/python/calc_sum.py	/^  facts = {7: 1, 5113051: 1}$/;"	v
+fence_char	swift/multiMark/Pods/Down/Source/cmark/node.h	/^  unsigned char fence_char;$/;"	m	struct:__anon5
+fence_length	swift/multiMark/Pods/Down/Source/cmark/node.h	/^  uint8_t fence_length;$/;"	m	struct:__anon5
+fence_offset	swift/multiMark/Pods/Down/Source/cmark/node.h	/^  uint8_t fence_offset;$/;"	m	struct:__anon5
+fenced	swift/multiMark/Pods/Down/Source/cmark/node.h	/^  int8_t fenced;$/;"	m	struct:__anon5
+fib	projecteuler/1000-digit_fib.py	/^def fib(n):$/;"	f
+fib	projecteuler/sum_even_fib32.py	/^    fib = [0, 1, 1, 2, 3, 5, 8, 13, 21, 34, 55, 89, 144, 233, 377, 610, 987, 1597, 2584, 4181, 6765,$/;"	v
+fib	shit/python/fib_generator.py	/^def fib(n: int) -> T.Coroutine:$/;"	f
+fig	shit/python/plotly_test.py	/^fig = px.line(visits, x="site_id", y="figure", title='Life expectancy in Canada')$/;"	v
+filedata	projecteuler/large_sum.py	/^  filedata  = open(".\/INPUT_large_sum.txt", 'r').read().split('\\n')$/;"	v
+filedata	projecteuler/name_scores.py	/^  filedata  = open(".\/INPUT_name_scores.txt", "r").read().split('\\n')$/;"	v
+finalize	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^static cmark_node *finalize(cmark_parser *parser, cmark_node *b) {$/;"	f	file:
+finalize_document	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^static cmark_node *finalize_document(cmark_parser *parser) {$/;"	f	file:
+find_country	shit/python/find_country/geo.py	/^def find_country(latitude, longitude):$/;"	f
+find_plz	shit/python/find_country/plz.py	/^def find_plz(latitude, longitude):$/;"	f
+first_child	swift/multiMark/Pods/Down/Source/cmark/node.h	/^  struct cmark_node *first_child;$/;"	m	struct:cmark_node	typeref:struct:cmark_node::cmark_node
+first_nonspace	swift/multiMark/Pods/Down/Source/cmark/parser.h	/^  bufsize_t first_nonspace;$/;"	m	struct:cmark_parser
+first_nonspace_column	swift/multiMark/Pods/Down/Source/cmark/parser.h	/^  bufsize_t first_nonspace_column;$/;"	m	struct:cmark_parser
+firstname	java/jpaTest/jpaTest/src/fuckyou/TestEntityClass.java	/^	private String firstname;$/;"	f	class:TestEntityClass	file:
+flags	swift/multiMark/Pods/Down/Source/cmark/node.h	/^  uint16_t flags;$/;"	m	struct:cmark_node
+free	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^  void (*free)(void *);$/;"	m	struct:cmark_mem
+fuckyou	java/jpaTest/jpaTest/src/fuckyou/FuckYou.java	/^package fuckyou;$/;"	p
+fuckyou	java/jpaTest/jpaTest/src/fuckyou/TestEntityClass.java	/^package fuckyou;$/;"	p
+getBaseURL	html/sidebar-layout/dist/layout.ce9e190e.js	/^function getBaseURL(url) {$/;"	f
+getDimensions	java/jpaTest/External/doc/jquery/jquery-ui.js	/^function getDimensions( elem ) {$/;"	f
+getDimensions	java/jpaTest/jpaTest/External/doc/jquery/jquery-ui.js	/^function getDimensions( elem ) {$/;"	f
+getHighlightedText	java/jpaTest/External/doc/search.js	/^function getHighlightedText(item) {$/;"	f
+getHighlightedText	java/jpaTest/jpaTest/External/doc/search.js	/^function getHighlightedText(item) {$/;"	f
+getOffsets	java/jpaTest/External/doc/jquery/jquery-ui.js	/^function getOffsets( offsets, width, height ) {$/;"	f
+getOffsets	java/jpaTest/jpaTest/External/doc/jquery/jquery-ui.js	/^function getOffsets( offsets, width, height ) {$/;"	f
+getURLPrefix	java/jpaTest/External/doc/search.js	/^function getURLPrefix(ui) {$/;"	f
+getURLPrefix	java/jpaTest/jpaTest/External/doc/search.js	/^function getURLPrefix(ui) {$/;"	f
+get_containing_block	swift/multiMark/Pods/Down/Source/cmark/commonmark.c	/^static cmark_node *get_containing_block(cmark_node *node) {$/;"	f	file:
+get_link_type	swift/multiMark/Pods/Down/Source/cmark/latex.c	/^static link_type get_link_type(cmark_node *node) {$/;"	f	file:
+greet	concepts/tryouts/flask_server/server.py	/^def greet():$/;"	f
+h	shit/python/iterator.py	/^    h = HolyIter()$/;"	v
+handle_backslash	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static cmark_node *handle_backslash(subject *subj) {$/;"	f	file:
+handle_backticks	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static cmark_node *handle_backticks(subject *subj, int options) {$/;"	f	file:
+handle_close_bracket	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static cmark_node *handle_close_bracket(subject *subj) {$/;"	f	file:
+handle_delim	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static cmark_node *handle_delim(subject *subj, unsigned char c, bool smart) {$/;"	f	file:
+handle_entity	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static cmark_node *handle_entity(subject *subj) {$/;"	f	file:
+handle_hyphen	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static cmark_node *handle_hyphen(subject *subj, bool smart) {$/;"	f	file:
+handle_newline	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static cmark_node *handle_newline(subject *subj) {$/;"	f	file:
+handle_period	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static cmark_node *handle_period(subject *subj, bool smart) {$/;"	f	file:
+handle_pointy_brace	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static cmark_node *handle_pointy_brace(subject *subj, int options) {$/;"	f	file:
+hash	swift/multiMark/Pods/Down/Source/cmark/references.h	/^  unsigned int hash;$/;"	m	struct:cmark_reference
+heading	swift/multiMark/Pods/Down/Source/cmark/node.h	/^    cmark_heading heading;$/;"	m	union:cmark_node::__anon9
+hello	exercism/python/hello-world/hello_world.py	/^def hello():$/;"	f
+hello	exercism/python/hello-world/hello_world_test.py	/^from hello_world import hello$/;"	i
+highlight	java/jpaTest/External/doc/search.js	/^var highlight = "<span class=\\"resultHighlight\\">$&<\/span>";$/;"	v
+highlight	java/jpaTest/jpaTest/External/doc/search.js	/^var highlight = "<span class=\\"resultHighlight\\">$&<\/span>";$/;"	v
+houdini_escape_href	swift/multiMark/Pods/Down/Source/cmark/houdini_href_e.c	/^int houdini_escape_href(cmark_strbuf *ob, const uint8_t *src, bufsize_t size) {$/;"	f
+houdini_escape_html	swift/multiMark/Pods/Down/Source/cmark/houdini_html_e.c	/^int houdini_escape_html(cmark_strbuf *ob, const uint8_t *src, bufsize_t size) {$/;"	f
+houdini_escape_html0	swift/multiMark/Pods/Down/Source/cmark/houdini_html_e.c	/^int houdini_escape_html0(cmark_strbuf *ob, const uint8_t *src, bufsize_t size,$/;"	f
+houdini_unescape_ent	swift/multiMark/Pods/Down/Source/cmark/houdini_html_u.c	/^bufsize_t houdini_unescape_ent(cmark_strbuf *ob, const uint8_t *src,$/;"	f
+houdini_unescape_html	swift/multiMark/Pods/Down/Source/cmark/houdini_html_u.c	/^int houdini_unescape_html(cmark_strbuf *ob, const uint8_t *src,$/;"	f
+houdini_unescape_html_f	swift/multiMark/Pods/Down/Source/cmark/houdini_html_u.c	/^void houdini_unescape_html_f(cmark_strbuf *ob, const uint8_t *src,$/;"	f
+how	shit/python/plotly_test.py	/^    how="inner",$/;"	v
+html	swift/multiMark/Pods/Down/Source/cmark/html.c	/^  cmark_strbuf *html;$/;"	m	struct:render_state	file:
+html_block_type	swift/multiMark/Pods/Down/Source/cmark/node.h	/^    int html_block_type;$/;"	m	union:cmark_node::__anon9
+http	shit/python/http_client.py	/^import http.client$/;"	i
+i	java/jpaTest/External/doc/jquery/jquery-ui.js	/^		var i;$/;"	v
+i	java/jpaTest/External/doc/jquery/jszip-utils/dist/jszip-utils-ie.js	/^;(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);throw new Error("Cannot find module '"+o+"'")}var f=n[o]={exports:{}};t[o][0].call(f.exports,function(e){var n=t[o][1][e];return s(n?n:e)},f,f.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){$/;"	v
+i	java/jpaTest/jpaTest/External/doc/jquery/jquery-ui.js	/^		var i;$/;"	v
+i	java/jpaTest/jpaTest/External/doc/jquery/jszip-utils/dist/jszip-utils-ie.js	/^;(function e(t,n,r){function s(o,u){if(!n[o]){if(!t[o]){var a=typeof require=="function"&&require;if(!u&&a)return a(o,!0);if(i)return i(o,!0);throw new Error("Cannot find module '"+o+"'")}var f=n[o]={exports:{}};t[o][0].call(f.exports,function(e){var n=t[o][1][e];return s(n?n:e)},f,f.exports,e,t,n,r)}return n[o].exports}var i=typeof require=="function"&&require;for(var o=0;o<r.length;o++)s(r[o]);return s})({1:[function(require,module,exports){$/;"	v
+id	java/jpaTest/jpaTest/src/fuckyou/TestEntityClass.java	/^	private int id;$/;"	f	class:TestEntityClass	file:
+image	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^  bool image;$/;"	m	struct:bracket	file:
+in_tight_list_item	swift/multiMark/Pods/Down/Source/cmark/render.h	/^  bool in_tight_list_item;$/;"	m	struct:cmark_renderer
+indent	shit/python/extract_values.py	/^indent = "  "$/;"	v
+indent	shit/python/pp.py	/^def indent(indent: int) -> str:$/;"	f
+indent	swift/multiMark/Pods/Down/Source/cmark/parser.h	/^  int indent;$/;"	m	struct:cmark_parser
+indent	swift/multiMark/Pods/Down/Source/cmark/xml.c	/^  int indent;$/;"	m	struct:render_state	file:
+indent	swift/multiMark/Pods/Down/Source/cmark/xml.c	/^static CMARK_INLINE void indent(struct render_state *state) {$/;"	f	file:
+inet_ntoa	shit/python/ip_unpacking.py	/^def inet_ntoa(packed):$/;"	f
+info	swift/multiMark/Pods/Down/Source/cmark/node.h	/^  cmark_chunk info;$/;"	m	struct:__anon5
+inl_text	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^  cmark_node *inl_text;$/;"	m	struct:bracket	file:
+inl_text	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^  cmark_node *inl_text;$/;"	m	struct:delimiter	file:
+input	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^  cmark_chunk input;$/;"	m	struct:__anon1	file:
+install_bcsymbolmap	swift/multiMark/Pods/Target Support Files/Pods-multiMark/Pods-multiMark-frameworks.sh	/^install_bcsymbolmap() {$/;"	f
+install_dsym	swift/multiMark/Pods/Target Support Files/Pods-multiMark/Pods-multiMark-frameworks.sh	/^install_dsym() {$/;"	f
+install_framework	swift/multiMark/Pods/Target Support Files/Pods-multiMark/Pods-multiMark-frameworks.sh	/^install_framework()$/;"	f
+install_tools	perl5/dockeruser.pl	/^sub install_tools {$/;"	s
+internal_offset	swift/multiMark/Pods/Down/Source/cmark/node.h	/^  int internal_offset;$/;"	m	struct:cmark_node
+ip	shit/python/ip_unpacking.py	/^  ip = inet_ntoa(bytes(21549592082154959208))$/;"	v
+is_autolink	swift/multiMark/Pods/Down/Source/cmark/commonmark.c	/^static bool is_autolink(cmark_node *node) {$/;"	f	file:
+is_blank	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^static bool is_blank(cmark_strbuf *s, bufsize_t offset) {$/;"	f	file:
+is_eof	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static CMARK_INLINE int is_eof(subject *subj) {$/;"	f	file:
+is_mult	projecteuler/smallest_divisable_0_20.py	/^def is_mult(x: int, n: int) -> bool:$/;"	f
+is_prime	projecteuler/circular_primes.py	/^def is_prime(num):$/;"	f
+is_prime	shit/python/primes_in_numbers.py	/^def is_prime(n):$/;"	f
+isbacktick	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static CMARK_INLINE int isbacktick(int c) { return (c == '`'); }$/;"	f	file:
+iterables	shit/python/extract_values.py	/^iterables = dict, list, tuple, map$/;"	v
+iterables	shit/python/pp_tree.py	/^iterables = dict, list, tuple$/;"	v
+jdbcConn	java/jdbcConnectionTest/src/app/PersistenceFactory.java	/^   public static Connection jdbcConn;$/;"	f	class:PersistenceFactory
+json	shit/python/pp_tree.py	/^import json$/;"	i
+json	shit/python/test.py	/^import json$/;"	i
+kpi_df	shit/python/plotly_test.py	/^kpi_df = pd.read_sql_table("site_kpi", ENGINE)$/;"	v
+label	swift/multiMark/Pods/Down/Source/cmark/references.h	/^  unsigned char *label;$/;"	m	struct:cmark_reference
+large_sum	projecteuler/large_sum.py	/^def large_sum(numbers: list) -> int:$/;"	f
+last_bracket	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^  bracket *last_bracket;$/;"	m	struct:__anon1	file:
+last_breakable	swift/multiMark/Pods/Down/Source/cmark/render.h	/^  bufsize_t last_breakable;$/;"	m	struct:cmark_renderer
+last_buffer_ended_with_cr	swift/multiMark/Pods/Down/Source/cmark/parser.h	/^  bool last_buffer_ended_with_cr;$/;"	m	struct:cmark_parser
+last_child	swift/multiMark/Pods/Down/Source/cmark/node.h	/^  struct cmark_node *last_child;$/;"	m	struct:cmark_node	typeref:struct:cmark_node::cmark_node
+last_delim	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^  delimiter *last_delim;$/;"	m	struct:__anon1	file:
+last_line_length	swift/multiMark/Pods/Down/Source/cmark/parser.h	/^  bufsize_t last_line_length;$/;"	m	struct:cmark_parser
+latest	exercism/python/high-scores/high_scores.py	/^def latest(scores):$/;"	f
+latest	exercism/python/high-scores/high_scores_test.py	/^from high_scores import latest, personal_best, personal_top_three$/;"	i
+left	perl5/games/color/game.pl	/^       left:50%;$/;"	l
+left_on	shit/python/plotly_test.py	/^    left_on="id",$/;"	v
+len	swift/multiMark/Pods/Down/Source/cmark/chunk.h	/^  bufsize_t len;$/;"	m	struct:__anon3
+length	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^  bufsize_t length;$/;"	m	struct:delimiter	file:
+let.fake	shit/mai_solutions/uid.js	/^let x = { fake: "hello" };$/;"	p
+level	swift/multiMark/Pods/Down/Source/cmark/node.h	/^  int level;$/;"	m	struct:__anon6
+likely	swift/multiMark/Pods/Down/Source/cmark/houdini.h	/^#define likely(/;"	d
+line	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^  int line;$/;"	m	struct:__anon1	file:
+line_number	swift/multiMark/Pods/Down/Source/cmark/parser.h	/^  int line_number;$/;"	m	struct:cmark_parser
+linebuf	swift/multiMark/Pods/Down/Source/cmark/parser.h	/^  cmark_strbuf linebuf;$/;"	m	struct:cmark_parser
+link	swift/multiMark/Pods/Down/Source/cmark/node.h	/^    cmark_link link;$/;"	m	union:cmark_node::__anon9
+link_label	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static int link_label(subject *subj, cmark_chunk *raw_label) {$/;"	f	file:
+link_type	swift/multiMark/Pods/Down/Source/cmark/latex.c	/^} link_type;$/;"	t	typeref:enum:__anon2	file:
+list	swift/multiMark/Pods/Down/Source/cmark/node.h	/^    cmark_list list;$/;"	m	union:cmark_node::__anon9
+list_type	swift/multiMark/Pods/Down/Source/cmark/node.h	/^  cmark_list_type list_type;$/;"	m	struct:__anon4
+lists_match	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^static int lists_match(cmark_list *list_data, cmark_list *item_data) {$/;"	f	file:
+literal	swift/multiMark/Pods/Down/Source/cmark/node.h	/^    cmark_chunk literal;$/;"	m	union:cmark_node::__anon9
+literal	swift/multiMark/Pods/Down/Source/cmark/node.h	/^  cmark_chunk literal;$/;"	m	struct:__anon5
+loadScripts	java/jpaTest/External/doc/script.js	/^function loadScripts(doc, tag) {$/;"	f
+loadScripts	java/jpaTest/jpaTest/External/doc/script.js	/^function loadScripts(doc, tag) {$/;"	f
+loc	shit/python/find_country/city.py	/^loc = locator.geocode("Munich")$/;"	v
+localhost_client	shit/python/http_client.py	/^def localhost_client(port="1313"):$/;"	f
+locator	shit/python/find_country/city.py	/^locator = Nominatim(user_agent="getcity")$/;"	v
+lol	shit/python/calc_sum.py	/^  lol = []$/;"	v
+longest_backtick_sequence	swift/multiMark/Pods/Down/Source/cmark/commonmark.c	/^static int longest_backtick_sequence(const char *code) {$/;"	f	file:
+main	concepts/tryouts/pi/pi.py	/^def main(diameter: float, circumference: float) -> float:$/;"	f
+main	java/jdbcConnectionTest/src/app/Main.java	/^  public static void main(final String[] args) {$/;"	m	class:Main
+main	java/jpaTest/jpaTest/src/fuckyou/FuckYou.java	/^	public static void main(String[] args) {$/;"	m	class:FuckYou
+main	shit/python/extract_values.py	/^def main(iterable):$/;"	f
+main	shit/python/test.py	/^def main(obj):$/;"	f
+main	shit/python/today.py	/^def main():$/;"	f
+main_tel	java/jpaTest/jpaTest/src/fuckyou/TestEntityClass.java	/^	private int main_tel;$/;"	f	class:TestEntityClass	file:
+make_autolink	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static CMARK_INLINE cmark_node *make_autolink(subject *subj,$/;"	f	file:
+make_block	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^static cmark_node *make_block(cmark_mem *mem, cmark_node_type tag,$/;"	f	file:
+make_code	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^#define make_code(/;"	d	file:
+make_document	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^static cmark_node *make_document(cmark_mem *mem) {$/;"	f	file:
+make_emph	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^#define make_emph(/;"	d	file:
+make_linebreak	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^#define make_linebreak(/;"	d	file:
+make_literal	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static CMARK_INLINE cmark_node *make_literal(subject *subj, cmark_node_type t,$/;"	f	file:
+make_raw_html	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^#define make_raw_html(/;"	d	file:
+make_simple	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static CMARK_INLINE cmark_node *make_simple(cmark_mem *mem, cmark_node_type t) {$/;"	f	file:
+make_softbreak	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^#define make_softbreak(/;"	d	file:
+make_str	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^#define make_str(/;"	d	file:
+make_str_with_entities	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static cmark_node *make_str_with_entities(subject *subj,$/;"	f	file:
+make_strong	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^#define make_strong(/;"	d	file:
+manual_scan_link_url	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static bufsize_t manual_scan_link_url(cmark_chunk *input, bufsize_t offset,$/;"	f	file:
+manual_scan_link_url_2	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static bufsize_t manual_scan_link_url_2(cmark_chunk *input, bufsize_t offset,$/;"	f	file:
+margin	perl5/games/color/game.pl	/^       margin:0;$/;"	l
+margin	perl5/games/color/game.pl	/^    margin:0;$/;"	l
+marker_offset	swift/multiMark/Pods/Down/Source/cmark/node.h	/^  int marker_offset;$/;"	m	struct:__anon4
+math	shit/python/get_divisors.py	/^import math$/;"	i
+matplotlib	shit/python/plotly_test.py	/^import matplotlib$/;"	i
+matplotlib	shit/python/plotly_test.py	/^import matplotlib.pyplot as plt$/;"	i
+mem	swift/multiMark/Pods/Down/Source/cmark/buffer.h	/^  cmark_mem *mem;$/;"	m	struct:__anon10
+mem	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^  cmark_mem *mem;$/;"	m	struct:__anon1	file:
+mem	swift/multiMark/Pods/Down/Source/cmark/iterator.h	/^  cmark_mem *mem;$/;"	m	struct:cmark_iter
+mem	swift/multiMark/Pods/Down/Source/cmark/parser.h	/^  struct cmark_mem *mem;$/;"	m	struct:cmark_parser	typeref:struct:cmark_parser::cmark_mem
+mem	swift/multiMark/Pods/Down/Source/cmark/references.h	/^  cmark_mem *mem;$/;"	m	struct:cmark_reference_map
+mem	swift/multiMark/Pods/Down/Source/cmark/render.h	/^  cmark_mem *mem;$/;"	m	struct:cmark_renderer
+memberSearchIndex	java/jpaTest/External/doc/script.js	/^var memberSearchIndex;$/;"	v
+memberSearchIndex	java/jpaTest/jpaTest/External/doc/script.js	/^var memberSearchIndex;$/;"	v
+misin	shit/python/test.py	/^def misin():$/;"	f
+moduleSearchIndex	java/jpaTest/External/doc/script.js	/^var moduleSearchIndex;$/;"	v
+moduleSearchIndex	java/jpaTest/jpaTest/External/doc/script.js	/^var moduleSearchIndex;$/;"	v
+mult3_5sum	projecteuler/mult3_5.py	/^def mult3_5sum(limit) -> list:$/;"	f
+n	shit/python/iterator.py	/^    n = 0$/;"	v
+name_scores	projecteuler/name_scores.py	/^def name_scores(unsorted: list) -> list:$/;"	f
+need_cr	swift/multiMark/Pods/Down/Source/cmark/render.h	/^  int need_cr;$/;"	m	struct:cmark_renderer
+newJDBCConnection	java/jdbcConnectionTest/src/app/PersistenceFactory.java	/^   public static Connection newJDBCConnection(final String URL, final String uname, final String passwd)$/;"	m	class:PersistenceFactory
+next	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^  struct delimiter *next;$/;"	m	struct:delimiter	typeref:struct:delimiter::delimiter	file:
+next	swift/multiMark/Pods/Down/Source/cmark/iterator.h	/^  cmark_iter_state next;$/;"	m	struct:cmark_iter
+next	swift/multiMark/Pods/Down/Source/cmark/node.h	/^  struct cmark_node *next;$/;"	m	struct:cmark_node	typeref:struct:cmark_node::cmark_node
+next	swift/multiMark/Pods/Down/Source/cmark/references.h	/^  struct cmark_reference *next;$/;"	m	struct:cmark_reference	typeref:struct:cmark_reference::cmark_reference
+nl	shit/python/extract_values.py	/^nl = "\\n"$/;"	v
+nlargest	exercism/python/high-scores/high_scores.py	/^from heapq import nlargest$/;"	i
+noResult.l	java/jpaTest/External/doc/search.js	/^var noResult = {l: "No results found"};$/;"	p
+noResult.l	java/jpaTest/jpaTest/External/doc/search.js	/^var noResult = {l: "No results found"};$/;"	p
+no_linebreaks	swift/multiMark/Pods/Down/Source/cmark/render.h	/^  bool no_linebreaks;$/;"	m	struct:cmark_renderer
+node	swift/multiMark/Pods/Down/Source/cmark/iterator.h	/^  cmark_node *node;$/;"	m	struct:__anon15
+normalize_reference	swift/multiMark/Pods/Down/Source/cmark/references.c	/^static unsigned char *normalize_reference(cmark_mem *mem, cmark_chunk *ref) {$/;"	f	file:
+np	shit/python/plotly_test.py	/^import numpy as np$/;"	i
+nth_prime	projecteuler/nth_prime.py	/^def nth_prime(nth: int) -> list:$/;"	f
+obj	shit/python/pp_tree.py	/^  obj = [('abc','def'),1313,1313,'abc','def', {'1':{'1':{'1':{'1':'1'}}}, 1:(1,2,4,5)}]$/;"	v
+obj._id_	shit/mai_solutions/uid.js	/^        obj._id_ = function () {$/;"	f
+offset	swift/multiMark/Pods/Down/Source/cmark/parser.h	/^  bufsize_t offset;$/;"	m	struct:cmark_parser
+on_enter	swift/multiMark/Pods/Down/Source/cmark/node.h	/^  cmark_chunk on_enter;$/;"	m	struct:__anon8
+on_error	swift/multiMark/Pods/Target Support Files/Pods-multiMark/Pods-multiMark-frameworks.sh	/^function on_error {$/;"	f
+on_exit	swift/multiMark/Pods/Down/Source/cmark/node.h	/^  cmark_chunk on_exit;$/;"	m	struct:__anon8
+on_user_activity	shit/reallshit/screensaver.html	/^    function on_user_activity() {$/;"	f
+on_user_inactivity	shit/reallshit/screensaver.html	/^    function on_user_inactivity() {$/;"	f
+open_new_blocks	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^static void open_new_blocks(cmark_parser *parser, cmark_node **container,$/;"	f	file:
+options	swift/multiMark/Pods/Down/Source/cmark/parser.h	/^  int options;$/;"	m	struct:cmark_parser
+os	shit/python/today.py	/^import os$/;"	i
+out	swift/multiMark/Pods/Down/Source/cmark/render.h	/^  void (*out)(struct cmark_renderer *, const char *, bool, cmark_escaping);$/;"	m	struct:cmark_renderer
+outc	swift/multiMark/Pods/Down/Source/cmark/commonmark.c	/^static CMARK_INLINE void outc(cmark_renderer *renderer, cmark_escaping escape,$/;"	f	file:
+outc	swift/multiMark/Pods/Down/Source/cmark/latex.c	/^static CMARK_INLINE void outc(cmark_renderer *renderer, cmark_escaping escape,$/;"	f	file:
+outc	swift/multiMark/Pods/Down/Source/cmark/render.h	/^  void (*outc)(struct cmark_renderer *, cmark_escaping, int32_t, unsigned char);$/;"	m	struct:cmark_renderer
+packageSearchIndex	java/jpaTest/External/doc/script.js	/^var packageSearchIndex;$/;"	v
+packageSearchIndex	java/jpaTest/jpaTest/External/doc/script.js	/^var packageSearchIndex;$/;"	v
+padding	perl5/games/color/game.pl	/^    padding:0;$/;"	l
+padding	swift/multiMark/Pods/Down/Source/cmark/node.h	/^  int padding;$/;"	m	struct:__anon4
+pal	projecteuler/palindromic_product.py	/^def pal() -> list:$/;"	f
+parent	swift/multiMark/Pods/Down/Source/cmark/node.h	/^  struct cmark_node *parent;$/;"	m	struct:cmark_node	typeref:struct:cmark_node::cmark_node
+parseCss	java/jpaTest/External/doc/jquery/jquery-ui.js	/^function parseCss( element, property ) {$/;"	f
+parseCss	java/jpaTest/jpaTest/External/doc/jquery/jquery-ui.js	/^function parseCss( element, property ) {$/;"	f
+parse_block_quote_prefix	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^static bool parse_block_quote_prefix(cmark_parser *parser, cmark_chunk *input) {$/;"	f	file:
+parse_code_block_prefix	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^static bool parse_code_block_prefix(cmark_parser *parser, cmark_chunk *input,$/;"	f	file:
+parse_html_block_prefix	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^static bool parse_html_block_prefix(cmark_parser *parser,$/;"	f	file:
+parse_inline	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static int parse_inline(subject *subj, cmark_node *parent, int options) {$/;"	f	file:
+parse_list_marker	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^static bufsize_t parse_list_marker(cmark_mem *mem, cmark_chunk *input,$/;"	f	file:
+parse_node_item_prefix	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^static bool parse_node_item_prefix(cmark_parser *parser, cmark_chunk *input,$/;"	f	file:
+parser	shit/python/duplicate_order.py	/^    parser = argparse.ArgumentParser("duplicate_encode")$/;"	v
+parser	shit/python/http_client.py	/^    parser = ap.ArgumentParser("HTTP-Client with http.client")$/;"	v
+partially_consumed_tab	swift/multiMark/Pods/Down/Source/cmark/parser.h	/^  bool partially_consumed_tab;$/;"	m	struct:cmark_parser
+parts	java/jpaTest/External/doc/jquery/jquery-ui.js	/^		var parts;$/;"	v
+parts	java/jpaTest/jpaTest/External/doc/jquery/jquery-ui.js	/^		var parts;$/;"	v
+pd	shit/python/plotly_test.py	/^import pandas as pd$/;"	i
+peek_at	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^#define peek_at(/;"	d	file:
+peek_at	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static CMARK_INLINE unsigned char peek_at(subject *subj, bufsize_t pos) {$/;"	f	file:
+peek_char	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static CMARK_INLINE unsigned char peek_char(subject *subj) {$/;"	f	file:
+personal_best	exercism/python/high-scores/high_scores.py	/^def personal_best(scores):$/;"	f
+personal_best	exercism/python/high-scores/high_scores_test.py	/^from high_scores import latest, personal_best, personal_top_three$/;"	i
+personal_top_three	exercism/python/high-scores/high_scores.py	/^def personal_top_three(scores):$/;"	f
+personal_top_three	exercism/python/high-scores/high_scores_test.py	/^from high_scores import latest, personal_best, personal_top_three$/;"	i
+pi_gls	concepts/tryouts/pi/pi_gls.py	/^def pi_gls(limit: int) -> float:$/;"	f
+pi_gls	concepts/tryouts/pi/test.py	/^def pi_gls(limit):$/;"	f
+pi_nks	concepts/tryouts/pi/pi_nks.py	/^def pi_nks(limit: int) -> float:$/;"	f
+plain	swift/multiMark/Pods/Down/Source/cmark/html.c	/^  cmark_node *plain;$/;"	m	struct:render_state	file:
+plotly	shit/python/plotly_test.py	/^import plotly.express as px$/;"	i
+plotly	shit/python/plotly_test.py	/^import plotly.offline as pyo$/;"	i
+plt	shit/python/plotly_test.py	/^import matplotlib.pyplot as plt$/;"	i
+pop_bracket	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static void pop_bracket(subject *subj) {$/;"	f	file:
+port	shit/python/http_client.py	/^    port = args.port$/;"	v
+pos	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^  bufsize_t pos;$/;"	m	struct:__anon1	file:
+position	java/jpaTest/External/doc/jquery/jquery-ui.js	/^var position = $.ui.position;$/;"	v
+position	java/jpaTest/jpaTest/External/doc/jquery/jquery-ui.js	/^var position = $.ui.position;$/;"	v
+position	perl5/games/color/game.pl	/^       position:absolute;$/;"	l
+position	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^  bufsize_t position;$/;"	m	struct:bracket	file:
+power_digit_sum	projecteuler/power_digit_sum.py	/^def power_digit_sum(base: int, exp: int) -> list:$/;"	f
+pre_tel	java/jpaTest/jpaTest/src/fuckyou/TestEntityClass.java	/^	private long pre_tel;$/;"	f	class:TestEntityClass	file:
+prefix	swift/multiMark/Pods/Down/Source/cmark/render.h	/^  cmark_strbuf *prefix;$/;"	m	struct:cmark_renderer
+prettier	shit/python/pp_tree.py	/^def prettier(obj, indent, nl="\\n", trailing=","):$/;"	f
+prettify	shit/python/primes_in_numbers.py	/^def prettify(facts: dict) -> str:$/;"	f
+prettify.indent	shit/mai_solutions/pp.js	/^    function indent() {$/;"	f
+pretty	shit/python/pp.py	/^def pretty(strc: any) -> str:$/;"	f
+prev	swift/multiMark/Pods/Down/Source/cmark/node.h	/^  struct cmark_node *prev;$/;"	m	struct:cmark_node	typeref:struct:cmark_node::cmark_node
+previous	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^  struct bracket *previous;$/;"	m	struct:bracket	typeref:struct:bracket::bracket	file:
+previous	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^  struct delimiter *previous;$/;"	m	struct:delimiter	typeref:struct:delimiter::delimiter	file:
+previous_delimiter	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^  struct delimiter *previous_delimiter;$/;"	m	struct:bracket	typeref:struct:bracket::delimiter	file:
+primeFactors	shit/python/primes_in_numbers.py	/^def primeFactors(n):$/;"	f
+prime_facts	projecteuler/largest_prime_fac.py	/^def prime_facts(n):$/;"	f
+processClassString	java/jpaTest/External/doc/jquery/jquery-ui.js	/^		function processClassString( classes, checkOption ) {$/;"	f
+processClassString	java/jpaTest/jpaTest/External/doc/jquery/jquery-ui.js	/^		function processClassString( classes, checkOption ) {$/;"	f
+process_emphasis	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static void process_emphasis(subject *subj, delimiter *stack_bottom) {$/;"	f	file:
+process_inlines	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^static void process_inlines(cmark_mem *mem, cmark_node *root,$/;"	f	file:
+pruneList	shit/python/array_dfiff.py	/^def pruneList(l1,l2):$/;"	f
+ptr	swift/multiMark/Pods/Down/Source/cmark/buffer.h	/^  unsigned char *ptr;$/;"	m	struct:__anon10
+push_bracket	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static void push_bracket(subject *subj, bool image, cmark_node *inl_text) {$/;"	f	file:
+push_delimiter	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static void push_delimiter(subject *subj, unsigned char c, bool can_open,$/;"	f	file:
+px	shit/python/plotly_test.py	/^import plotly.express as px$/;"	i
+pyo	shit/python/plotly_test.py	/^import plotly.offline as pyo$/;"	i
+raw_df	shit/python/plotly_test.py	/^raw_df = pd.read_sql_table("kpi_raw", ENGINE)$/;"	v
+re	shit/python/str_pair.py	/^import re$/;"	i
+realloc	swift/multiMark/Pods/Down/Source/cmark/cmark.h	/^  void *(*realloc)(void *, size_t);$/;"	m	struct:cmark_mem
+rec	shit/python/sum_of_digits.py	/^def rec(n):$/;"	f
+reference_free	swift/multiMark/Pods/Down/Source/cmark/references.c	/^static void reference_free(cmark_reference_map *map, cmark_reference *ref) {$/;"	f	file:
+refhash	swift/multiMark/Pods/Down/Source/cmark/references.c	/^static unsigned int refhash(const unsigned char *link_ref) {$/;"	f	file:
+refmap	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^  cmark_reference_map *refmap;$/;"	m	struct:__anon1	file:
+refmap	swift/multiMark/Pods/Down/Source/cmark/parser.h	/^  struct cmark_reference_map *refmap;$/;"	m	struct:cmark_parser	typeref:struct:cmark_parser::cmark_reference_map
+remove_delimiter	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static void remove_delimiter(subject *subj, delimiter *delim) {$/;"	f	file:
+remove_trailing_blank_lines	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^static void remove_trailing_blank_lines(cmark_strbuf *ln) {$/;"	f	file:
+render_state	swift/multiMark/Pods/Down/Source/cmark/html.c	/^struct render_state {$/;"	s	file:
+render_state	swift/multiMark/Pods/Down/Source/cmark/xml.c	/^struct render_state {$/;"	s	file:
+requesta	concepts/tryouts/flask_server/server.py	/^import requesta$/;"	i
+resolve_reference_link_definitions	swift/multiMark/Pods/Down/Source/cmark/blocks.c	/^static bool resolve_reference_link_definitions($/;"	f	file:
+right_on	shit/python/plotly_test.py	/^    right_on="kpi_id",$/;"	v
+root	swift/multiMark/Pods/Down/Source/cmark/iterator.h	/^  cmark_node *root;$/;"	m	struct:cmark_iter
+root	swift/multiMark/Pods/Down/Source/cmark/parser.h	/^  struct cmark_node *root;$/;"	m	struct:cmark_parser	typeref:struct:cmark_parser::cmark_node
+row	exercism/python/matrix/matrix.py	/^    def row(self, index):$/;"	m	class:Matrix
+scan_atx_heading_start	swift/multiMark/Pods/Down/Source/cmark/scanners.h	/^#define scan_atx_heading_start(/;"	d
+scan_autolink_email	swift/multiMark/Pods/Down/Source/cmark/scanners.h	/^#define scan_autolink_email(/;"	d
+scan_autolink_uri	swift/multiMark/Pods/Down/Source/cmark/scanners.h	/^#define scan_autolink_uri(/;"	d
+scan_close_code_fence	swift/multiMark/Pods/Down/Source/cmark/scanners.h	/^#define scan_close_code_fence(/;"	d
+scan_dangerous_url	swift/multiMark/Pods/Down/Source/cmark/scanners.h	/^#define scan_dangerous_url(/;"	d
+scan_delims	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static int scan_delims(subject *subj, unsigned char c, bool *can_open,$/;"	f	file:
+scan_entity	swift/multiMark/Pods/Down/Source/cmark/scanners.h	/^#define scan_entity(/;"	d
+scan_html_block_end_1	swift/multiMark/Pods/Down/Source/cmark/scanners.h	/^#define scan_html_block_end_1(/;"	d
+scan_html_block_end_2	swift/multiMark/Pods/Down/Source/cmark/scanners.h	/^#define scan_html_block_end_2(/;"	d
+scan_html_block_end_3	swift/multiMark/Pods/Down/Source/cmark/scanners.h	/^#define scan_html_block_end_3(/;"	d
+scan_html_block_end_4	swift/multiMark/Pods/Down/Source/cmark/scanners.h	/^#define scan_html_block_end_4(/;"	d
+scan_html_block_end_5	swift/multiMark/Pods/Down/Source/cmark/scanners.h	/^#define scan_html_block_end_5(/;"	d
+scan_html_block_start	swift/multiMark/Pods/Down/Source/cmark/scanners.h	/^#define scan_html_block_start(/;"	d
+scan_html_block_start_7	swift/multiMark/Pods/Down/Source/cmark/scanners.h	/^#define scan_html_block_start_7(/;"	d
+scan_html_tag	swift/multiMark/Pods/Down/Source/cmark/scanners.h	/^#define scan_html_tag(/;"	d
+scan_link_title	swift/multiMark/Pods/Down/Source/cmark/scanners.h	/^#define scan_link_title(/;"	d
+scan_open_code_fence	swift/multiMark/Pods/Down/Source/cmark/scanners.h	/^#define scan_open_code_fence(/;"	d
+scan_scheme	swift/multiMark/Pods/Down/Source/cmark/scanners.h	/^#define scan_scheme(/;"	d
+scan_setext_heading_line	swift/multiMark/Pods/Down/Source/cmark/scanners.h	/^#define scan_setext_heading_line(/;"	d
+scan_spacechars	swift/multiMark/Pods/Down/Source/cmark/scanners.h	/^#define scan_spacechars(/;"	d
+scan_to_closing_backticks	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static bufsize_t scan_to_closing_backticks(subject *subj,$/;"	f	file:
+scanned_for_backticks	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^  bool scanned_for_backticks;$/;"	m	struct:__anon1	file:
+scipy	shit/python/plotly_test.py	/^import scipy$/;"	i
+screensaver_disable	shit/reallshit/screensaver.html	/^    function screensaver_disable() {$/;"	f
+screensaver_enable	shit/reallshit/screensaver.html	/^    function screensaver_enable() {$/;"	f
+secondaryMatcher	java/jpaTest/External/doc/search.js	/^var secondaryMatcher = "";$/;"	v
+secondaryMatcher	java/jpaTest/jpaTest/External/doc/search.js	/^var secondaryMatcher = "";$/;"	v
+self_powers	projecteuler/self_powers.py	/^def self_powers(limit: int) -> list:$/;"	f
+setFirstName	java/jpaTest/jpaTest/src/fuckyou/TestEntityClass.java	/^	public void setFirstName(String firstname) {	$/;"	m	class:TestEntityClass
+setSurName	java/jpaTest/jpaTest/src/fuckyou/TestEntityClass.java	/^	public void setSurName(String surname) {$/;"	m	class:TestEntityClass
+setTel	java/jpaTest/jpaTest/src/fuckyou/TestEntityClass.java	/^	public void setTel(String number) {$/;"	m	class:TestEntityClass
+setext	swift/multiMark/Pods/Down/Source/cmark/node.h	/^  bool setext;$/;"	m	struct:__anon6
+setup_user	perl5/dockeruser.pl	/^sub setup_user {$/;"	s
+shortest_unused_backtick_sequence	swift/multiMark/Pods/Down/Source/cmark/commonmark.c	/^static int shortest_unused_backtick_sequence(const char *code) {$/;"	f	file:
+show	java/jpaTest/External/doc/script.js	/^function show(type) {$/;"	f
+show	java/jpaTest/jpaTest/External/doc/script.js	/^function show(type) {$/;"	f
+sites_df	shit/python/plotly_test.py	/^sites_df = pd.read_sql_table("site", ENGINE)$/;"	v
+size	swift/multiMark/Pods/Down/Source/cmark/buffer.h	/^  bufsize_t asize, size;$/;"	m	struct:__anon10
+skip_line_end	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static CMARK_INLINE bool skip_line_end(subject *subj) {$/;"	f	file:
+skip_spaces	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static CMARK_INLINE bool skip_spaces(subject *subj) {$/;"	f	file:
+smallest_mult	projecteuler/smallest_divisable_0_20.py	/^def smallest_mult(n: int) -> int:$/;"	f
+snprintf	swift/multiMark/Pods/Down/Source/cmark/config.h	/^#define snprintf /;"	d
+spamreader	shit/python/find_country/plz.py	/^    spamreader = csv.reader(csvfile, delimiter=' ', quotechar='|')$/;"	v
+spnl	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static void spnl(subject *subj) {$/;"	f	file:
+start	swift/multiMark/Pods/Down/Source/cmark/node.h	/^  int start;$/;"	m	struct:__anon4
+start_column	swift/multiMark/Pods/Down/Source/cmark/node.h	/^  int start_column;$/;"	m	struct:cmark_node
+start_line	swift/multiMark/Pods/Down/Source/cmark/node.h	/^  int start_line;$/;"	m	struct:cmark_node
+string	shit/python/ip_unpacking.py	/^import string, struct$/;"	i
+string_template	shit/python/pp.py	/^string_template = ""$/;"	v
+strip_invalid_archs	swift/multiMark/Pods/Target Support Files/Pods-multiMark/Pods-multiMark-frameworks.sh	/^strip_invalid_archs() {$/;"	f
+struct	shit/python/ip_unpacking.py	/^import string, struct$/;"	i
+sub1	perl5/threading.pl	/^sub sub1 {$/;"	s
+subject	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^} subject;$/;"	t	typeref:struct:__anon1	file:
+subject_find_special_char	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static bufsize_t subject_find_special_char(subject *subj, int options) {$/;"	f	file:
+subject_from_buf	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static void subject_from_buf(cmark_mem *mem, int line_number, int block_offset, subject *e,$/;"	f	file:
+sum_primes	projecteuler/sum_primes_below2m.py	/^def sum_primes(limit: int) -> int:$/;"	f
+sum_square_diff	projecteuler/sum_square_diff.py	/^def sum_square_diff(n: int) -> int:$/;"	f
+surname	java/jpaTest/jpaTest/src/fuckyou/TestEntityClass.java	/^	private String surname;$/;"	f	class:TestEntityClass	file:
+table	swift/multiMark/Pods/Down/Source/cmark/references.h	/^  cmark_reference *table[REFMAP_SIZE];$/;"	m	struct:cmark_reference_map
+tagSearchIndex	java/jpaTest/External/doc/script.js	/^var tagSearchIndex;$/;"	v
+tagSearchIndex	java/jpaTest/jpaTest/External/doc/script.js	/^var tagSearchIndex;$/;"	v
+take_while	swift/multiMark/Pods/Down/Source/cmark/inlines.c	/^static CMARK_INLINE cmark_chunk take_while(subject *subj, int (*f)(int)) {$/;"	f	file:
+test_2_to_the_power_3_does_not_make_a_raindrop_sound_as_3_is_the_exponent_not_the_base	exercism/python/raindrops/raindrops_test.py	/^    def test_2_to_the_power_3_does_not_make_a_raindrop_sound_as_3_is_the_exponent_not_the_base($/;"	m	class:RaindropsTest
+test_can_extract_column	exercism/python/matrix/matrix_test.py	/^    def test_can_extract_column(self):$/;"	m	class:MatrixTest
+test_can_extract_column_from_non_square_matrix_with_no_corresponding_row	exercism/python/matrix/matrix_test.py	/^    def test_can_extract_column_from_non_square_matrix_with_no_corresponding_row(self):$/;"	m	class:MatrixTest
+test_can_extract_row	exercism/python/matrix/matrix_test.py	/^    def test_can_extract_row(self):$/;"	m	class:MatrixTest
+test_can_extract_row_from_non_square_matrix_with_no_corresponding_column	exercism/python/matrix/matrix_test.py	/^    def test_can_extract_row_from_non_square_matrix_with_no_corresponding_column(self):$/;"	m	class:MatrixTest
+test_extract_column_from_one_number_matrix	exercism/python/matrix/matrix_test.py	/^    def test_extract_column_from_one_number_matrix(self):$/;"	m	class:MatrixTest
+test_extract_column_where_numbers_have_different_widths	exercism/python/matrix/matrix_test.py	/^    def test_extract_column_where_numbers_have_different_widths(self):$/;"	m	class:MatrixTest
+test_extract_row_from_one_number_matrix	exercism/python/matrix/matrix_test.py	/^    def test_extract_row_from_one_number_matrix(self):$/;"	m	class:MatrixTest
+test_extract_row_where_numbers_have_different_widths	exercism/python/matrix/matrix_test.py	/^    def test_extract_row_where_numbers_have_different_widths(self):$/;"	m	class:MatrixTest
+test_latest_score	exercism/python/high-scores/high_scores_test.py	/^    def test_latest_score(self):$/;"	m	class:HighScoresTest
+test_personal_best	exercism/python/high-scores/high_scores_test.py	/^    def test_personal_best(self):$/;"	m	class:HighScoresTest
+test_personal_top_highest_to_lowest	exercism/python/high-scores/high_scores_test.py	/^    def test_personal_top_highest_to_lowest(self):$/;"	m	class:HighScoresTest
+test_personal_top_three_from_a_list_of_scores	exercism/python/high-scores/high_scores_test.py	/^    def test_personal_top_three_from_a_list_of_scores(self):$/;"	m	class:HighScoresTest
+test_personal_top_when_there_are_less_than_3	exercism/python/high-scores/high_scores_test.py	/^    def test_personal_top_when_there_are_less_than_3(self):$/;"	m	class:HighScoresTest
+test_personal_top_when_there_is_a_tie	exercism/python/high-scores/high_scores_test.py	/^    def test_personal_top_when_there_is_a_tie(self):$/;"	m	class:HighScoresTest
+test_personal_top_when_there_is_only_one	exercism/python/high-scores/high_scores_test.py	/^    def test_personal_top_when_there_is_only_one(self):$/;"	m	class:HighScoresTest
+test_say_hi	exercism/python/hello-world/hello_world_test.py	/^    def test_say_hi(self):$/;"	m	class:HelloWorldTest
+test_the_sound_for_105_is_pling_plang_plong_as_it_has_factors_3_5_and_7	exercism/python/raindrops/raindrops_test.py	/^    def test_the_sound_for_105_is_pling_plang_plong_as_it_has_factors_3_5_and_7(self):$/;"	m	class:RaindropsTest
+test_the_sound_for_10_is_plang_as_it_has_a_factor_5	exercism/python/raindrops/raindrops_test.py	/^    def test_the_sound_for_10_is_plang_as_it_has_a_factor_5(self):$/;"	m	class:RaindropsTest
+test_the_sound_for_14_is_plong_as_it_has_a_factor_of_7	exercism/python/raindrops/raindrops_test.py	/^    def test_the_sound_for_14_is_plong_as_it_has_a_factor_of_7(self):$/;"	m	class:RaindropsTest
+test_the_sound_for_15_is_pling_plang_as_it_has_factors_3_and_5	exercism/python/raindrops/raindrops_test.py	/^    def test_the_sound_for_15_is_pling_plang_as_it_has_factors_3_and_5(self):$/;"	m	class:RaindropsTest
+test_the_sound_for_1_is_1	exercism/python/raindrops/raindrops_test.py	/^    def test_the_sound_for_1_is_1(self):$/;"	m	class:RaindropsTest
+test_the_sound_for_21_is_pling_plong_as_it_has_factors_3_and_7	exercism/python/raindrops/raindrops_test.py	/^    def test_the_sound_for_21_is_pling_plong_as_it_has_factors_3_and_7(self):$/;"	m	class:RaindropsTest
+test_the_sound_for_25_is_plang_as_it_has_a_factor_5	exercism/python/raindrops/raindrops_test.py	/^    def test_the_sound_for_25_is_plang_as_it_has_a_factor_5(self):$/;"	m	class:RaindropsTest
+test_the_sound_for_27_is_pling_as_it_has_a_factor_3	exercism/python/raindrops/raindrops_test.py	/^    def test_the_sound_for_27_is_pling_as_it_has_a_factor_3(self):$/;"	m	class:RaindropsTest
+test_the_sound_for_3125_is_plang_as_it_has_a_factor_5	exercism/python/raindrops/raindrops_test.py	/^    def test_the_sound_for_3125_is_plang_as_it_has_a_factor_5(self):$/;"	m	class:RaindropsTest
+test_the_sound_for_35_is_plang_plong_as_it_has_factors_5_and_7	exercism/python/raindrops/raindrops_test.py	/^    def test_the_sound_for_35_is_plang_plong_as_it_has_factors_5_and_7(self):$/;"	m	class:RaindropsTest
+test_the_sound_for_3_is_pling	exercism/python/raindrops/raindrops_test.py	/^    def test_the_sound_for_3_is_pling(self):$/;"	m	class:RaindropsTest
+test_the_sound_for_49_is_plong_as_it_has_a_factor_7	exercism/python/raindrops/raindrops_test.py	/^    def test_the_sound_for_49_is_plong_as_it_has_a_factor_7(self):$/;"	m	class:RaindropsTest
+test_the_sound_for_52_is_52	exercism/python/raindrops/raindrops_test.py	/^    def test_the_sound_for_52_is_52(self):$/;"	m	class:RaindropsTest
+test_the_sound_for_5_is_plang	exercism/python/raindrops/raindrops_test.py	/^    def test_the_sound_for_5_is_plang(self):$/;"	m	class:RaindropsTest
+test_the_sound_for_6_is_pling_as_it_has_a_factor_3	exercism/python/raindrops/raindrops_test.py	/^    def test_the_sound_for_6_is_pling_as_it_has_a_factor_3(self):$/;"	m	class:RaindropsTest
+test_the_sound_for_7_is_plong	exercism/python/raindrops/raindrops_test.py	/^    def test_the_sound_for_7_is_plong(self):$/;"	m	class:RaindropsTest
+test_the_sound_for_9_is_pling_as_it_has_a_factor_3	exercism/python/raindrops/raindrops_test.py	/^    def test_the_sound_for_9_is_pling_as_it_has_a_factor_3(self):$/;"	m	class:RaindropsTest
+thematic_break_kill_pos	swift/multiMark/Pods/Down/Source/cmark/parser.h	/^  bufsize_t thematic_break_kill_pos;$/;"	m	struct:cmark_parser
+tight	swift/multiMark/Pods/Down/Source/cmark/node.h	/^  bool tight;$/;"	m	struct:__anon4
+title	swift/multiMark/Pods/Down/Source/cmark/node.h	/^  cmark_chunk title;$/;"	m	struct:__anon7
+title	swift/multiMark/Pods/Down/Source/cmark/references.h	/^  cmark_chunk title;$/;"	m	struct:cmark_reference
+top	perl5/games/color/game.pl	/^       top:50%;$/;"	l
+trailing	shit/python/extract_values.py	/^trailing = ","$/;"	v
+trailing	shit/python/pp.py	/^trailing = ","$/;"	v
+transform	perl5/games/color/game.pl	/^       transform:translate(-50%,-50%);$/;"	l
+type	swift/multiMark/Pods/Down/Source/cmark/node.h	/^  uint16_t type;$/;"	m	struct:cmark_node
+typeSearchIndex	java/jpaTest/External/doc/script.js	/^var typeSearchIndex;$/;"	v
+typeSearchIndex	java/jpaTest/jpaTest/External/doc/script.js	/^var typeSearchIndex;$/;"	v
+uneven	shit/python/str_pair.py	/^    uneven = ["NORTH", "SOUTH", "SOUTH", "EAST", "WEST", "NORTH", "WEST"]$/;"	v
+uniqueId	java/jpaTest/External/doc/jquery/jquery-ui.js	/^var uniqueId = $.fn.extend( {$/;"	v
+uniqueId	java/jpaTest/jpaTest/External/doc/jquery/jquery-ui.js	/^var uniqueId = $.fn.extend( {$/;"	v
+unittest	exercism/python/hello-world/hello_world_test.py	/^import unittest$/;"	i
+unittest	exercism/python/high-scores/high_scores_test.py	/^import unittest$/;"	i
+unittest	exercism/python/matrix/matrix_test.py	/^import unittest$/;"	i
+unittest	exercism/python/raindrops/raindrops_test.py	/^import unittest$/;"	i
+unlikely	swift/multiMark/Pods/Down/Source/cmark/houdini.h	/^#define unlikely(/;"	d
+updateModuleFrame	java/jpaTest/External/doc/script.js	/^function updateModuleFrame(pFrame, cFrame) {$/;"	f
+updateModuleFrame	java/jpaTest/jpaTest/External/doc/script.js	/^function updateModuleFrame(pFrame, cFrame) {$/;"	f
+updateTabs	java/jpaTest/External/doc/script.js	/^function updateTabs(type) {$/;"	f
+updateTabs	java/jpaTest/jpaTest/External/doc/script.js	/^function updateTabs(type) {$/;"	f
+update_system	perl5/autoupdate.pl	/^sub update_system {$/;"	s
+update_system	perl5/dockeruser.pl	/^sub update_system {$/;"	s
+url	swift/multiMark/Pods/Down/Source/cmark/node.h	/^  cmark_chunk url;$/;"	m	struct:__anon7
+url	swift/multiMark/Pods/Down/Source/cmark/references.h	/^  cmark_chunk url;$/;"	m	struct:cmark_reference
+user_data	swift/multiMark/Pods/Down/Source/cmark/node.h	/^  void *user_data;$/;"	m	struct:cmark_node
+utf8proc_charlen	swift/multiMark/Pods/Down/Source/cmark/utf8.c	/^static int utf8proc_charlen(const uint8_t *str, bufsize_t str_len) {$/;"	f	file:
+utf8proc_utf8class	swift/multiMark/Pods/Down/Source/cmark/utf8.c	/^static const int8_t utf8proc_utf8class[256] = {$/;"	v	file:
+utf8proc_valid	swift/multiMark/Pods/Down/Source/cmark/utf8.c	/^static int utf8proc_valid(const uint8_t *str, bufsize_t str_len) {$/;"	f	file:
+validateInput	java/jpaTest/jpaTest/src/fuckyou/TestEntityClass.java	/^  private void validateInput(String input) {$/;"	m	class:TestEntityClass	file:
+version	java/jpaTest/External/doc/jquery/jquery-ui.js	/^var version = $.ui.version = "1.12.1";$/;"	v
+version	java/jpaTest/jpaTest/External/doc/jquery/jquery-ui.js	/^var version = $.ui.version = "1.12.1";$/;"	v
+vsnprintf	swift/multiMark/Pods/Down/Source/cmark/config.h	/^#define vsnprintf /;"	d
+watermark	java/jpaTest/External/doc/search.js	/^var watermark = 'Search';$/;"	v
+watermark	java/jpaTest/jpaTest/External/doc/search.js	/^var watermark = 'Search';$/;"	v
+widget	java/jpaTest/External/doc/jquery/jquery-ui.js	/^var widget = $.widget;$/;"	v
+widget	java/jpaTest/jpaTest/External/doc/jquery/jquery-ui.js	/^var widget = $.widget;$/;"	v
+widgetSlice	java/jpaTest/External/doc/jquery/jquery-ui.js	/^var widgetSlice = Array.prototype.slice;$/;"	v
+widgetSlice	java/jpaTest/jpaTest/External/doc/jquery/jquery-ui.js	/^var widgetSlice = Array.prototype.slice;$/;"	v
+widgetUuid	java/jpaTest/External/doc/jquery/jquery-ui.js	/^var widgetUuid = 0;$/;"	v
+widgetUuid	java/jpaTest/jpaTest/External/doc/jquery/jquery-ui.js	/^var widgetUuid = 0;$/;"	v
+widgetsAutocomplete	java/jpaTest/External/doc/jquery/jquery-ui.js	/^var widgetsAutocomplete = $.ui.autocomplete;$/;"	v
+widgetsAutocomplete	java/jpaTest/jpaTest/External/doc/jquery/jquery-ui.js	/^var widgetsAutocomplete = $.ui.autocomplete;$/;"	v
+widgetsMenu	java/jpaTest/External/doc/jquery/jquery-ui.js	/^var widgetsMenu = $.widget( "ui.menu", {$/;"	v
+widgetsMenu	java/jpaTest/jpaTest/External/doc/jquery/jquery-ui.js	/^var widgetsMenu = $.widget( "ui.menu", {$/;"	v
+width	swift/multiMark/Pods/Down/Source/cmark/render.h	/^  int width;$/;"	m	struct:cmark_renderer
+xcalloc	swift/multiMark/Pods/Down/Source/cmark/cmark.c	/^static void *xcalloc(size_t nmem, size_t size) {$/;"	f	file:
+xml	swift/multiMark/Pods/Down/Source/cmark/xml.c	/^  cmark_strbuf *xml;$/;"	m	struct:render_state	file:
+xrealloc	swift/multiMark/Pods/Down/Source/cmark/cmark.c	/^static void *xrealloc(void *ptr, size_t size) {$/;"	f	file:
