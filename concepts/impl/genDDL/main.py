@@ -14,11 +14,11 @@ CREATE TABLE IF NOT EXISTS {table name} (
     {field} {type} {options},
 );
 
-
 # THIS IS JUST A PROTOTYPE. I WILL REWRITE THIS WITH RUST AND IT WILL BE MUCH NICER AND FASTER AND BETTER TESTED :=)
 """
 
 import yaml
+from collections import namedtuple 
 
 class Parser():
     def __init__(self, path):
@@ -27,6 +27,7 @@ class Parser():
     def parse_yml(self):
         """ Parse YML File into local dict and return data"""
         with open(self.path, "r") as stream:
+        
             try:
                 return yaml.safe_load(stream)
             except yaml.YAMLError as err:
@@ -36,11 +37,11 @@ class Generator():
     def __init__(self, stream):
         self.stream = stream
 
-    #TODO: formatting True or False --> options for formatting
     def to_ddl(self):
-        stream = self.stream.items()
-        for key, value in stream:
-            print(key, value)
+        stream_keys = sorted(self.stream.keys())
+        stream = namedtuple("stream", stream_keys)
+        data = stream(**self.stream)
+        print(data["test_table"])
 
 def main():
     parser = Parser(path="./define.yml")
@@ -48,6 +49,7 @@ def main():
 
     generator = Generator(stream=data)
     ddl = generator.to_ddl()
+
 
 if __name__ == "__main__":
     main()

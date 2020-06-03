@@ -1,33 +1,27 @@
-engine: "mysql"
-
-database: "test_db"
-
-table:
-  name: "test"
-
+test_table:
   test_id:
     type: "INT"
     options:
       - "AUTO_INCREMENT"
       - "PRIMARY KEY"
 
-   test_str:
-     type: "VARCHAR(50)"
-     options:
-       - "NOT NULL"
+  test_str:
+    type: "VARCHAR(50)"
+    options:
+      - "NOT NULL"
  
-   test_int:
-     type: "INT(64)"
-     options:
-       - "NOT NULL"
+  test_int:
+    type: "INT(64)"
+    options:
+      - "NOT NULL"
  
-   test_bit:
-     type: "BIT"
-     options:
-       - "NOT NULL"
+  test_bit:
+    type: "BIT"
+    options:
+      - "NOT NULL"
  
-   test_dec:
-     type: "DECIMAL(2,10)"
-     options:
-       - "NOT NULL"
+  test_dec:
+    type: "DECIMAL(2,10)"
+    options:
+      - "NOT NULL"
  
