@@ -1,0 +1,20 @@
+# Environments
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+__pycache__/
+
+# MacOs & Vscode
+.vscode/
+.DS_Store
+.idea/
+
+*.pdf
+*.mp3
+.TXT*
+
+*.out

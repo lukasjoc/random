@@ -1,5 +1,5 @@
 # -*- coding: utf-8 -*-
-#!/usr/bin/python3
+#!/usr/bin/env python3
 
 import json
 import codecs
@@ -24,5 +24,4 @@ if __name__ == "__main__":
 
   with codecs.open('en.json', 'w', encoding="utf-8") as output_stream:
     json.dump(go(data), output_stream, indent=4, sort_keys=True, ensure_ascii=False)
-
 
