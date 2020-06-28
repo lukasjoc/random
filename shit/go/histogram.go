@@ -6,10 +6,12 @@ import (
 	"strings"
 )
 
+var histogram_map map[string]int64
+
 // Histogram creates a histogram of a given string sequence data,
 // returns with a map consisting of map[word]occurrence
-func histogram(data string) map[string]int64 {
-	h := make(map[string]int64)
+func histogram(data string) histogram_map {
+	h := make(histogram_map)
 	words := strings.Fields(data)
 	for _, w := range words {
 		if _, inMap := h[w]; inMap {

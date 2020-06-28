@@ -1,4 +1,4 @@
-#!/usr/bin/env node
+#!/usr/bin/node
 
 // universal method _id_ returns a number unique to the object it is called on
 Object.prototype._id_ = function () {
