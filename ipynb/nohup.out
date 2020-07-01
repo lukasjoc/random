@@ -1,0 +1,104 @@
+[I 10:37:39.887 LabApp] JupyterLab extension loaded from /usr/local/lib/python3.7/site-packages/jupyterlab
+[I 10:37:39.887 LabApp] JupyterLab application directory is /usr/local/share/jupyter/lab
+[I 10:37:39.890 LabApp] Serving notebooks from local directory: /Users/jochamlu/fun/ipynb
+[I 10:37:39.890 LabApp] The Jupyter Notebook is running at:
+[I 10:37:39.890 LabApp] http://localhost:8888/?token=08602de5e7b3c108b2a776521ec7468cd51ab951fbb1a1c8
+[I 10:37:39.890 LabApp]  or http://127.0.0.1:8888/?token=08602de5e7b3c108b2a776521ec7468cd51ab951fbb1a1c8
+[I 10:37:39.890 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 10:37:39.900 LabApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///Users/jochamlu/Library/Jupyter/runtime/nbserver-64815-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=08602de5e7b3c108b2a776521ec7468cd51ab951fbb1a1c8
+     or http://127.0.0.1:8888/?token=08602de5e7b3c108b2a776521ec7468cd51ab951fbb1a1c8
+[I 10:37:42.023 LabApp] 301 GET /lab/workspaces/auto-d/?clone (::1) 0.74ms
+[I 10:37:43.045 LabApp] Build is up to date
+-[I 10:37:43.929 LabApp] Kernel started: 153db063-f2c8-4776-bf2c-1bf9f3794801
+[I 10:37:43.941 LabApp] Kernel started: 841b602c-f55a-41b4-b370-b5c5baa24161
+[I 10:37:43.954 LabApp] Kernel started: 7b613cd7-27b8-438c-9c24-3c28d23bfeab
+\[I 10:37:43.967 LabApp] Kernel started: 763e82c6-dc4d-498a-8ce9-756dcaa58214
+|/-\|[I 10:37:44.808 LabApp] Starting buffering for 763e82c6-dc4d-498a-8ce9-756dcaa58214:8f09f9dc-b9b2-437b-8b65-ee6f52b693de
+[W 10:37:44.811 LabApp] 404 GET /api/kernels/4fc94e9d-fd76-4706-8260-d899a8a1967a/channels?session_id=865fe29b-463c-4f14-a574-a8e0f9b4bab4&token=da915db17eae909111eb886e11b6aea261fc2b6ec5138b65 (127.0.0.1): Kernel does not exist: 4fc94e9d-fd76-4706-8260-d899a8a1967a
+[W 10:37:44.847 LabApp] 404 GET /api/kernels/4fc94e9d-fd76-4706-8260-d899a8a1967a/channels?session_id=865fe29b-463c-4f14-a574-a8e0f9b4bab4&token=da915db17eae909111eb886e11b6aea261fc2b6ec5138b65 (127.0.0.1) 37.93ms referer=None
+[W 10:37:52.551 LabApp] 404 GET /api/kernels/4ec40381-9578-4b8c-b0a8-c03d4e090a4b/channels?session_id=7651e485-a21c-4fb6-baa5-a9a3a8c03fcc&token=da915db17eae909111eb886e11b6aea261fc2b6ec5138b65 (::1): Kernel does not exist: 4ec40381-9578-4b8c-b0a8-c03d4e090a4b
+[W 10:37:52.551 LabApp] 404 GET /api/kernels/4ec40381-9578-4b8c-b0a8-c03d4e090a4b/channels?session_id=7651e485-a21c-4fb6-baa5-a9a3a8c03fcc&token=da915db17eae909111eb886e11b6aea261fc2b6ec5138b65 (::1) 2.39ms referer=None
+[W 10:38:12.594 LabApp] 404 GET /api/kernels/8d33b794-e6b3-40a8-a480-f7b9d067732a/channels?session_id=ed44eb4a-4815-4eb9-9788-a82044583188&token=da915db17eae909111eb886e11b6aea261fc2b6ec5138b65 (::1): Kernel does not exist: 8d33b794-e6b3-40a8-a480-f7b9d067732a
+[W 10:38:12.595 LabApp] 404 GET /api/kernels/8d33b794-e6b3-40a8-a480-f7b9d067732a/channels?session_id=ed44eb4a-4815-4eb9-9788-a82044583188&token=da915db17eae909111eb886e11b6aea261fc2b6ec5138b65 (::1) 2.34ms referer=None
+[W 10:38:38.400 LabApp] Replacing stale connection: 4fc94e9d-fd76-4706-8260-d899a8a1967a:865fe29b-463c-4f14-a574-a8e0f9b4bab4
+[I 10:39:43.825 LabApp] Saving file at /Untitled12.ipynb
+[I 10:40:14.109 LabApp] Starting buffering for 153db063-f2c8-4776-bf2c-1bf9f3794801:d3cab5e9-51e3-4c59-95c1-b31d9608a671
+[I 10:40:14.110 LabApp] Starting buffering for 841b602c-f55a-41b4-b370-b5c5baa24161:f6815877-01ab-4160-a250-5f7109628c9d
+[I 10:40:14.110 LabApp] Starting buffering for 7b613cd7-27b8-438c-9c24-3c28d23bfeab:56d165f8-335b-4963-87ef-766e60a89221
+[I 10:40:14.111 LabApp] Starting buffering for 763e82c6-dc4d-498a-8ce9-756dcaa58214:e515392e-9600-49f7-8537-6a8d3e37954f
+[I 10:40:15.273 LabApp] Build is up to date
+[I 10:40:48.601 LabApp] Starting buffering for 153db063-f2c8-4776-bf2c-1bf9f3794801:fa7eb5c8-69e1-4b2d-9f05-0e5b877c872d
+[I 10:40:48.602 LabApp] Starting buffering for 841b602c-f55a-41b4-b370-b5c5baa24161:b8f19c6c-b892-4849-af04-a509fc875712
+[I 10:40:48.603 LabApp] Starting buffering for 7b613cd7-27b8-438c-9c24-3c28d23bfeab:b2813e7a-cb63-4376-975a-0edde8c94691
+[I 10:40:48.604 LabApp] Starting buffering for 763e82c6-dc4d-498a-8ce9-756dcaa58214:2406c959-61f0-425b-b05f-826848a7300e
+ 1: 0x100bc59ef node::Abort() (.cold.1) [/usr/local/bin/node]
+ 2: 0x1000815b1 node::FatalError(char const*, char const*) [/usr/local/bin/node]
+ 3: 0x10005ccf9 node::PlatformInit() [/usr/local/bin/node]
+ 4: 0x10005c732 node::InitializeOncePerProcess(int, char**) [/usr/local/bin/node]
+ 5: 0x10005cf43 node::Start(int, char**) [/usr/local/bin/node]
+ 6: 0x7fff6767dcc9 start [/usr/lib/system/libdyld.dylib]
+[W 10:40:49.377 LabApp] Could not determine jupyterlab build status without nodejs
+[I 10:41:40.561 LabApp] Starting buffering for 153db063-f2c8-4776-bf2c-1bf9f3794801:f6be8bfe-e5ae-46e5-9476-f28c1eab40a3
+[I 10:41:40.562 LabApp] Starting buffering for 841b602c-f55a-41b4-b370-b5c5baa24161:1d077a0a-71a8-4601-b469-37fbbd6cafb3
+[I 10:41:40.563 LabApp] Starting buffering for 7b613cd7-27b8-438c-9c24-3c28d23bfeab:95360701-cac5-4766-99bc-20dd2bd11bb1
+[I 10:41:40.563 LabApp] Starting buffering for 763e82c6-dc4d-498a-8ce9-756dcaa58214:ae7fc29f-79e0-4387-8a08-328426c1a767
+ 1: 0x100bc59ef node::Abort() (.cold.1) [/usr/local/bin/node]
+ 2: 0x1000815b1 node::FatalError(char const*, char const*) [/usr/local/bin/node]
+ 3: 0x10005ccf9 node::PlatformInit() [/usr/local/bin/node]
+ 4: 0x10005c732 node::InitializeOncePerProcess(int, char**) [/usr/local/bin/node]
+ 5: 0x10005cf43 node::Start(int, char**) [/usr/local/bin/node]
+ 6: 0x7fff6767dcc9 start [/usr/lib/system/libdyld.dylib]
+[W 10:41:41.631 LabApp] Could not determine jupyterlab build status without nodejs
+[I 10:41:46.351 LabApp] Starting buffering for 153db063-f2c8-4776-bf2c-1bf9f3794801:570940ab-7e25-4bf2-8cca-c8e8b7ff5e0c
+[I 10:41:46.352 LabApp] Starting buffering for 841b602c-f55a-41b4-b370-b5c5baa24161:72259f4f-3ccc-44c4-a850-e392db70038f
+[I 10:41:46.353 LabApp] Starting buffering for 7b613cd7-27b8-438c-9c24-3c28d23bfeab:4825b3cf-828f-45b2-8443-bc802767ebad
+[I 10:41:46.353 LabApp] Starting buffering for 763e82c6-dc4d-498a-8ce9-756dcaa58214:382332e0-2e51-402b-b645-3bc12624c721
+[I 10:41:49.369 LabApp] 302 GET / (::1) 0.44ms
+[I 10:41:49.808 LabApp] 301 GET /lab/workspaces/auto-P/?clone (::1) 0.60ms
+ 1: 0x100bc59ef node::Abort() (.cold.1) [/usr/local/bin/node]
+ 2: 0x1000815b1 node::FatalError(char const*, char const*) [/usr/local/bin/node]
+ 3: 0x10005ccf9 node::PlatformInit() [/usr/local/bin/node]
+ 4: 0x10005c732 node::InitializeOncePerProcess(int, char**) [/usr/local/bin/node]
+ 5: 0x10005cf43 node::Start(int, char**) [/usr/local/bin/node]
+ 6: 0x7fff6767dcc9 start [/usr/lib/system/libdyld.dylib]
+[W 10:41:50.916 LabApp] Could not determine jupyterlab build status without nodejs
+[I 10:42:54.544 LabApp] Starting buffering for 763e82c6-dc4d-498a-8ce9-756dcaa58214:fccec892-8ac0-4dc5-8328-2a9dd88b0c40
+[I 10:42:54.545 LabApp] Starting buffering for 7b613cd7-27b8-438c-9c24-3c28d23bfeab:f80bd3e5-f222-4a35-8687-73f0bc35b960
+[I 10:42:54.546 LabApp] Starting buffering for 841b602c-f55a-41b4-b370-b5c5baa24161:9cc7f486-8259-4221-9137-246dc8194f80
+[I 10:42:54.546 LabApp] Starting buffering for 153db063-f2c8-4776-bf2c-1bf9f3794801:f8aea4cd-6948-4fa7-b75a-e81975ba8b1b
+[I 10:43:00.365 LabApp] 302 GET / (::1) 0.42ms
+ 1: 0x100bc59ef node::Abort() (.cold.1) [/usr/local/bin/node]
+ 2: 0x1000815b1 node::FatalError(char const*, char const*) [/usr/local/bin/node]
+ 3: 0x10005ccf9 node::PlatformInit() [/usr/local/bin/node]
+ 4: 0x10005c732 node::InitializeOncePerProcess(int, char**) [/usr/local/bin/node]
+ 5: 0x10005cf43 node::Start(int, char**) [/usr/local/bin/node]
+ 6: 0x7fff6767dcc9 start [/usr/lib/system/libdyld.dylib]
+[W 10:43:01.885 LabApp] Could not determine jupyterlab build status without nodejs
+[C 10:44:02.039 LabApp] received signal 15, stopping
+[I 10:44:02.040 LabApp] Shutting down 4 kernels
+[I 10:44:02.355 LabApp] Kernel shutdown: 153db063-f2c8-4776-bf2c-1bf9f3794801
+[I 10:44:02.355 LabApp] Kernel shutdown: 841b602c-f55a-41b4-b370-b5c5baa24161
+[I 10:44:02.356 LabApp] Kernel shutdown: 7b613cd7-27b8-438c-9c24-3c28d23bfeab
+[I 10:44:02.356 LabApp] Kernel shutdown: 763e82c6-dc4d-498a-8ce9-756dcaa58214
+[I 10:46:17.951 LabApp] JupyterLab extension loaded from /usr/local/lib/python3.7/site-packages/jupyterlab
+[I 10:46:17.951 LabApp] JupyterLab application directory is /usr/local/share/jupyter/lab
+[I 10:46:17.954 LabApp] Serving notebooks from local directory: /Users/jochamlu/fun/ipynb
+[I 10:46:17.954 LabApp] The Jupyter Notebook is running at:
+[I 10:46:17.954 LabApp] http://localhost:8888/?token=b5cf418ae8886e0a2cc538a856036d339bec5c65ff6c2a13
+[I 10:46:17.954 LabApp]  or http://127.0.0.1:8888/?token=b5cf418ae8886e0a2cc538a856036d339bec5c65ff6c2a13
+[I 10:46:17.954 LabApp] Use Control-C to stop this server and shut down all kernels (twice to skip confirmation).
+[C 10:46:17.965 LabApp] 
+    
+    To access the notebook, open this file in a browser:
+        file:///Users/jochamlu/Library/Jupyter/runtime/nbserver-66122-open.html
+    Or copy and paste one of these URLs:
+        http://localhost:8888/?token=b5cf418ae8886e0a2cc538a856036d339bec5c65ff6c2a13
+     or http://127.0.0.1:8888/?token=b5cf418ae8886e0a2cc538a856036d339bec5c65ff6c2a13
+[I 10:46:20.658 LabApp] Build is up to date
+-\|/-[C 10:46:47.751 LabApp] received signal 15, stopping
+[I 10:46:47.752 LabApp] Shutting down 0 kernels
