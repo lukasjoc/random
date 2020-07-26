@@ -1,15 +1,29 @@
 <?php
 
-/*
-This is only a SKELETON file for the "Hamming" exercise. It's been provided as a
-convenience to get you started writing code faster.
+/**
+ * distance
+ *
+ * @param string $strandA
+ * @param string $strandB
+ * @access public
+ * @return int
+ */
+function distance(string $strandA, string $strandB) : int {
 
-Remove this comment before submitting your exercise.
-*/
+	$A = str_split($strandA);
+	$B = str_split($strandB);
+	
+	if (count($A) !== count($B)) {
+		throw new Exception(sprintf("strands must be equal lenght %s !== %s", json_decode($A),json_decode($B)));
+	}
 
-function distance(string $strandA, string $strandB) : int
-{
-    //
-    // YOUR CODE GOES HERE
-    //
+	$diff = 0;
+	foreach($A as $a) {
+		foreach($B as $b) {
+			if ($a != $b){
+				$diff += 1;
+			}
+		}
+	}
+	return $diff;
 }

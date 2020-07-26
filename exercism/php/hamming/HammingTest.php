@@ -1,10 +1,10 @@
 <?php
 
-class HammingComparatorTest extends PHPUnit\Framework\TestCase
+class HammingTest extends PHPUnit\Framework\TestCase
 {
     public static function setUpBeforeClass() : void
     {
-        require_once 'hamming.php';
+        require_once 'Hamming.php';
     }
 
     public function testNoDifferenceBetweenIdenticalStrands() : void
