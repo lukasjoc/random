@@ -83,6 +83,7 @@ class Solver {
 
 // DRIVER CODE
 $sudoku_string = "1oeoeeoe3ooeo6eooeee3oo1oeee7o1oeeoeoe8eeo5oooeooe3e4oeoo8oo6oeoooe1eeeo6eeeoooo7";
+// $sudoku_string = "1oeoee723ooeo6e158ee3oo1964e7o1oeeoeoe4eeo5oooeooe3e4oeoo8oo6oeoooe1eeeo6eeeoooo7";
 $solver = new Solver($sudoku_string);
 $solution = $solver->solve();
 printf("%s", json_encode($solver->puzzle, JSON_PRETTY_PRINT));

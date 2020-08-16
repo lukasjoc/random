@@ -19,7 +19,7 @@ import "fmt"
 // Calculate 42 Fibonacci numbers.. What to expect here is that with numbers getting bigger and bigger,
 //the Golden Ratio should equalize the ratio of the numbers
 func main() {
-	for i := 0; i <= 42; i++ {
+	for i := 0; i <= 200; i++ {
 		fmt.Printf("Pos: %v CurrentFibonacci: %v :: CurrentRatio: %v :: GoldenRatio: %v \n",
 			i,        // current index
 			Fibo(i),  // current fibonacci
