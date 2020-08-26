@@ -10,11 +10,11 @@ func bSearch(arr []int, n int) bool {
 
 	for head <= tail {
 		val := arr[mid]
-		if val == n {
-			return true
-		}
 
-		if val > n {
+		switch {
+		case val == n:
+			return true
+		case val > n:
 			tail = mid - 1
 			mid = (head + tail) / 2
 			continue
@@ -29,7 +29,7 @@ func bSearch(arr []int, n int) bool {
 
 func main() {
 	arr := []int{1, 2, 3, 4, 5, 6, 7, 8, 9}
-	n := 10
+	n := 2
 	res := bSearch(arr, n)
 	fmt.Printf("found item %d in %v => state: %v\n", n, arr, res)
 }

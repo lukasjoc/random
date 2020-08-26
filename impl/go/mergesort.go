@@ -2,55 +2,41 @@ package main
 
 import "fmt"
 
-func mergesort(data []int, res chan []int) {
-	if len(data) < 2 {
-		res <- data
-		return
+func mergesort(arr []int) []int {
+	arrLen := len(arr)
+	if arrLen <= 1 {
+		return arr
 	}
 
-	leftChan := make(chan []int)
-	rightChan := make(chan []int)
-	middle := len(data) / 2
+	mid := arrLen / 2
+	left := []int(arr[0:mid])
+	right := []int(arr[mid:])
 
-	go mergesort(data[:middle], leftChan)
-	go mergesort(data[middle:], rightChan)
+	left = mergesort(left)
+	right = mergesort(right)
 
-	ldata := <-leftChan
-	rdata := <-rightChan
-
-	close(leftChan)
-	close(rightChan)
-	res <- merge(ldata, rdata)
-	return
-}
-
-func merge(ldata []int, rdata []int) (result []int) {
-	result = make([]int, len(ldata)+len(rdata))
-	lidx, ridx := 0, 0
-
-	for i := 0; i < cap(result); i++ {
+	arr = make([]int, len(left)+len(right))
+	var j, k int
+	for i := 0; i < len(arr); i++ {
 		switch {
-		case lidx >= len(ldata):
-			result[i] = rdata[ridx]
-			ridx++
-		case ridx >= len(rdata):
-			result[i] = ldata[lidx]
-			lidx++
-		case ldata[lidx] < rdata[ridx]:
-			result[i] = ldata[lidx]
-			lidx++
+		case j >= len(left):
+			arr[i] = right[k]
+			k++
+		case k >= len(right):
+			arr[i] = left[j]
+			j++
+		case left[j] > right[k]:
+			arr[i] = right[k]
+			k++
 		default:
-			result[i] = rdata[ridx]
-			ridx++
+			arr[i] = left[j]
+			j++
 		}
 	}
-	return
+	return arr
 }
 
 func main() {
-	data := []int{5, 9, 1, 3, 4, 6, 6, 3, 2}
-	res := make(chan []int)
-	go mergesort(data, res)
-	sorted := <-res
-	fmt.Printf("%v\n", sorted)
+	a := []int{5, 9, 1, 3, 4, 6, 6, 3, 2}
+	fmt.Printf("%v\n", mergesort(a))
 }
