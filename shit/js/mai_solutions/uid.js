@@ -1,15 +1,15 @@
 const attach_id = function () {
-    let uniq = 0;
-    return function (obj) {
-        const id = uniq++; // next id
-        obj._id_ = function () {
-            if (this === obj) {
-                return id;
-            }
-            return attach_id(this);
-        };
-        return id;
-    };
+	let uniq = 0;
+	return function (obj) {
+		const id = uniq++; // next id
+		obj._id_ = function () {
+			if (this === obj) {
+				return id;
+			}
+			return attach_id(this);
+		};
+		return id;
+	};
 }();
 
 attach_id(Object.prototype);

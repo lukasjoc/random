@@ -8,7 +8,7 @@ function prettify(val) {
         return ''.padEnd(nesting_level * 2, ' ');
     }
 
-    function prettify_string(str) {
+function prettify_string(str) {
         str = str.replace(/\\/g, '\\\\');
         str = str.replace(/[\x00-\x1f\\]/g, c => {
             switch (c) {

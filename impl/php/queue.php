@@ -4,8 +4,6 @@
  * Queue with basic methods memory only
  *
  * @final
- * @author Trevor Suarez <rican7@gmail.com>
- * @license The Unlicense
  */
 final class Queue {
 
@@ -13,7 +11,7 @@ final class Queue {
 	 * @var array
 	 * @access private
 	 */
-	private $nodes = [];
+													private $nodes = [];
 
 	/**
 	 * Constructor
@@ -22,7 +20,7 @@ final class Queue {
 	 * @access public
 	 */
 	public function __construct(?string $timezone = null) {
-		$this->timezone = $timezone ?: "UTC";
+									$this->timezone = $timezone ?: "UTC";
 	}
 
 	/**
@@ -33,7 +31,7 @@ final class Queue {
 	 * @return void
 	 */
 	public function enq($node) {
-		array_push($this->nodes, $node);
+												array_push($this->nodes, $node);
 		return $this->timestamp();
 	}
 	
@@ -44,7 +42,7 @@ final class Queue {
 	 * @return void
 	 */
 	public function deq() {
-		if (count($this->nodes) <= 0) return null;
+																	if (count($this->nodes) <= 0) return null;
 		array_shift($this->nodes);
 		return $this->timestamp();
 	}
@@ -76,9 +74,9 @@ final class Queue {
 	 * @return string
 	 */
 	private function timestamp(): string {
-		$date = new DateTime($this->timezone);
+							$date = new DateTime($this->timezone);
 		return $date->format("Y-m-d H:i:s");
-	}	
+						}	
 
 } // End class Queue
 

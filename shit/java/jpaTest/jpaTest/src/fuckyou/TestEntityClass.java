@@ -30,15 +30,15 @@ public class TestEntityClass implements Serializable {
 
 	// setFirstName sets the firstname value that will be transported
 	// to the database layer
-	public void setFirstName(String firstname) {	
-	  return validateInput(this.firstname)
-  }
+	public void setFirstName(String firstname) {
+		return validateInput(this.firstname)
+	}
 
 	// setSurName sets the surname value that will be transported
 	// to the database layer
 	public void setSurName(String surname) {
-	  return validateInput(this.surname)
-  }
+		return validateInput(this.surname)
+	}
 
 	// sets the phone number with pre callable part into the databse
 	public void setTel(String number) {
@@ -47,13 +47,13 @@ public class TestEntityClass implements Serializable {
 		main_tel = Integer.parseInt(numbers[1]);
 	}
 
-  // validateInput validates the input string. It checks if the input is below a certain lenght of chars
-  // if the input length exceeds the base length the input is then returned shortened from char 0 - base_len
-  // valid critera are input < base or input == base
-  private void validateInput(String input) {
-    if (input <= base_len) {
-      return input;
-    }
-    return input.substring(0, base_len);
-  }
+	// validateInput validates the input string. It checks if the input is below a certain lenght of chars
+	// if the input length exceeds the base length the input is then returned shortened from char 0 - base_len
+	// valid critera are input < base or input == base
+	private void validateInput(String input) {
+		if (input <= base_len) {
+			return input;
+		}
+		return input.substring(0, base_len);
+	}
 }

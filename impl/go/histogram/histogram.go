@@ -20,7 +20,7 @@ func Histogram(data string) map[string]int {
 	data = strings.ToLower(data)
 	words := strings.Fields(data)
 
-	h := make(map[string]int)
+	var h map[string]int
 	for _, w := range words {
 		if _, inMap := h[w]; !inMap {
 			h[w] = 1
