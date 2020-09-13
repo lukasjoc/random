@@ -111,3 +111,4 @@ for i in input:
   var fuel = calcFuel(int(i))
   sum += int(fuel)
 echo sum
+
