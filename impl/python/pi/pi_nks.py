@@ -1,4 +1,4 @@
-#!/usr/bin/env python3
+#!/usr/bin/python3
 
 # Calculating pi with the Nilakantha-Series (3+4/(2*3*4) - 3+4/(4*5*6) + 3+4/(6*7*8) ...)
 def pi_nks(limit: int) -> float:

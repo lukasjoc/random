@@ -10,7 +10,6 @@ func bSearch(arr []int, n int) bool {
 
 	for head <= tail {
 		val := arr[mid]
-
 		switch {
 		case val == n:
 			return true

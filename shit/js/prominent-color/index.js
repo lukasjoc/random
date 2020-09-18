@@ -4,7 +4,7 @@
 // import ColorThief from './node_modules/colorthief/dist/color-thief.mjs'
 // import Color
 
-et image = `https://i.ytimg.com/vi/dymuNM4foQM/hqdefault.jpg`
+let image = `https://i.ytimg.com/vi/dymuNM4foQM/hqdefault.jpg`
 
 
 const colorThief = new ColorThief();

@@ -1,0 +1,13 @@
+// BENCHMARK========================================================================
+// === RUN   TestFibo
+// --- PASS: TestFibo (0.04s)
+// === RUN   TestRatio
+// --- PASS: TestRatio (0.05s)
+// goos: darwin
+// goarch: amd64
+// pkg: github.com/lukasjoc/random/concepts/gen/fibonacci_benchmark
+// BenchmarkFibo-12     	      37	  31692202 ns/op	       0 B/op	       0 allocs/op
+// BenchmarkRatio-12    	      22	  49965057 ns/op	       0 B/op	       0 allocs/op
+// PASS
+// ok  	github.com/lukasjoc/random/concepts/gen/fibonacci_benchmark	2.829s
+// =================================================================================

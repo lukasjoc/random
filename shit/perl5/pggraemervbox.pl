@@ -1,4 +1,5 @@
 #!/usr/bin/perl
+# Author: pggraemer
 
 use strict;
 use warnings;
@@ -80,4 +81,3 @@ if ($start) {
     print "\N{U+2764} stopping vm $VM_NAME...\n" if ($verbose);
     exec(VBoxManage, 'controlvm', $VM_NAME, 'acpipowerbutton');
 }
-

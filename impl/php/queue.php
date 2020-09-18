@@ -1,17 +1,20 @@
-<?php declare(strict_types=1);
+<?php
+
+declare(strict_types=1);
 
 /**
  * Queue with basic methods memory only
  *
  * @final
  */
-final class Queue {
+final class Queue
+{
 
 	/**
 	 * @var array
 	 * @access private
 	 */
-													private $nodes = [];
+	private $nodes = [];
 
 	/**
 	 * Constructor
@@ -19,8 +22,9 @@ final class Queue {
 	 * @param ?string $timezone
 	 * @access public
 	 */
-	public function __construct(?string $timezone = null) {
-									$this->timezone = $timezone ?: "UTC";
+	public function __construct(?string $timezone = null)
+	{
+		$this->timezone = $timezone ?: "UTC";
 	}
 
 	/**
@@ -30,42 +34,46 @@ final class Queue {
 	 * @access public
 	 * @return void
 	 */
-	public function enq($node) {
-												array_push($this->nodes, $node);
+	public function enq($node)
+	{
+		array_push($this->nodes, $node);
 		return $this->timestamp();
 	}
-	
+
 	/**
 	 * deq removes the first element from the queue
 	 *
 	 * @access public
 	 * @return void
 	 */
-	public function deq() {
-																	if (count($this->nodes) <= 0) return null;
+	public function deq()
+	{
+		if (count($this->nodes) <= 0) return null;
 		array_shift($this->nodes);
 		return $this->timestamp();
 	}
-	
+
 	/**
 	 * peak shows the first element in the queue
 	 *
 	 * @access public
 	 * @return void
 	 */
-	public function peak() {
+	public function peak()
+	{
 		if (count($this->nodes) <= 0) return null;
 		return $this->nodes[0];
 	}
 
-	
+
 	/**
 	 * len returns the current length of the queu
 	 *
 	 * @access public
 	 * @return ?int
 	 */
-	public function len(): ?int {
+	public function len(): ?int
+	{
 		return count($this->nodes) ?: null;
 	}
 
@@ -73,11 +81,11 @@ final class Queue {
 	 * @access private
 	 * @return string
 	 */
-	private function timestamp(): string {
-							$date = new DateTime($this->timezone);
+	private function timestamp(): string
+	{
+		$date = new DateTime($this->timezone);
 		return $date->format("Y-m-d H:i:s");
-						}	
-
+	}
 } // End class Queue
 
 $q = new Queue("Europe/Berlin");

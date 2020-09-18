@@ -5,8 +5,6 @@ import (
 	"testing"
 )
 
-// INFO for test: histogram takes string returns map
-
 func TestHistogram(t *testing.T) {
 	for _, test := range histogramTests {
 		if received := Histogram(test.data); !reflect.DeepEqual(received, test.expected) {

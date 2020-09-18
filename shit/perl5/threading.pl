@@ -1,6 +1,5 @@
 #!/usr/bin/env perl
-use strict;
-use warnings;
+use qw(strict warnings);
 use utf8;
 use threads;
 

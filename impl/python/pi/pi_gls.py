@@ -9,4 +9,4 @@ def pi_gls(limit: int) -> float:
   return pi_gls
 
 if __name__ == "__main__":
-  print(pi_gls(limit=5000000000000000))
+  print(pi_gls(limit=5000_000_000_000_000))
