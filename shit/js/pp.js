@@ -92,14 +92,12 @@ function prettify_string(str) {
     return prettify_any(val) + '\n';
 }
 
-// console.log(prettify([{id:42, name:"\"as\ndf'", age:-4}, undefined, null, [ 'a', 'b', [], {} ]]));
-// 
-// let wtf = { foo: 1, bar: 2, baz: 3 };
-// wtf.doh = wtf;
-// wtf.zomg = [ {}, { wtf: wtf }, [ wtf, wtf ] ];
-// console.log(prettify(wtf));
-// 
-// console.log(prettify("\x00\x00123'äó€"));
-//
+console.log(prettify([{id:42, name:"\"as\ndf'", age:-4}, undefined, null, [ 'a', 'b', [], {} ]]));
 
+let wtf = { foo: 1, bar: 2, baz: 3 };
+wtf.doh = wtf;
+wtf.zomg = [ {}, { wtf: wtf }, [ wtf, wtf ] ];
+console.log(prettify(wtf));
+
+console.log(prettify("\x00\x00123'äó€"));
 console.log(prettify([{'engine': 'mysql', 'database': {'name': 'test_db'}, 'table': {'name': 'test', 'test_id': {'type': 'INT', 'options': ['AUTO_INCREMENT', 'PRIMARY KEY']}, 'test_str': {'type': 'VARCHAR(50)', 'options': ['NOT NULL']}, 'test_int': {'type': 'INT(64)', 'options': ['NOT NULL']}, 'test_bit': {'type': 'BIT', 'options': ['NOT NULL']}, 'test_dec': {'type': 'DECIMAL(2,10)', 'options': ['NOT NULL']}}}]))
