@@ -1,0 +1,13 @@
+{
+    "name": "jochamlu/php",
+    "authors": [
+        {
+            "name": "lukasjoc",
+            "email": "jochamlu@gmail.com"
+        }
+    ],
+		"scripts": {
+			"run": "php queue.php"
+		},
+    "require": {}
+}
