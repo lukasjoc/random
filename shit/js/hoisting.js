@@ -1,11 +1,8 @@
-#!/usr/local/bin/node
-
-
-var x = 1;
+var x = 1
 
 (function() {
 	if(!x) {
-		console.log(5)
+	  console.log(5)
 		var x = 17
 	}else {
 		console.log(42)

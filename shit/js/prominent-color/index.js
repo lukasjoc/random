@@ -1,16 +1,14 @@
-"use strict"
+"use strict";
 
 // const ColorThief = require('colorthief');
 // import ColorThief from './node_modules/colorthief/dist/color-thief.mjs'
 // import Color
 
-let image = `https://i.ytimg.com/vi/dymuNM4foQM/hqdefault.jpg`
-
+let image = `https://i.ytimg.com/vi/dymuNM4foQM/hqdefault.jpg`;
 
 const colorThief = new ColorThief();
 // let img = document.querySelector('img');
 colorThief.getColor(image);
-
 
 // let wowE = document.getElementById("wow")
 // wowE.innerHTML = color
@@ -42,5 +40,3 @@ colorThief.getColor(image);
 
 // let hexVV = rgbToHex(colors)
 // console.log("Vibrant: ", hexVV)
-
-

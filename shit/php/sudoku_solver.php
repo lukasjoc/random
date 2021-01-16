@@ -87,3 +87,5 @@ $sudoku_string = "1oeoeeoe3ooeo6eooeee3oo1oeee7o1oeeoeoe8eeo5oooeooe3e4oeoo8oo6o
 $solver = new Solver($sudoku_string);
 $solution = $solver->solve();
 printf("%s", json_encode($solver->puzzle, JSON_PRETTY_PRINT));
+
+

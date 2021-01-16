@@ -1,5 +1,5 @@
 #!/usr/local/bin/node
 
-const init = ({x = {}} = {}) => x
+const init = ({ x = {} } = {}) => x;
 
-console.log(init(), typeof(init()))
+console.log(init(), typeof init());
