@@ -1,0 +1,66 @@
+#include  <stdio.h>
+
+
+// pair of key and value ints only
+// and keys are / should be mostly unique and uniform
+// [10] -> [1, 2, 3, 4|4-> 5, NULL, 6, 7, NULL, 9, NULL]
+typedef struct pair {
+  int key;
+  int value;
+} pair;
+
+// hashmap datastructure
+// -> 0.02, 2, 100, [struct{1, 343434}, struct{2, 4234}]
+// for ints only currently
+// linear, single step probing
+// open addressing
+typedef struct hashmap {
+  // quotient of sizeof_keys / numberof_buckets
+  float load_factor;
+
+  // number of keys currently not NULL
+  int numberof_keys;
+
+  // number of buckets currently occupied
+  int numberof_buckets;
+
+  // key value pairs of connected ints
+  pair buckets[];
+} hashmap;
+
+// TODO: add, remove, get -> dict_opts
+// TODO: write hash function for that
+// TODO: maybe do auto sizing based on load factor later
+// n -> number of keys
+// m -> number of buckets
+// a -> load factor of hash table(n/m)
+
+int probed_index(hashmap *hm, int *value) {
+  int mod_index = *value % hm->numberof_keys;
+  pair mod_pair = hm->buckets[mod_index];
+
+  if (mod_pair.key == mod_index) {
+    // TODO: try probing logic
+  }
+
+  return mod_index;
+}
+
+// insert into hashmap
+void insert(hashmap *hm, int *value) {
+  int index = probed_index(hm, value);
+  hm->buckets[index].key = index;
+  hm->buckets[index].value = *value;
+}
+
+// get value by key
+int get(hashmap *hm, *key) {
+  return hm->buckets.value
+}
+
+
+
+int main(int argc, char *argv[]) {
+  return 0;
+}
+

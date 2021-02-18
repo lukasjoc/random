@@ -1,4 +1,4 @@
-package abcindexcipher
+package letter_hash
 
 import "testing"
 
