@@ -1,0 +1,56 @@
+S = {
+0173408917483091 : value
+01734089174830afaf91 : value
+0173408917483091 : value
+0173408917483afa091 : value
+0173408917483afaf091 : value
+017340891748aaf3091 : value
+0173408917f4afaf83091 : value
+0173408917483091 : value
+0173408917483091 : value
+0173408917483091 : value
+0173408917483091 : value
+
+}
+
+
+insert test => "Hello"
+
+lookup
+ - v = "Hello"
+ - k = test
+ - k -> insert -> test
+ -> hash(test) -> 498194381 -> store as uniqe key in S with v
+
+ - S[?(k)]
+
+ S -> S.get()
+
+ S struct
+
+ S[1229q13i493]
+
+ 29813904904890234fjdiopajfipasfdj : 
+ .get(test) ->
+  - test -> 3814038492838907387198041
+  -> lookup[34809214081414]1
+  - _ >valui
+
+
+
+{
+  1: "hALLO",
+  2: NULL,
+  3: "wELT", 
+}
+
+n = number of keys in map
+m = number of slots in T
+a = n / m -> load factor
+
+hash_function
+ -> key int -> key mod load factor
+ -> if typeof key int -> key mod m -> index
+ -> else k -> string -> key mod m -> index
+
+
