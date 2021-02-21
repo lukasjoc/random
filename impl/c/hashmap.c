@@ -4,7 +4,7 @@
 
 #define DEFAULT_BUCKET_COUNT 100
 #define MAX_LOAD_FACTOR 0.75
-#define RESIZE_STEPPING 5
+#define RESIZE_STEPPING 50
 
 // define unsigned int to be shorter here
 typedef unsigned int uint_t;
@@ -37,20 +37,42 @@ static unsigned int hash(uint_t key) {
   return key % DEFAULT_BUCKET_COUNT;
 }
 
-void rebalance(hashmap_t *hm) {
-  printf("Load Fac: %lf, Bucket Count: %d, Key Count: %d\n", hm->a, hm->m, hm->n);
-  if (hm->a >= MAX_LOAD_FACTOR) {
-    // needs rebalance -> doing it now
-    hm->m += RESIZE_STEPPING;
-    for (int i = 1; i < 6; i++) {
-      hm->buckets[hm->m-1+i] = NULL;
-    }
+// hashmap_t *rebalance(hashmap_t *hm) {
+//   hashmap_t *reb = hm;
+// 
+//   // printf("Load Fac: %lf, Bucket Count: %d, Key Count: %d\n", hm->a, hm->m, hm->n);
+//   if (reb->a >= MAX_LOAD_FACTOR) {
+//     //      needs rebalance -> doing it now
+//     //      update bucket count and add emty buckets
+//     // hashmap_t *hm = calloc( sizeof(hm)+(sizeof(pair_t)*RESIZE_STEPPING),  sizeof(hashmap_t));
+//     for (uint_t i = 1; i < 6; i++) {
+//       reb->buckets[hm->m-1+i] = NULL;
+//     }
+//     reb->m = 150;
+//   }
+//   return reb;
+// }
+//
+
+
+// get by key
+pair_t *get_by_key(hashmap_t *hm, uint_t key) {
+  if (hm->buckets[key] != NULL) {
+    return hm->buckets[key];
   }
+  return NULL;
 }
 
 // generate pair and insert
 static bool insert(hashmap_t *hm, uint_t key, int value) {
-  rebalance(hm);
+
+  printf("Load Fac: %lf, Bucket Count: %d, Key Count: %d\n", hm->a, hm->m, hm->n);
+  if (hm->a >= MAX_LOAD_FACTOR) {
+    //for (uint_t i = 1; i < 6; i++) {
+      //hm->buckets[hm->m+i] = NULL;
+   //}
+    hm->m += RESIZE_STEPPING;
+  }
   hm->n += 1;
   hm->a = (float)hm->n/hm->m;
 
@@ -67,7 +89,7 @@ static bool insert(hashmap_t *hm, uint_t key, int value) {
 
   // index not accessable -> find other one
   while (hm->buckets[index] != NULL ) {
-    index = (index +1) % DEFAULT_BUCKET_COUNT;
+    index = (index +1) % hm->m;
   }
   hm->buckets[index] = p;
   return true;
@@ -76,22 +98,19 @@ static bool insert(hashmap_t *hm, uint_t key, int value) {
 int main(void) {
   hashmap_t *hm = calloc(1, sizeof(hashmap_t));
   hm->m = DEFAULT_BUCKET_COUNT;
-  for(int i=0; i<=DEFAULT_BUCKET_COUNT; i++) {
+  for(uint_t i=0; i<=DEFAULT_BUCKET_COUNT; i++) {
     hm->buckets[i] = NULL;
   }
 
-  for(int i=0; i <= DEFAULT_BUCKET_COUNT-1; i++) {
+  for(uint_t i=0; i <= DEFAULT_BUCKET_COUNT; i++) {
     insert(hm, i, i);
   }
 
   // Printing the table ===
   printf("{\n");
-  for(int i = 0; i <= DEFAULT_BUCKET_COUNT; i++) {
-    if (hm->buckets[i] != NULL) {
-      printf(" Key: %d: Value: %d\n", i, hm->buckets[i]->value);
-    }else {
-      printf(" Key: Emty, Value: Emty\n");
-    }
+  for(uint_t i=0; i <= hm->m; i++) {
+    pair_t* new_t = get_by_key(hm, i);
+    printf("Key:%d => Value: %d \n", new_t->key, new_t->value);
   }
-  printf("\n}\n");
+  printf("}\n");
 }
