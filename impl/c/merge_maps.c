@@ -5,6 +5,14 @@
 
 #define KEY_LENGTH 25
 #define MAP_SIZE 10
+
+union valueTypes {
+  int int_t;
+  char char_t[50];
+  float float_t;
+  signed int sint_t;
+};
+
 struct pair {
 //   void* value;
   char T[sizeof(char)];
