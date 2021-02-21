@@ -28,7 +28,7 @@ struct hashmap {
   // load factor of the hashmap
   //float a;
   pair_t *buckets[DEFAULT_BUCKET_COUNT];
-  // uint_t keys[DEFAULT_BUCKET_COUNT];
+  uint_t keys[DEFAULT_BUCKET_COUNT];
   // uint_t values[DEFAULT_BUCKET_COUNT];
 };
 
@@ -102,7 +102,20 @@ static bool insert(hashmap_t *hm, uint_t key, int value) {
     index = (index +1) % DEFAULT_BUCKET_COUNT;
   }
   hm->buckets[index] = p;
+  hm->keys[index] = p->key;
   return true;
+}
+
+// get the last item from the hashmap
+pair_t *get_last(hashmap_t *hm) {
+  if (*hm->buckets == NULL) return NULL;
+  return hm->buckets[DEFAULT_BUCKET_COUNT-1];
+}
+
+// this collects all the keys
+uint_t *get_keys(hashmap_t *hm, uint_t keys[]) {
+  if (*hm->buckets == NULL) return NULL;
+  return hm->keys;
 }
 
 int main(void) {
@@ -111,22 +124,24 @@ int main(void) {
   for(uint_t i=0; i<DEFAULT_BUCKET_COUNT; i++) {
     hm->buckets[i] = NULL;
   }
-  for (int i = 0; i<DEFAULT_BUCKET_COUNT; i++) {
-    insert(hm, i*10, rand()*13);
-  }
+
+  //for(uint_t i=0; i<DEFAULT_BUCKET_COUNT; i++) {
+  //  insert(hm, i, i);
+  //}
+  //
+  insert(hm, 4999, 10);
+  insert(hm, 499, 19);
+  insert(hm, 499, 20);
 
   // Printing the table ===
   printf("{\n");
-  for (int i=0; i< DEFAULT_BUCKET_COUNT; i++) {
-    if (hm->buckets[i] != NULL) {
-      printf("Key: %d => Value: %d \n", hm->buckets[i]->key, hm->buckets[i]->value);
-    }else {
-      printf("Key: EMTY => Value: EMTY \n");
-    }
-  }
+  //for(uint_t i=0; i< DEFAULT_BUCKET_COUNT; i++)
+    //pair_t *new_t get_by_key(hm, i);
+  pair_t* found = get_by_key(hm, 499);
+  pair_t* last = get_last(hm);
+  uint_t keys = get_keys(hm)
+  printf("FOUND: Key:%d => Value: %d \n", found->key, found->value);
+  printf("LAST: Key:%d => Value: %d \n", last->key, last->value);
+  //}
   printf("}\n");
-
-  printf("\n=====\n");
-  pair_t* found = get_by_key(hm, 40);
-  printf("FOUND: Key: %d => Value: %d \n", found->key, found->value);
 }
