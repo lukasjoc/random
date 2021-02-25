@@ -4,7 +4,7 @@
 
 // number of nodes including the root node
 // traversing needs n(TREE_HEIGHT) time
-#define TREE_HEIGHT = 10
+#define TREE_HEIGHT 10
 
 typedef struct tree_node {
   int value;
@@ -47,8 +47,7 @@ void _print_tree_with_level(tree_node *some_root, int level) {
     level += 10;
     _print_tree_with_level(some_root->right, level);
     printf("\n");
-    // TODO: make tree height a constant
-    for (int i = 10; i < level; i++) {
+    for (int i = TREE_HEIGHT; i < level; i++) {
       printf("  ");
     }
     printf("%d\n", some_root->value); 
