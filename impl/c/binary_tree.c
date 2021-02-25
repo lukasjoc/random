@@ -2,6 +2,10 @@
 #include <stdlib.h>
 #include <stdbool.h>
 
+// number of nodes including the root node
+// traversing needs n(TREE_HEIGHT) time
+#define TREE_HEIGHT = 10
+
 typedef struct tree_node {
   int value;
   bool is_root; // :)
@@ -22,15 +26,14 @@ tree_node *create_node(int value, bool is_root) {
   return tmp_node;
 }
 
-// TODO: free whole tree
-// traverse and free each sibling
-
 // given a root node traverse and free each sibling
 void free_node(tree_node *node) {
   free(node->right);
   free(node->left);
 }
 
+// recusively free the tree given a root
+// by freeing all left and rights of the subsequent nodes
 void free_tree(tree_node *root) {
   if (root->is_root) {
     free_node(root->right);
@@ -38,35 +41,51 @@ void free_tree(tree_node *root) {
   }
 }
 
-// recusively free the tree given a root
-// by freeing all left and rights of the subsequent nodes
+// print the tree in 2d mode
+void _print_tree_with_level(tree_node *some_root, int level) {
+  if (some_root != NULL) {
+    level += 10;
+    _print_tree_with_level(some_root->right, level);
+    printf("\n");
+    // TODO: make tree height a constant
+    for (int i = 10; i < level; i++) {
+      printf("  ");
+    }
+    printf("%d\n", some_root->value); 
+    _print_tree_with_level(some_root->left, level);
+  }
+}
 
+// print the tree in 2d mode
 void print_tree(tree_node *some_root) {
-  if(some_root != NULL) {
-    printf("%d\n/\t", some_root->value);
-    printf("/\n");
-    print_tree(some_root->right);
-    printf("\\\n");
-    print_tree(some_root->left);
+  if (some_root->is_root) {
+    _print_tree_with_level(some_root, 0);
+  }else {
+    printf("printing starts with root nodes");
   }
 }
 
 int main(void) {
+  // initializing new nodes to tree_node pointers
   tree_node *root = create_node(1, true);
-  tree_node *sib0 = create_node(10, false);
-  tree_node *sib1 = create_node(100, false);
+    tree_node *sib0 = create_node(10, false);
+      tree_node *sib2 = create_node(101, false);
+      tree_node *sib3 = create_node(102, false);
+
+    tree_node *sib1 = create_node(100, false);
+      tree_node *sib4 = create_node(103, false);
+      tree_node *sib5 = create_node(1033, false);
 
   // docking onto the root node
-  root->left = sib0;
-  root->right = sib1;
+  root->right = sib0;
+  root->left = sib1;
+  sib0->right = sib2;
+  sib0->left = sib3;
+  sib1->right = sib4;
+  sib1->left = sib5;
 
   // pretty print the tree
   print_tree(root);
-
-  // dont forget the free-dom ;)
-  //free(root);
-  //free(sib0);
-  //free(sib1);
 
   // free tree starting from the root node downwards
   free_tree(root);
