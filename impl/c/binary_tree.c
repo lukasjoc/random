@@ -25,11 +25,17 @@ tree_node *create_node(int value, bool is_root) {
 // TODO: free whole tree
 // traverse and free each sibling
 
-// given a root init the tree
-void init_tree(tree_node *root, int value) {
-  root->value = value;
-  root->right = NULL;
-  root->left = NULL;
+// given a root node traverse and free each sibling
+void free_node(tree_node *node) {
+  free(node->right);
+  free(node->left);
+}
+
+void free_tree(tree_node *root) {
+  if (root->is_root) {
+    free_node(root->right);
+    free_node(root->left);
+  }
 }
 
 // recusively free the tree given a root
@@ -56,9 +62,12 @@ int main(void) {
   print_tree(root);
 
   // dont forget the free-dom ;)
-  free(root);
-  free(sib0);
-  free(sib1);
+  //free(root);
+  //free(sib0);
+  //free(sib1);
+
+  // free tree starting from the root node downwards
+  free_tree(root);
   return 0;
 }
 
