@@ -43,8 +43,10 @@ void free_tree(tree_node *root) {
 
 void print_tree(tree_node *some_root) {
   if(some_root != NULL) {
-    printf("%d\n", some_root->value);
+    printf("%d\n/\t", some_root->value);
+    printf("/\n");
     print_tree(some_root->right);
+    printf("\\\n");
     print_tree(some_root->left);
   }
 }
