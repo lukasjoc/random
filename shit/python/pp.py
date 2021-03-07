@@ -7,7 +7,6 @@
 # define nest(doc: str, indent: int) -> nesting watcher -> take doc and indent in a pre configured way
 # define pretty(doc: str, width: int) -> as overall function handle to print pretty
 
-
 # result
 string_template = ""
 trailing = ","

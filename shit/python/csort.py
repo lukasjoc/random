@@ -1,5 +1,8 @@
 #!/usr/bin/env python3
 
+# cool this is counting sort..
+# great sorting algo.
+# this is at worst Time: O(n+k) and Space: O(n+k) so this is greate
 def countingSort(array):
     size = len(array)
     output = [0] * size
@@ -24,3 +27,4 @@ def countingSort(array):
 
 if __name__ == "__main__":
     print(countingSort(array=[4, 2, 2, 8, 3, 3, 1]))
+
