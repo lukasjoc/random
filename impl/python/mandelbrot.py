@@ -6,7 +6,7 @@ from tqdm import tqdm
 
 import colorsys
 
-W=1024
+W=512
 #W=142
 
 def mandelbrot(x, y):
