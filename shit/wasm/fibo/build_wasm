@@ -1,7 +1,0 @@
-#!/bin/bash
-
-clang \
-  -Wall -Werror -g3 -Os \
-  --target=wasm32 -nostdlib \
-  -c "fibo.c" \
-  -o "$PWD/fibo.wasm"
