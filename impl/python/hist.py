@@ -6,7 +6,7 @@ from pathlib import Path
 import codecs
 import matplotlib.pyplot as plt
 
-"""
+
 # Q: Am I using BASH effectively?
 # Q: Which commands do I use very often?
 # count
@@ -14,8 +14,6 @@ import matplotlib.pyplot as plt
 # |       |   |
 # |   |   |   |  |
 # |___|___|___|__|____ command
-"""
-
 def create_histogram(data: list) -> dict:
     hist: dict = {}
     for v in data:

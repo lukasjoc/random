@@ -13,36 +13,19 @@ def primeFactors(n):
                 facts[i] += 1
             else:
                 facts[i] = 1
-
-    facts_items = list(facts.items()) # all values from dict as tuples
-    last = facts_items[-1:] #last value in dict
-    if len(facts_items) == 1:
-        for i in last:
-            last = i[0]
-            if is_prime(last):
-                prime_fact = start/last
-                facts[int(prime_fact)] = 1
-
-    print(f"Start: {start}")
-    print(f"Last: {last}")
-
-    return prettify(facts)
+    return facts
 
 
-def prettify(facts: dict) -> str:
-    frmt = ""
-    for k, v in facts.items():
-        if v >= 2:
-            frmt += f"({k}**{v})"
-        else:
-            frmt += f"({k})"
-    return frmt
+def prime_fac(num):
+    for i in range(2,num + 1):
+        if(num % i == 0):
+            prime = True
+            for j in range(2,(i//2 + 1)):
+                if(i % j == 0):
+                    prime = False
+                    break
+            if prime:
+                return True
 
-def is_prime(n):
-    if n==2:
-        return True
-    else:
-        for i in range(2,n):
-            if(n%i)==0:
-                return False
-        return True
+for i in range(2, 100):
+    print(i, prime_fac(i))
