@@ -1,34 +1,40 @@
 package main
 
-import "fmt"
+import (
+	"testing"
 
-func bSearch(arr []int, n int) bool {
+	"gotest.tools/assert"
+)
 
-	head := 0
-	mid := len(arr) / 2
-	tail := len(arr) - 1
-
-	for head <= tail {
-		val := arr[mid]
-		switch {
-		case val == n:
-			return true
-		case val > n:
-			tail = mid - 1
-			mid = (head + tail) / 2
-			continue
+func bSearch(arr []int, x int) int {
+	l := 0
+	r := len(arr) - 1
+	index := 0
+	for l <= r {
+		mid := (l + r) / 2
+		if arr[mid] == x {
+			return mid
+		} else if x < arr[mid] {
+			r = mid - 1
+		} else if x > arr[mid] {
+			l = mid + 1
 		}
-
-		head = mid + 1
-		mid = (head + tail) / 2
 	}
-
-	return false
+	index++
+	return -1
 }
 
 func main() {
-	arr := []int{1, 2, 3, 4, 5, 6, 7, 8, 9}
-	n := 2
-	res := bSearch(arr, n)
-	fmt.Printf("found item %d in %v => state: %v\n", n, arr, res)
+	// asserting in golang is a joke
+	var t = &testing.T{}
+	arr := []int{0, 7, 10, 10}
+
+	// return -1 if not in list
+	assert.Equal(t, bSearch(arr, 8), -1)
+
+	// return first if more then one
+	assert.Equal(t, bSearch(arr, 10), 2)
+
+	// return again with normal finding
+	assert.Equal(t, bSearch(arr, 7), 1)
 }
