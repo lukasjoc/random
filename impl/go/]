@@ -1,0 +1,77 @@
+package main
+
+import (
+	"fmt"
+	"image/color"
+	"log"
+	"time"
+
+	"github.com/hajimehoshi/ebiten/v2"
+	"github.com/hajimehoshi/ebiten/v2/ebitenutil"
+)
+
+// Custom consts for this shitty game
+const (
+	gameWidth  = 640
+	gameHeight = 480
+	gameTitle  = "Snake eat it all up"
+)
+
+// Game implements ebiten.Game interface.
+type Game struct{}
+
+// Update proceeds the game state.
+// Update is called every tick (1/60 [s] by default).
+func (g *Game) Update() error {
+	// TODO: maybe add Vi mode if user already has 3 lifes
+	// then timer if he crashes game will close for 24 hours
+
+	switch {
+	case ebiten.IsKeyPressed(ebiten.KeyArrowDown):
+		// down action
+		fmt.Println("key down")
+	case ebiten.IsKeyPressed(ebiten.KeyArrowUp):
+		// up action
+		fmt.Println("key up")
+	case ebiten.IsKeyPressed(ebiten.KeyArrowRight):
+		// right action
+		fmt.Println("key right")
+	case ebiten.IsKeyPressed(ebiten.KeyArrowLeft):
+		// left action
+		fmt.Println("key left")
+	}
+	fmt.Println("Game Loop Running.. Waiting for action..")
+	return nil
+}
+
+
+// Draw draws the game screen.
+// Draw is called every frame (typically 1/60[s] for 60Hz display).
+func (g *Game) Draw(screen *ebiten.Image) {
+	debugInfo := fmt.Sprintf("Time: %s | FPS: %F", time.Now().String(), ebiten.CurrentFPS())
+	ebitenutil.DebugPrint(screen, debugInfo)
+
+	snake := ebiten.NewImage(120, 120)
+	snake.Clear()
+
+	snakeColor := color.Color.RGBA(152, 151, 26, 1)
+
+	snake.Fill(snakeColor)
+}
+
+// Layout takes the outside size (e.g., the window size) and returns the (logical) screen size.
+// If you don't have to adjust the screen size with the outside size, just return a fixed size.
+func (g *Game) Layout(outsideWidth, outsideHeight int) (int, int) { return gameWidth, gameHeight }
+
+func main() {
+	game := &Game{}
+
+	// Specify the window size as you like. Here, a doubled size is specified.
+	ebiten.SetWindowSize(gameWidth, gameHeight)
+	ebiten.SetWindowTitle(gameTitle)
+
+	// Call ebiten.RunGame to start your game loop.
+	if err := ebiten.RunGame(game); err != nil {
+		log.Fatal(err)
+	}
+}
